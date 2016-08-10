@@ -127,7 +127,7 @@ a.indholdtekst:hover {
 	margin-bottom: 0px;
 }
 
-.os1 {
+.os1, h1 {
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -180,7 +180,7 @@ a.os1:hover {
     }
 
 
-.os2 {
+.os2, h2 {
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;
