@@ -5,7 +5,7 @@
 # Site URL
 # The base protocol and hostname for the website
 # Default: not set (this variable is only necessary for external systems)
-# url: "https://yourdomain.com"
+url: "http://kamarada.github.io"
 
 ###########
 # Serving #
@@ -14,7 +14,7 @@
 # Base URL
 # Serve the website from the given base URL (does not include hostname)
 # Default: "" (website is at the root of the domain)
-# baseurl: ""
+baseurl: "/guiaopensuse"
 
 # For more info on the serve command options, please refer to
 # http://jekyllrb.com/docs/configuration/
