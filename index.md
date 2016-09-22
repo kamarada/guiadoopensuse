@@ -1,6 +1,8 @@
 ---
 layout: default
 title: 1. Introduction - Beginner's Guide to openSUSE Leap 42.1 / SUSE Linux
+permalink: /introduction/
+redirect_from: /index.html
 ---
 
 # 1. Introduction

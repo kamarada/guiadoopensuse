@@ -1,3 +1,13 @@
+###########
+# Plugins #
+###########
+
+gems:
+    # JekyllRedirectFrom
+    # https://github.com/jekyll/jekyll-redirect-from
+    # Plugin that allows Jekyll posts and pages to have multiple URLs.
+    - jekyll-redirect-from
+
 ##############
 # Publishing #
 ##############
