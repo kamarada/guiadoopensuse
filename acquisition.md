@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
-<title>3. Getting openSUSE - Howto Download or Buy openSUSE</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
+---
+layout: default
+title: 3. Getting openSUSE - Howto Download or Buy openSUSE
+permalink: /acquisition/
+---
 
 <div class="os1">3. Getting openSUSE</div>
 Here are some of the ways of acquiring openSUSE.<br /><br />
@@ -56,7 +56,3 @@ You can find the source code for all the free packages in openSUSE here, in the 
 	</tr>
 </tbody>
 </table>
-
-
-
-<?php include 'footer.php'; ?>

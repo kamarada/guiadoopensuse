@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>6. Apps for Common Tasks - Applications to Perform the Most Common Tasks</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 6. Apps for Common Tasks - Applications to Perform the Most Common Tasks
+permalink: /apps/
+---
 
 <div class="os1">6. Apps for Common Tasks</div>
 Here's a list of applications used to perform common tasks, they're all installed by default and are all high quality, but naturally you can replace them with alternatives if you wish.<br /><br />
@@ -111,5 +112,3 @@ K3b is a great application for various tasks related to CDs and DVDs.<br /><br /
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

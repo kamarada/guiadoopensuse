@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>5. KDE Workspace - Use and Configure KDE on Desktop or Netbook</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 5. KDE Workspace - Use and Configure KDE on Desktop or Netbook
+permalink: /kde/
+---
 
 <div class="os1">5. KDE Plasma Workspace</div>
 The KDE Plasma workspace is one of the first things you'll see when you boot openSUSE Leap for the first time. The desktop workspace consists of the desktop itself, menus, panels, file management and window management.<br /><br />
@@ -128,5 +129,3 @@ The keyboard shortcut to temporarily toggle desktop effects on/off is <i>Alt+Shi
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

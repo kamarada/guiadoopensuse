@@ -120,7 +120,3 @@ On Mac OSX you can additionally install KDE applications and lots and lots of ot
 	</tr>
 </tbody>
 </table>
-
-
-
-<?php include 'footer.php'; ?>

@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>Appendix B: Games - Playing Games on openSUSE</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: "Appendix B: Games - Playing Games on openSUSE"
+permalink: /games/
+---
 
 <div class="os1">Appendix B: Games</div>
 Not all major, mainstream games run natively on GNU/Linux, but there are still plenty of gaming options.<br /><br />
@@ -101,5 +102,3 @@ Numerous emulators exist, making it possible to run many old classic games of ot
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
-<title>Appendix E: Getting Involved - Being a Part of the openSUSE Community and How to Contribute</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
+---
+layout: default
+title: "Appendix E: Getting Involved - Being a Part of the openSUSE Community and How to Contribute"
+permalink: /contribute/
+---
 
 <div class="os1">Appendix E: Getting Involved</div>
 openSUSE is developed in the open, and everybody can join in - this means that you can help to create and shape openSUSE. If you wish to participate actively in openSUSE or other free software projects, there are plenty of things to do. Finding something that matches your interests, available time and your skills should be no problem at all.<br /><br />
@@ -147,5 +147,3 @@ Development of free software also needs money and you can help by donating money
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

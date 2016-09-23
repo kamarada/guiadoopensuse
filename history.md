@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>Appendix D: History and Background - What is Free Software and Open Source and What is the History of openSUSE</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: "Appendix D: History and Background - What is Free Software and Open Source and What is the History of openSUSE"
+permalink: /history/
+---
 
 <div class="os1">Appendix D: History and Background</div>
 The purpose of this chapter is to give readers some insight into and background knowledge of the history and eco system of GNU/Linux and free/open source software in general.<br /><br />
@@ -195,5 +196,3 @@ However GNU/Linux is very widespread in other areas. A very large share of web s
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

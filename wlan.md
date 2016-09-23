@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>16. Wireless Driver Installation - Making Your Broadcom, Ralink etc. Wifi/Wlan Work</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 16. Wireless Driver Installation - Making Your Broadcom, Ralink etc. Wifi/Wlan Work
+permalink: /wlan/
+---
 
 <div class="os1">16. Wifi Driver Installation</div>
 Most of the time wifi will just work out of the box. In these cases you'll be able to configure your wireless card using the NetworkManagement widget which you should find running in your system tray.<br /><br />
@@ -59,5 +60,3 @@ There's a software repository with drivers for e.g. Ralink and Realtek wireless 
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
-<title>GNU Free Documentation License</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
+---
+layout: default
+title: "GNU Free Documentation License"
+permalink: /license/
+---
 
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
 	<tr>
@@ -173,6 +173,3 @@ If your document contains nontrivial examples of program code, we recommend rele
 	</tr>
 </tbody>
 </table>
-
-
-<?php include 'footer.php'; ?>

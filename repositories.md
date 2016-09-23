@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>11. Software Repositories - Adding and Managing Package Repositories</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 11. Software Repositories - Adding and Managing Package Repositories
+permalink: /repositories/
+---
 
 <div class="os1">11. Software Repositories</div>
 As mentioned in the previous chapter, the package manager installs software by fetching packages from software repositories, therefore the software available for easy installation via the package manager depends on the configured repositories.<br /><br /> 
@@ -120,6 +121,3 @@ Or for help on indvidual commands use for example:
 	</tr>
 </tbody>
 </table>
-
-
-<?php include 'footer.php'; ?>

@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
-<title>14. Browser Plugins - Install Plugins For Your Web Browser Such As Flash and Java</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
+---
+layout: default
+title: 14. Browser Plugins - Install Plugins For Your Web Browser Such As Flash and Java
+permalink: /browserplugins/
+---
 
 <div class="os1">14. Browser Plugins</div>
 Many websites require various browser plugins to be installed to function as expected. Here are some plugins that you may want to install.<br /><br /> 
@@ -67,5 +67,3 @@ Google provide voice and video chat with Google services on GNU/Linux with a bro
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

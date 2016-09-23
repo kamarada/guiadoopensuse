@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>9. Administrator Settings (YaST) - Introduction to the YaST Setup Tool</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 9. Administrator Settings (YaST) - Introduction to the YaST Setup Tool
+permalink: /yast/
+---
 
 <div class="os1"><a name="yast" class="os1">9. Administrator Settings (YaST)</a></div>
 YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.<br /><br /> 
@@ -70,5 +71,3 @@ Navigate using arrow keys, Enter and Alt+[highlighted letters] (e.g. Alt+Q to qu
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

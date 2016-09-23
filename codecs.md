@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>13. Multimedia Codecs - Install Support For MP3, DVD, WMA, WMV, MOV etc.</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 13. Multimedia Codecs - Install Support For MP3, DVD, WMA, WMV, MOV etc.
+permalink: /codecs/
+---
 
 <div class="os1">13. Multimedia Codecs</div>
 This chapter describes three different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with Dragon (video) and Amarok (audio). You can use manual installation with graphical software or use the command line - whichever method you prefer.<br /><br />
@@ -175,6 +176,3 @@ If you still experience problems try removing the GStreamer cache and reboot you
 	</tr>
 </tbody>
 </table>
-
-
-<?php include 'footer.php'; ?>

@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>4. Installation - Howto Install openSUSE on Your Computer</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 4. Installation - Howto Install openSUSE on Your Computer
+permalink: /installation/
+---
 
 <div class="os1">4. Installation</div>
 This is just a brief description of openSUSE installation. For more thorough help see the official documentation.<br /><br />
@@ -272,7 +273,3 @@ The Live DVD/USB provides two different installation modes, you can install dire
 	</tr>
 </tbody>
 </table>
-
-
-
-<?php include 'footer.php'; ?>

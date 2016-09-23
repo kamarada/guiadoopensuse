@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>12. MS Windows Interoperability - Using openSUSE With Windows Network, Documents and Running MS Windows Applications</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 12. MS Windows Interoperability - Using openSUSE With Windows Network, Documents and Running MS Windows Applications
+permalink: /windows/
+---
 
 <div class="os1">12. MS Windows Interoperability</div>
 The PC world is dominated by Microsoft, and they're not exactly known for making interoperability easy. Despite this, it's possible to interoperate fairly seamlessly in most cases. This chapter addresses the most common issues.<br /><br />
@@ -129,5 +130,3 @@ It's possible to run MS Windows on top of GNU/Linux inside a <i>virtual machine<
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

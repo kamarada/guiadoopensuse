@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>7. Security and Root - Basic Security and Working as the Root User</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 7. Security and Root - Basic Security and Working as the Root User
+permalink: /security/
+---
 
 <div class="os1">7. Security and Root</div>
 openSUSE and GNU/Linux in general is a very secure operating system, but when using any computer on the internet one should always be careful.<br /><br />
@@ -83,6 +84,3 @@ There's no need to run a virus scanner or to scan for spyware. Malware spreading
 	</tr>
 </tbody>
 </table>
-
-
-<?php include 'footer.php'; ?>

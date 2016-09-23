@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
-<title>8. Terminal - Running Commands and Using the Command Line Interface on openSUSE</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
+---
+layout: default
+title: 8. Terminal - Running Commands and Using the Command Line Interface on openSUSE
+permalink: /command/
+---
 
 <div class="os1">8. Terminal</div>
 Almost anything can be done graphically on a modern GNU/Linux distribution like openSUSE, but to really become a self-reliant user and to truly take advantage of the power of your GNU/Linux operating system, you should at least know a few terminal basics - it's not difficult at all!<br /><br />
@@ -221,5 +221,3 @@ If you want to learn more about using the terminal there are many resources avai
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

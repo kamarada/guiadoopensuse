@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
-<title>Appendix A: Help and Docs - Support and Documentation for openSUSE</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
-
+---
+layout: default
+title: "Appendix A: Help and Docs - Support and Documentation for openSUSE"
+permalink: /help/
+---
 
 <div class="os1">Appendix A: Help and Docs</div>
 This guide is just a brief introduction to some of the basics, so it's likely you're going to need additional help at some point. Nothing beats getting help from a friend face-to-face and on-site, but that's often not an option, so thankfully there are many places where you can get help from openSUSE users online - which method to choose depends on your personal preference.<br /><br />
@@ -130,5 +130,3 @@ If you really want to get deep knowledge of GNU/Linux on a serious level, consid
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

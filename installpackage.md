@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>10. Installing Software - Install Programs With the Package Manager</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: 10. Installing Software - Install Programs With the Package Manager
+permalink: /installpackage/
+---
 
 <div class="os1">10. Installing Software</div>
 Software installation is generally incredibly easy on openSUSE. There's a package manager, which lets you install and remove packages very easily - it's comparable to the app stores found on many modern smart phones.<br /><br />
@@ -129,5 +130,3 @@ Get various information about a package, including changelog. Example:
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>

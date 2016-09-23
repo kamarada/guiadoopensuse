@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
-<title>Appendix C: Under the Hood - A Look at What's Happening Under the Surface</title>
-<?php include 'header2.php'; ?>
-<?php include 'menu.php'; ?> 
+---
+layout: default
+title: "Appendix C: Under the Hood - A Look at What's Happening Under the Surface"
+permalink: /under/
+---
 
 <div class="os1">Appendix C: Under the Hood</div>
 The purpose of this chapter is to give the reader a quick look and basic idea of what's going on beneath the surface of the openSUSE GNU/Linux operating system.<br /><br />
@@ -263,5 +264,3 @@ Here are some basic troubleshooting tips for GNU/Linux in case an application cr
 	</tr>
 </tbody>
 </table>
-
-<?php include 'footer.php'; ?>
