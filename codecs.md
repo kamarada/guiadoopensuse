@@ -17,13 +17,13 @@ Temporarily not available for technical reasons.
 
 Click on the button below to install multmedia codecs with 1-click install.
 
-<center><a href="http://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center>
+<center><a href="http://opensuse-community.org/codecs-kde.ymp"><img src="{{ site.baseurl | append: '/images/oneclick/codecs.png' | replace: '//', '/' }}" alt="ymp" class="pic" /></a></center>
 
 -->
 
 
 <!--
-<center><a href="data:text/x-suse-ymu,http://opensuse-guide.org/ymp/codecs.ymp"><img src="images/oneclick/codecs.png" alt="codecs ymp" class="pic" /></a></center>
+<center><a href="data:text/x-suse-ymu,http://opensuse-guide.org/ymp/codecs.ymp"><img src="{{ site.baseurl | append: '/images/oneclick/codecs.png' | replace: '//', '/' }}" alt="codecs ymp" class="pic" /></a></center>
 
 -->
 
@@ -33,7 +33,7 @@ Note, if you get a warning dialog like this don't panic! Simply select the prope
 -->
 
 <!--
-<center><a href="images/screenshots/conflict.png" rel="thumbnail"><img src="images/screenshots/conflictb.png" alt="conflict" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/conflict.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/conflictb.png' | replace: '//', '/' }}" alt="conflict" class="pic" /></a></center>
 
 -->
 
@@ -51,7 +51,7 @@ Note, if you get a warning dialog like this don't panic! Simply select the prope
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>If the concepts of <i>package manager</i> and <i>repositories</i> are foreign to you, revisit the chapters <a href="installpackage.php">Installing Software</a> and <a href="repositories.php">Software Repositories</a>.</td>
 </tr>
 </tbody>
@@ -93,7 +93,7 @@ First add/enable the repositories with YaST Software Repositories:
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>If the concepts of <i>package manager</i> and <i>repositories</i> are foreign to you, revisit the chapters <a href="installpackage.php">Installing Software</a> and <a href="repositories.php">Software Repositories</a>.</td>
 </tr>
 </tbody>
@@ -123,7 +123,7 @@ To install codecs using the terminal instead, do these steps:
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>Use Copy/Paste to avoid typos. To paste in Konsole right click mouse => Paste - or use <b>Ctrl+Shift+V</b>.</td>
 </tr>
 </tbody>

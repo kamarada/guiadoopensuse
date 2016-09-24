@@ -14,7 +14,7 @@ You'll find <i>Konsole</i> under System in the launch menu.
 
 <center><video src="video/konsole.ogv" controls>  
 
-<center><a href="images/screenshots/konsole.png" rel="thumbnail"><img src="images/screenshots/konsoleb.png" alt="konsole" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/konsole.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/konsoleb.png' | replace: '//', '/' }}" alt="konsole" class="pic" /></a></center>
 
 <b>Your web browser does not support the HTML5 video element and/or Ogg Theora format.
 
@@ -51,7 +51,7 @@ This is just a very small selection of commands to give you an idea of how thing
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>Commands written in <u>red</u> need to be ran as root.</td>
 </tr>
 </tbody>
@@ -143,7 +143,7 @@ To run a single command as root use:
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/obs.png' | replace: '//', '/' }}" alt="obs" /></td>
 <td>Do not work as root unless it's required.</td>
 </tr>
 </tbody>
@@ -221,7 +221,7 @@ Open a file with <i>vim /path/to/file</i>. Example:
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/obs.png' | replace: '//', '/' }}" alt="obs" /></td>
 <td>Root permissions are used in the example because <i>yast2</i> is a system configuration file - this is not generally required to edit files with vim.</td>
 </tr>
 </tbody>

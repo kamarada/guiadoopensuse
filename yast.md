@@ -8,7 +8,7 @@ permalink: /yast/
 
 YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.
 
-<center><a href="images/screenshots/yast-controlcenter.png" rel="thumbnail"><img src="images/screenshots/yast-controlcenterb.png" alt="yast" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/yast-controlcenter.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/yast-controlcenterb.png' | replace: '//', '/' }}" alt="yast" class="pic" /></a></center>
 
 <b>Default YaST modules</b>
 
@@ -40,7 +40,7 @@ A lot more YaST modules are available than the ones included in the default inst
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>You don't have to use YaST if you don't want to. You can achieve the same things and more using command line tools and manually editing configuration files.</td>
 </tr>
 </tbody>
@@ -55,6 +55,6 @@ Simply run <i>yast</i> as root in a terminal.
 
 <div class="clroot">yast</div>
 
-<center><a href="images/screenshots/yast-ncurses.png" rel="thumbnail"><img src="images/screenshots/yast-ncursesb.png" alt="yast-ncurses" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/yast-ncurses.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/yast-ncursesb.png' | replace: '//', '/' }}" alt="yast-ncurses" class="pic" /></a></center>
 
 Navigate using arrow keys, Enter and Alt+[highlighted letters] (e.g. Alt+Q to quit).

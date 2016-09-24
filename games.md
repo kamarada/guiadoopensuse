@@ -8,7 +8,7 @@ permalink: /games/
 
 Not all major, mainstream games run natively on GNU/Linux, but there are still plenty of gaming options.
 
-<center><img src="images/pics/spil.jpg" alt="spil" class="pic" /></center>
+<center><img src="{{ site.baseurl | append: '/images/pics/spil.jpg' | replace: '//', '/' }}" alt="spil" class="pic" /></center>
 
 ## B.1 Native GNU/Linux Games
 
@@ -99,7 +99,7 @@ Numerous emulators exist, making it possible to run many old classic games of ot
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>Usually you can only do this legally, if you own the original hardware/have a licence for it.</td>
 </tr>
 </tbody>

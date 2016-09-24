@@ -9,7 +9,7 @@ permalink: /license/
 		<td width="70%"><b>Copyright (c)  2014 Martin Schlander</b>
 
 		Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License".</td>
-		<td><center><a href="http://www.gnu.org"><img style="border: 0px solid ; width: 148px; height: 140px;" alt="gnu" src="images/pics/gnu-head.jpg" /></a></center></td>
+		<td><center><a href="http://www.gnu.org"><img style="border: 0px solid ; width: 148px; height: 140px;" alt="gnu" src="{{ site.baseurl | append: '/images/pics/gnu-head.jpg' | replace: '//', '/' }}" /></a></center></td>
 	</tr>
 </table>
 

@@ -14,7 +14,7 @@ A software repository is a collection of RPM packages (the openSUSE packaging fo
 
 Respositories can be added, removed and configured via YaST, in the module called Software Repositories.
 
-<center><a href="images/screenshots/yast-repos.png" rel="thumbnail"><img src="images/screenshots/yast-reposb.png" alt="repos" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/yast-repos.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/yast-reposb.png' | replace: '//', '/' }}" alt="repos" class="pic" /></a></center>
 
 ### 11.1.1 Adding Repositories
 
@@ -24,7 +24,7 @@ The official repositories are pre-configured, but many unofficial repositories e
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/obs.png' | replace: '//', '/' }}" alt="obs" /></td>
 <td>Add repositories with care.
 <ul>
 <li>Unofficial repositories might include experimental packages</li>
@@ -44,7 +44,7 @@ The easiest and safest way to add repositories is using the list of online commu
 
 <center><video src="video/repos114.ogv" controls>  
 
-<center><a href="images/screenshots/community-repos.png" rel="thumbnail"><img src="images/screenshots/community-reposb.png" alt="repos" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/community-repos.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/community-reposb.png' | replace: '//', '/' }}" alt="repos" class="pic" /></a></center>
 
 <b>Your web browser does not support the HTML5 video element and/or Ogg Theora format.
 
@@ -77,7 +77,7 @@ Additionally I recommend adding the following <i>unofficial</i> repositories fro
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>Still missing a package?<br /><br />
 
 You can search for packages/repositories on the openSUSE BuildService here:<br />

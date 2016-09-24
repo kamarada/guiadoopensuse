@@ -18,7 +18,7 @@ LibreOffice can also read and write the Microsoft Office formats (*.doc, *.xls,*
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>If you come across Microsoft documents that LibreOffice doesn't render well, consider trying if you have better luck with the Calligra suite.</td>
 </tr>
 </tbody>
@@ -39,13 +39,13 @@ No configuration is needed to access files shared by others. Simply:
 
 <div class="sti">Launch the Dolphin file manager => Click the location bar or press Ctrl+L for an editable location bar => Enter 'smb://[ip-address]'</div>
 
-<center><a href="images/screenshots/smb-dolph.png" rel="thumbnail"><img src="images/screenshots/smb-dolphb.png" alt="smb-dolphin" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/smb-dolph.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/smb-dolphb.png' | replace: '//', '/' }}" alt="smb-dolphin" class="pic" /></a></center>
 
 If you don't know the IP-address of the share, you can <i>browse</i> the local network by simply entering <i>smb:/</i> in the Dolphin location bar. However, this will only work if you configure the firewall first.
 
 <div class="sti">Go to YaST =&gt; Security and Users  =&gt; Firewall =&gt; Allowed Services =&gt; Select "Samba Client" and "Netbios Server" in the "Service to allow" combobox and add them</div>
 
-<center><a href="images/screenshots/firewall-samba.png" rel="thumbnail"><img src="images/screenshots/firewall-sambab.png" alt="firewall-samba" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/firewall-samba.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/firewall-sambab.png' | replace: '//', '/' }}" alt="firewall-samba" class="pic" /></a></center>
 
 ### 12.2.2 Sharing Your Files
 
@@ -56,7 +56,7 @@ To share <i>your</i> files with MS Windows users, Mac OSX users or other GNU/Lin
 Open the YaST Samba Server module.
 <div class="sti">YaST =&gt; Network Services  =&gt; Samba Server</div>
 
-<center><a href="images/screenshots/samba-server.png" rel="thumbnail"><img src="images/screenshots/samba-serverb.png" alt="samba" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/samba-server.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/samba-serverb.png' | replace: '//', '/' }}" alt="samba" class="pic" /></a></center>
 
 <b>2) </b>
 
@@ -78,7 +78,7 @@ High quality, native GNU/Linux applications exist for almost any purpose, but it
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/obs.png' | replace: '//', '/' }}" alt="obs" /></td>
 <td>You should only run non-native applications as a last resort. Apps work better in their native environment.</td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ Wine is a command line application, the syntax is:
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>The package <a href="http://sourceforge.net/projects/q4wine/" target="_blank">q4wine</a> provides a graphical interface for some features of Wine.</td>
 </tr>
 </tbody>

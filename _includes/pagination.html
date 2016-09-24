@@ -18,7 +18,7 @@
               {% assign previous_page_url = menu_pages[previous] | append: '/' | prepend: '/' | prepend: site.baseurl | replace: '//', '/' %}
               <div style="text-align: center;">
                 <a href="{{ previous_page_url }}">
-                  <img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" />
+                  <img class="pic" style="width: 32px; height: 32px;" alt="prev" src="{{ site.baseurl | append: '/images/pics/prev.png' | replace: '//', '/' }}" />
                 </a>
               </div>
             {% endif %}
@@ -30,7 +30,7 @@
               {% assign next_page_url = menu_pages[next] | append: '/' | prepend: '/' | prepend: site.baseurl | replace: '//', '/' %}
               <div style="text-align: center;">
                 <a href="{{ next_page_url }}">
-                  <img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/next.png" />
+                  <img class="pic" style="width: 32px; height: 32px;" alt="prev" src="{{ site.baseurl | append: '/images/pics/next.png' | replace: '//', '/' }}" />
                 </a>
               </div>
             {% endif %}

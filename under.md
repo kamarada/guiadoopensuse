@@ -15,7 +15,7 @@ Any modern computer operating system is a very large and complicated contraption
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>
 	<tr>
-		<td style="width: 50%;"><center><a href="images/pics/distro.png" rel="thumbnail"><img src="images/pics/distrob.png" alt="distro" class="pic" /></a></center>
+		<td style="width: 50%;"><center><a href="{{ site.baseurl | append: '/images/pics/distro.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/pics/distrob.png' | replace: '//', '/' }}" alt="distro" class="pic" /></a></center>
 </td>
 	
 		
@@ -46,7 +46,7 @@ In MS Windows a comparable path might look like this:
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>In GNU/Linux filenames and folders are <b>case sensitive</b>.</td>
 </tr>
 </tbody>
@@ -243,7 +243,7 @@ Here are some basic troubleshooting tips for GNU/Linux in case an application cr
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>Reinstalling the software packages almost never solves anything, because the old settings and data will remain in hidden folders in the home folder.</td>
 </tr>
 </tbody>

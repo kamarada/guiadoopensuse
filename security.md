@@ -18,7 +18,7 @@ You'll be asked for the root password when installing packages or performing oth
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/obs.png' | replace: '//', '/' }}" alt="obs" /></td>
 <td>Only work as root when it's required.</td>
 </tr>
 </tbody>
@@ -29,7 +29,7 @@ You'll be asked for the root password when installing packages or performing oth
 
 To work graphically with system files that require root permissions you can launch the Dolphin file manager in super user mode.
 
-<center><a href="images/screenshots/super-dolph.png" rel="thumbnail"><img src="images/screenshots/super-dolphb.png" alt="super user dolphin" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/super-dolph.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/super-dolphb.png' | replace: '//', '/' }}" alt="super user dolphin" class="pic" /></a></center>
 
 ### 7.1.2 Working as Root User in the Terminal
 
@@ -41,7 +41,7 @@ The following command is used to switch to the root user in a terminal:
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>Nothing will appear on the screen while you type your password. This is intended.</td>
 </tr>
 </tbody>
@@ -62,7 +62,7 @@ You can read more about using the terminal in the next chapter.
 
 When new updates are available you'll be notified by the update applet running in the system tray area.
 
-<center><a href="images/screenshots/pk-updater.png" rel="thumbnail"><img src="images/screenshots/pk-updaterb.png" alt="pk-updater" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/pk-updater.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/pk-updaterb.png' | replace: '//', '/' }}" alt="pk-updater" class="pic" /></a></center>
 
 ### 7.2.1 Installing Updates in the Terminal
 

@@ -33,7 +33,7 @@ This saves you the trouble of downloading and burning the media yourself, and th
 <a href="http://www.linuxiso.co.uk/product_info.php?products_id=207" target="_blank">Linuxiso.co.uk</a>
 
 <!--
-<center><a href="images/pics/preburn-linuxpusher.png" rel="thumbnail"><img src="images/pics/preburn-linuxpusherb.png" alt="preburnt media" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/pics/preburn-linuxpusher.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/pics/preburn-linuxpusherb.png' | replace: '//', '/' }}" alt="preburnt media" class="pic" /></a></center>
 <center><div class="billedtekst">The Linuxpusher.com unofficial openSUSE DVD</div></center>
 -->
 
@@ -43,7 +43,7 @@ There are companies selling openSUSE in a (German language) box with support, an
 
 <a href="http://en.opensuse.org/Buy_openSUSE" target="_blank">http://en.opensuse.org/Buy_openSUSE</a>
 
-<center><img src="images/pics/box.png" alt="box" /></center>
+<center><img src="{{ site.baseurl | append: '/images/pics/box.png' | replace: '//', '/' }}" alt="box" /></center>
 
 ## 3.4 The Source Code
 

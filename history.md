@@ -33,7 +33,7 @@ In 1984 and 1985 respectively, system programmer Richard M. Stallman (RMS), who 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>
 	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><img style="width: 200px; height: 220px;" alt="rms" src="images/pics/rms.jpg" /></div></td>
+		<td style="width: 50%;"><div style="text-align: center;"><img style="width: 200px; height: 220px;" alt="rms" src="{{ site.baseurl | append: '/images/pics/rms.jpg' | replace: '//', '/' }}" /></div></td>
 	</tr>
       	<tr>
 		<td class="billedtekst">Richard M. Stallman</td>
@@ -56,7 +56,7 @@ The freedoms 1 and 3 require access to the source code of the program.
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>If you want to know more about free software, consider downloading this 
 <a href="http://audio-video.gnu.org/video/20090122_richard_stallman.ogv" target="_blank">video of Richard M. Stallman speaking</a> (550 MB, Ogg Theora format)</td>
 </tr>
@@ -79,7 +79,7 @@ In 1991, independentantly of the GNU project, then 22-year old Finnish universit
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>
 	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><img style="width: 200px; height: 207px;" alt="linus" src="images/pics/linus.jpg" /></div></td>
+		<td style="width: 50%;"><div style="text-align: center;"><img style="width: 200px; height: 207px;" alt="linus" src="{{ site.baseurl | append: '/images/pics/linus.jpg' | replace: '//', '/' }}" /></div></td>
 	</tr>
       	<tr>
 		<td class="billedtekst">Linus Torvalds</td>
@@ -110,13 +110,13 @@ In 2014 the development branch openSUSE Factory was stabilized enough to become 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
 	<tr>
-		<td style="width: 25%;"><div style="text-align: center;"><img style="border: 0px solid ; width: 148px; height: 140px;" alt="gnu" src="images/pics/gnu-head.jpg" /></div></td>
+		<td style="width: 25%;"><div style="text-align: center;"><img style="border: 0px solid ; width: 148px; height: 140px;" alt="gnu" src="{{ site.baseurl | append: '/images/pics/gnu-head.jpg' | replace: '//', '/' }}" /></div></td>
 	
-		<td style="width: 25%;"><div style="text-align: center;"><img style="width: 128px; height: 128px;" alt="tux" src="images/pics/linux.png" /></div></td>
+		<td style="width: 25%;"><div style="text-align: center;"><img style="width: 128px; height: 128px;" alt="tux" src="{{ site.baseurl | append: '/images/pics/linux.png' | replace: '//', '/' }}" /></div></td>
 
-		<td style="width: 25%"><div style="text-align: center;"><img style="width: 120px; height: 141px;" alt="konqui" src="images/pics/konqui.png" /></div></td>	
+		<td style="width: 25%"><div style="text-align: center;"><img style="width: 120px; height: 141px;" alt="konqui" src="{{ site.baseurl | append: '/images/pics/konqui.png' | replace: '//', '/' }}" /></div></td>	
 
-		<td style="width: 25%"><div style="text-align: center;"><img style="width: 150px; height: 150px;" alt="geeko" src="images/pics/opensuse.jpg" /></div></td>
+		<td style="width: 25%"><div style="text-align: center;"><img style="width: 150px; height: 150px;" alt="geeko" src="{{ site.baseurl | append: '/images/pics/opensuse.jpg' | replace: '//', '/' }}" /></div></td>
 	</tr>
 
       	<tr>
@@ -138,7 +138,7 @@ When the Linux kernel and the GNU tools and other free software components from 
 	<tbody>
 	<tr>
 	
-		<td style="width: 50%;"><center><a href="images/pics/ecosystem.png" rel="thumbnail"><img src="images/pics/ecosystemb.png" alt="ecosystem" class="pic" /></a></center>
+		<td style="width: 50%;"><center><a href="{{ site.baseurl | append: '/images/pics/ecosystem.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/pics/ecosystemb.png' | replace: '//', '/' }}" alt="ecosystem" class="pic" /></a></center>
 </td>			
 	</tr>
 

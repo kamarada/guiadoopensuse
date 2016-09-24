@@ -59,7 +59,7 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/welcome.png" rel="thumbnail"><img src="images/installation/dvd/welcomeb.png" alt="welcome" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/welcome.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/welcomeb.png' | replace: '//', '/' }}" alt="welcome" class="pic" /></a></td>
 		<td valign="top">The first thing you'll see is this welcome screen.</td>
 	</tr>
 </table>
@@ -68,7 +68,7 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/grub.png" rel="thumbnail"><img src="images/installation/dvd/grubb.png" alt="grub" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/grub.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/grubb.png' | replace: '//', '/' }}" alt="grub" class="pic" /></a></td>
 		<td valign="top">Then you're presented with a menu.<br /><br />
 
 		Here you can select your desired language and a few other options, afterwards begin installation.</td>
@@ -79,7 +79,7 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-welcome.png" rel="thumbnail"><img src="images/installation/dvd/inst-welcomeb.png" alt="welcome" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-welcome.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-welcomeb.png' | replace: '//', '/' }}" alt="welcome" class="pic" /></a></td>
 		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.<br /><br />
  
 		Check that language and keyboard layout are as desired.</td>
@@ -90,7 +90,7 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-mode.png" rel="thumbnail"><img src="images/installation/dvd/inst-modeb.png" alt="inst-mode" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-mode.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-modeb.png' | replace: '//', '/' }}" alt="inst-mode" class="pic" /></a></td>
 		<td valign="top">Here you choose to add online repositories or include add-on products, usually will just click "Next". Online repositories can be added in the installed system later.</td>
 	</tr>
 </table>
@@ -99,7 +99,7 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 
 <table>
 	<tr>
-	  <td width="205" valign="top"><a href="images/installation/dvd/inst-disk.png" rel="thumbnail"><img src="images/installation/dvd/inst-diskb.png" alt="inst-disk" class="pic" /></a></td>
+	  <td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-disk.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-diskb.png' | replace: '//', '/' }}" alt="inst-disk" class="pic" /></a></td>
 	  <td valign="top">By default openSUSE will propose to create three new partitions / (root) for system files, /home/ for personal files of users and swap which is used as a supplement for RAM, similar to the page file in MS Windows.<br /><br />
 
 	  Don't worry about all the subvolumes created, these are just technicalities of the Btrfs filesystem, and not "real" partitions, that normal users should need to worry about.<br /><br />
@@ -114,7 +114,7 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-time.png" rel="thumbnail"><img src="images/installation/dvd/inst-timeb.png" alt="inst-time" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-time.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-timeb.png' | replace: '//', '/' }}" alt="inst-time" class="pic" /></a></td>
 		<td valign="top">Set the timezone here.<br /><br />
 
 If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if you dual boot with MS Windows set it to local time.</td>
@@ -125,7 +125,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-desktop.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-desktopb.png' | replace: '//', '/' }}" alt="inst-desktop" class="pic" /></a></td>
 		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. KDE is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide.<br /><br />
 
 		Under "Other" you can select LXDE, Xfce, minimal graphical environment (IceWM) and even a text based system which is useful for servers.</td>
@@ -136,7 +136,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-	<td width="205" valign="top"><a href="images/installation/dvd/inst-user.png" rel="thumbnail"><img src="images/installation/dvd/inst-userb.png" alt="inst-user" class="pic" /></a></td>
+	<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-user.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-userb.png' | replace: '//', '/' }}" alt="inst-user" class="pic" /></a></td>
 	<td valign="top">Now it's time to create your user. Note that by default the root user (administrator) password will be the same as the password for the normal user.<br /><br />
 
 	If you want the added security of a separate root password, consider unchecking that checkbox. You may also want to consider disabling autologin to prevent people from easily accessing your system and data.</td>
@@ -147,7 +147,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-overview.png" rel="thumbnail"><img src="images/installation/dvd/inst-overviewb.png" alt="inst-overview" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-overview.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-overviewb.png' | replace: '//', '/' }}" alt="inst-overview" class="pic" /></a></td>
 		<td valign="top">Double check that everything is as desired - this is the point of no return!</td>
 	</tr>
 </table>
@@ -156,7 +156,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-inst.png" rel="thumbnail"><img src="images/installation/dvd/inst-instb.png" alt="inst-inst" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-inst.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-instb.png' | replace: '//', '/' }}" alt="inst-inst" class="pic" /></a></td>
 		<td valign="top">Now the actual installation is performed. When it's done the system will reboot and be ready to use.<br /><br />
 
 Have a lot of fun with openSUSE!
@@ -171,7 +171,7 @@ Have a lot of fun with openSUSE!
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-autoconfig.png" rel="thumbnail"><img src="images/installation/dvd/inst-autoconfigb.png" alt="inst-inst" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-autoconfig.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-autoconfigb.png' | replace: '//', '/' }}" alt="inst-inst" class="pic" /></a></td>
 		<td valign="top">After installation is performed, the system will restart and perform autoconfiguration.
 
 		And finally your brand new openSUSE system will start. Congratulations, and have a lot of fun with openSUSE!
@@ -194,7 +194,7 @@ The Live DVD/USB provides two different installation modes, you can install dire
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/live/live-welcome.png" rel="thumbnail"><img src="images/installation/live/live-welcomeb.png" alt="live-welcome" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-welcome.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-welcomeb.png' | replace: '//', '/' }}" alt="live-welcome" class="pic" /></a></td>
 		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.
  
 		Check that language and keyboard layout are as desired.</td>
@@ -205,7 +205,7 @@ The Live DVD/USB provides two different installation modes, you can install dire
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/live/live-time.png" rel="thumbnail"><img src="images/installation/live/live-timeb.png" alt="live-time" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-time.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-timeb.png' | replace: '//', '/' }}" alt="live-time" class="pic" /></a></td>
 		<td valign="top">Set the timezone here.
 
 If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if you dual boot with MS Windows set it to local time.</td>
@@ -216,7 +216,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 	<table>
 	<tr>
-	<td width="205" valign="top"><a href="images/installation/live/live-partition.png" rel="thumbnail"><img src="images/installation/live/live-partitionb.png" alt="live-partition" class="pic" /></a></td>
+	<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-partition.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-partitionb.png' | replace: '//', '/' }}" alt="live-partition" class="pic" /></a></td>
 	<td valign="top">By default openSUSE will propose to create three new partitions / (root) for system files, /home/ for personal files of users and swap which is used as a supplement for RAM, similar to the page file in MS Windows.
 
 	  If you're performing a dual boot installation, be extra careful here.
@@ -229,7 +229,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-	    <td width="205" valign="top"><a href="images/installation/live/live-user.png" rel="thumbnail"><img src="images/installation/live/live-userb.png" alt="live-user" class="pic" /></a></td>
+	    <td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-user.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-userb.png' | replace: '//', '/' }}" alt="live-user" class="pic" /></a></td>
 	    <td valign="top">Now it's time to create your user. Note that by default the root user (administrator) password will be the same as the password for the normal user.
 
 	If you want the added security of a separate root password, consider unchecking that checkbox. You may also want to consider disabling autologin to prevent people from easily accessing your system and data.</td>
@@ -240,7 +240,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/live/live-settings.png" rel="thumbnail"><img src="images/installation/live/live-settingsb.png" alt="live-settings" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-settings.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-settingsb.png' | replace: '//', '/' }}" alt="live-settings" class="pic" /></a></td>
 		<td valign="top">Double check that everything is as desired - this is the point of no return!</td>
 	</tr>
 </table>
@@ -249,7 +249,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="images/installation/live/live-installation.png" rel="thumbnail"><img src="images/installation/live/live-installationb.png" alt="live-installation" class="pic" /></a></td>
+		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-installation.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-installationb.png' | replace: '//', '/' }}" alt="live-installation" class="pic" /></a></td>
 		<td valign="top">Now the actual installation is performed.</td>
 	</tr>
 </table>
@@ -258,7 +258,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-	    <td width="205" valign="top"><a href="images/installation/live/live-done.png" rel="thumbnail"><img src="images/installation/live/live-doneb.png" alt="live-done" class="pic" /></a></td>
+	    <td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-done.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-doneb.png' | replace: '//', '/' }}" alt="live-done" class="pic" /></a></td>
 	    <td valign="top">When all packages are installed, the system needs to reboot from the harddrive.
 
 		You can either remove the DVD/USB during the reboot process or leave it in and select <i>Boot from harddisk</i> at the boot menu.

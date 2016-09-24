@@ -19,13 +19,13 @@ However, a few things differ significantly from most other desktop environments:
 <li>By default the applications you have running when you shutdown will be started again in the next session</li>
 </ul>
 
-<center><a href="images/screenshots/desktop.png" rel="thumbnail"><img src="images/screenshots/desktopb.png" alt="desktop" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/desktop.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/desktopb.png' | replace: '//', '/' }}" alt="desktop" class="pic" /></a></center>
 
 ### 5.1.1 The Launch Menu
 
 The launch menu is opened by clicking the icon in the bottom left corner of the screen or pressing Alt+F1. On the bottom there's a search box and at the top left are your favourite applications. You can add and remove applications from favourites by right clicking them.
 
-<center><a href="images/screenshots/launchmenu.png" rel="thumbnail"><img src="images/screenshots/launchmenub.png" alt="launchmenuç" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/launchmenu.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/launchmenub.png' | replace: '//', '/' }}" alt="launchmenuç" class="pic" /></a></center>
 
 You can edit menu entries or add new ones like this:
 
@@ -48,7 +48,7 @@ To add widgets:
 
 <div class="sti">Right click the desktop => Add widgets</div>
 
-<center><a href="images/screenshots/widgets.png" rel="thumbnail"><img src="images/screenshots/widgetsb.png" alt="widgets" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/widgets.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/widgetsb.png' | replace: '//', '/' }}" alt="widgets" class="pic" /></a></center>
 
 To add widgets to the panel, drag them from widget browser to the panel.
 
@@ -58,7 +58,7 @@ When your widgets are covered by windows you can view them by pressing <i>Ctrl+F
 
 To avoid your desktop getting cluttered with windows you can use virtual desktops to organize your applications and be more productive. In the panel you'll find a small grid, this is the desktop pager, use it to switch between your virtual desktops.
 
-<center><img src="images/screenshots/pager.png" alt="pager" class="pic" /></center>
+<center><img src="{{ site.baseurl | append: '/images/screenshots/pager.png' | replace: '//', '/' }}" alt="pager" class="pic" /></center>
 
 You can also use the desktop grid effect to get a big overview of your virtual desktops, try pressing <i>Ctrl+F8</i> (requires desktop effects support, see the paragraph on this topic below).
 
@@ -71,26 +71,26 @@ This enables you to quickly and easily switch between desktops (activities) conf
 
 The Activity Manager lets you create activities and switch between them. Additionally you can perform various tasks by clicking the little overlay icons on each activity to start or stop the activities, delete them or configure them.
 
-<center><a href="images/screenshots/activities.png" rel="thumbnail"><img src="images/screenshots/activitiesb.png" alt="widgets" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/activities.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/activitiesb.png' | replace: '//', '/' }}" alt="widgets" class="pic" /></a></center>
 -->
 
 ## 5.2 File Management
 
 The default file manager is Dolphin.You can find it as one of the favourites in the launch menu or in the "System" category. It should be very intuitive. USB sticks and other removable media will automatically appear in the left pane of Dolphin.
 
-<center><a href="images/screenshots/dolphin.png" rel="thumbnail"><img src="images/screenshots/dolphinb.png" alt="dolphin" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/dolphin.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/dolphinb.png' | replace: '//', '/' }}" alt="dolphin" class="pic" /></a></center>
 
 ## 5.3 KDE Systemsettings
 
 The global KDE settings are gathered conveniently in one place. Here you can configure almost anything related to the KDE workspace including mouse behaviour, default applications, file associations etc. You can also find Systemsettings as one of the favourites in the launch menu.
 
-<center><a href="images/screenshots/systemsettings.png" rel="thumbnail"><img src="images/screenshots/systemsettingsb.png" alt="systemsettings" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/systemsettings.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/systemsettingsb.png' | replace: '//', '/' }}" alt="systemsettings" class="pic" /></a></center>
 
 <div class="tip">
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>Don't confuse the KDE control center used for personal configuration of the KDE Workspace and KDE applications with the YaST control center used for administrator settings on a deeper level of the system (See later chapter about YaST).</td>
 </tr>
 </tbody>
@@ -101,7 +101,7 @@ The global KDE settings are gathered conveniently in one place. Here you can con
 
 Naturally KDE also has a tool to watch running processes and usage of system ressources. Simply press <i>Ctrl+Esc</i> to bring up the system activity window.
 
-<center><a href="images/screenshots/systemactivity.png" rel="thumbnail"><img src="images/screenshots/systemactivityb.png" alt="systemactivity" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/systemactivity.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/systemactivityb.png' | replace: '//', '/' }}" alt="systemactivity" class="pic" /></a></center>
 
 For an advanced and customizable system monitor, including network graphs etc. run the program <i>ksysguard</i>
 
@@ -111,6 +111,6 @@ The KDE window manager has built-in support for 3D desktop effects. A basic, uno
 
 You can disable or enable other/more effects in Systemsettings.
 
-<center><a href="images/screenshots/effects.png" rel="thumbnail"><img src="images/screenshots/effectsb.png" alt="effects" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/effects.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/effectsb.png' | replace: '//', '/' }}" alt="effects" class="pic" /></a></center>
 
 The keyboard shortcut to temporarily toggle desktop effects on/off is <i>Alt+Shift+F12</i>.

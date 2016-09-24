@@ -14,7 +14,7 @@ Simply open YaST Software Management.
 
 <center><video src="video/installpackage114.ogv" controls>  
 
-<center><a href="images/screenshots/sw-single.png" rel="thumbnail"><img src="images/screenshots/sw-singleb.png" alt="sw-single" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/sw-single.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/sw-singleb.png' | replace: '//', '/' }}" alt="sw-single" class="pic" /></a></center>
 
 <b>Your web browser does not support the HTML5 video element and/or Ogg Theora format.
 
@@ -29,7 +29,7 @@ Now search for the package you want, select it for installation and click Accept
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>The availability of software packages in the package manager depends on the configured <i>software repositories</i>. Read about software repositories in the next chapter.</td>
 </tr>
 </tbody>
@@ -40,7 +40,7 @@ Now search for the package you want, select it for installation and click Accept
 
 When browsing openSUSE related websites, you're likely to come across buttons such as this one:
 
-<center><img class="pic" alt="oneclick" src="images/pics/oneclick.png" /></center>
+<center><img class="pic" alt="oneclick" src="{{ site.baseurl | append: '/images/pics/oneclick.png' | replace: '//', '/' }}" /></center>
 
 1-click installation (also referred to as "Direct Install") simply automates the process of adding one or more software repositories to the package manager and installing one or more RPM packages. Therefore 1-click installation <i>should be used with the same care</i> as manually adding unofficial repositories (see the next chapter for more on software repositories).<br/>
 
@@ -59,7 +59,7 @@ With a bit of luck the developer/vendor website will have an RPM file for openSU
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/obs.png" alt="obs" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/obs.png' | replace: '//', '/' }}" alt="obs" /></td>
 <td>Only install RPM files that are built specifically for (your version of) openSUSE.</td>
 </tr>
 </tbody>

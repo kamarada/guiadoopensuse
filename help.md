@@ -12,7 +12,7 @@ This guide is just a brief introduction to some of the basics, so it's likely yo
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>Always give detailed problem descriptions, and provide relevant information, such as openSUSE version, desktop environment, relevant hardware components etc., when asking for help online - otherwise it's impossible to help you effectively.</td>
 </tr>
 </tbody>
@@ -41,7 +41,7 @@ And there's a forum for the LibreOffice office suite too:
 
 You can get help in realtime using IRC (Internet Relay Chat). The IRC-client Konversation is installed by default and preconfigured to join the <a href="irc://irc.opensuse.org/opensuse" class="button" title="join #suse on freenode">#suse</a> channel on the Freenode IRC network.
 
-<center><a href="images/screenshots/konversation.png" rel="thumbnail"><img src="images/screenshots/konversationb.png" alt="konversation" class="pic" /></a></center>
+<center><a href="{{ site.baseurl | append: '/images/screenshots/konversation.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/konversationb.png' | replace: '//', '/' }}" alt="konversation" class="pic" /></a></center>
 
 If you're new to IRC you should probably read the rules before joining.
 
@@ -93,7 +93,7 @@ GNU/Linux supports most hardware, but not all. Components that are very new on t
 <table>
 <tbody>
 <tr>
-<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
 <td>Don't expect these databases to be 100% complete or up-to-date - and remember to contribute with your own findings.</td>
 </tr>
 </tbody>
