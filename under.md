@@ -6,16 +6,17 @@ permalink: /under/
 
 # Appendix C: Under the Hood
 
-The purpose of this chapter is to give the reader a quick look and basic idea of what's going on beneath the surface of the openSUSE GNU/Linux operating system.<br /><br />
+The purpose of this chapter is to give the reader a quick look and basic idea of what's going on beneath the surface of the openSUSE GNU/Linux operating system.
 
 ## C.1 Main System Components
 
-Any modern computer operating system is a very large and complicated contraption - and GNU/Linux distributions are no exception. The Linux kernel is just one of many components. The figure below shows the core components and what their respective roles are.<br /><br />
+Any modern computer operating system is a very large and complicated contraption - and GNU/Linux distributions are no exception. The Linux kernel is just one of many components. The figure below shows the core components and what their respective roles are.
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>
 	<tr>
-		<td style="width: 50%;"><center><a href="images/pics/distro.png" rel="thumbnail"><img src="images/pics/distrob.png" alt="distro" class="pic" /></a></center><br /></td>
+		<td style="width: 50%;"><center><a href="images/pics/distro.png" rel="thumbnail"><img src="images/pics/distrob.png" alt="distro" class="pic" /></a></center>
+</td>
 	
 		
 	</tr>
@@ -29,15 +30,17 @@ Any modern computer operating system is a very large and complicated contraption
 
 ## C.2 File Tree
 
-Most users will hardly ever need to work outside their home folder, but nevertheless it's probably a good idea to have a basic idea about the how the file hierarchy works.<br /><br />
+Most users will hardly ever need to work outside their home folder, but nevertheless it's probably a good idea to have a basic idea about the how the file hierarchy works.
 
-On GNU/Linux you only have <i>one</i> file tree, unlike e.g. Microsoft Windows which has a different file tree for each filesystem/partition - on GNU/Linux separate filesystems/partitions are <i>mounted</i> in folders within a single file tree. The root folder for the file tree is "<b>/</b>" and paths are written using forward slashes.<br /><br />
+On GNU/Linux you only have <i>one</i> file tree, unlike e.g. Microsoft Windows which has a different file tree for each filesystem/partition - on GNU/Linux separate filesystems/partitions are <i>mounted</i> in folders within a single file tree. The root folder for the file tree is "<b>/</b>" and paths are written using forward slashes.
 
-So a path might look like this in GNU/Linux:<br />
-<b>/home/<i>username</i>/Desktop/</b><br /><br />
+So a path might look like this in GNU/Linux:
 
-In MS Windows a comparable path might look like this:<br />
-<b>C:\Documents and Settings\<i>username</i>\Desktop</b><br /><br />
+<b>/home/<i>username</i>/Desktop/</b>
+
+In MS Windows a comparable path might look like this:
+
+<b>C:\Documents and Settings\<i>username</i>\Desktop</b>
 
 <div class="tip">
 <table>
@@ -48,10 +51,9 @@ In MS Windows a comparable path might look like this:<br />
 </tr>
 </tbody>
 </table>
-</div><br />
+</div>
 
-The root folder ("/") contains these folders by default:<br /><br />
-
+The root folder ("/") contains these folders by default:
 
 <table class="tabel">
 <tbody>
@@ -128,34 +130,33 @@ The root folder ("/") contains these folders by default:<br /><br />
       <td>Variable data</td>
   </tr>
 </tbody>
-</table><br />
+</table>
 
-Normal users only have write permission in their <b>/home/</b> folder, and rarely have any need to work outside of that.<br /><br />
+Normal users only have write permission in their <b>/home/</b> folder, and rarely have any need to work outside of that.
 
 ## C.3 Permissions
 
-Coming soon...<br /><br />
+Coming soon...
 
 ## C.4 Mounting and Removable Media
 
-As briefly mentioned above filesystems/partitions are <i>mounted</i> in folders within a single file tree, this means that e.g. "<b>/</b>" can be on one partition or physical disk and <b>/var/</b> can be on a different one, while <b>/home/<i>username</i>/data/</b> might physically be on a third one - but they all appear in the same single file tree when navigating the file hierarchy.<br /><br />
+As briefly mentioned above filesystems/partitions are <i>mounted</i> in folders within a single file tree, this means that e.g. "<b>/</b>" can be on one partition or physical disk and <b>/var/</b> can be on a different one, while <b>/home/<i>username</i>/data/</b> might physically be on a third one - but they all appear in the same single file tree when navigating the file hierarchy.
 
-You can assign mount points to internal partitions/filesystems to have them mounted durning boot using YaST Partitioner or by manually editing the configuration file /etc/fstab.<br /><br />
+You can assign mount points to internal partitions/filesystems to have them mounted durning boot using YaST Partitioner or by manually editing the configuration file /etc/fstab.
 
-When removable media such as CDs or USB keys are plugged in a notification will appear, and the devices will appear in the left panel of the Dolphin file manager. The media will be mounted in <b>/var/run/media/</b>.<br /><br />
+When removable media such as CDs or USB keys are plugged in a notification will appear, and the devices will appear in the left panel of the Dolphin file manager. The media will be mounted in <b>/var/run/media/</b>.
 
 ## C.5 Hidden Files
 
-Files and folders starting with '.' (dot) are hidden. You can make them visible in Dolphin file manager via the keyboard shortcut <b>Alt+.</b> or <b>View -&gt; Show Hidden Files</b> in the menubar.<br /><br />
+Files and folders starting with '.' (dot) are hidden. You can make them visible in Dolphin file manager via the keyboard shortcut <b>Alt+.</b> or <b>View -&gt; Show Hidden Files</b> in the menubar.
 
-Applications store the user settings and data in hidden folders in the users home folder, e.g. <b>/home/<i>username</i>/.mozilla/</b>, <b>/home/<i>username</i>/.config/vlc/</b>, <b>/home/<i>username</i>/.kde4/share/config/</b> etc. If you uninstall an application the settings and data will remain in the home folder. To "reset" an application, you just rename or (re)move the settings and/or data hidden in your home folder.<br /><br />
+Applications store the user settings and data in hidden folders in the users home folder, e.g. <b>/home/<i>username</i>/.mozilla/</b>, <b>/home/<i>username</i>/.config/vlc/</b>, <b>/home/<i>username</i>/.kde4/share/config/</b> etc. If you uninstall an application the settings and data will remain in the home folder. To "reset" an application, you just rename or (re)move the settings and/or data hidden in your home folder.
 
 ## C.6 Important Config Files
 
-In GNU/Linux configurations and settings are usually stored in human-readable plain text files. Almost any configuration can be done graphically via YaST or various other GUI applications, but nevertheless it can be useful to know the location of some key config files.<br /><br />
+In GNU/Linux configurations and settings are usually stored in human-readable plain text files. Almost any configuration can be done graphically via YaST or various other GUI applications, but nevertheless it can be useful to know the location of some key config files.
 
-System wide configurations are mainly stored in <b>/etc/</b>, user settings are stored in hidden files in the home folder for the individual user.<br /><br />
-
+System wide configurations are mainly stored in <b>/etc/</b>, user settings are stored in hidden files in the home folder for the individual user.
 
 <table class="tabel">
 <tbody>
@@ -192,13 +193,11 @@ System wide configurations are mainly stored in <b>/etc/</b>, user settings are 
       <td>Blacklisting kernel modules.</td>
   </tr>
   </tbody>
-</table><br />
+</table>
 
 ## C.7 Logs
 
-In case of problems it's good to know the location of the main log files, most are kept in <b>/var/log/</b>.<br /><br />
-
-
+In case of problems it's good to know the location of the main log files, most are kept in <b>/var/log/</b>.
 
 <table class="tabel">
 <tbody>
@@ -227,7 +226,7 @@ In case of problems it's good to know the location of the main log files, most a
       <td>Log files for various YaST modules and components.</td>
   </tr>
   </tbody>
-</table><br />
+</table>
 
 ## C.8 Troubleshooting
 
@@ -249,4 +248,4 @@ Here are some basic troubleshooting tips for GNU/Linux in case an application cr
 </tr>
 </tbody>
 </table>
-</div><br />
+</div>

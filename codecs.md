@@ -6,39 +6,40 @@ permalink: /codecs/
 
 # 13. Multimedia Codecs
 
-This chapter describes three different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with Dragon (video) and Amarok (audio). You can use manual installation with graphical software or use the command line - whichever method you prefer.<br /><br />
+This chapter describes three different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with Dragon (video) and Amarok (audio). You can use manual installation with graphical software or use the command line - whichever method you prefer.
 
-By default only free, open, non-patent encumbered formats such as Ogg Theora, Ogg Vorbis and Flac are supported for legal reasons (US software patents and Digital Millennium Copyright Act (DMCA)).<br /><br />
-
+By default only free, open, non-patent encumbered formats such as Ogg Theora, Ogg Vorbis and Flac are supported for legal reasons (US software patents and Digital Millennium Copyright Act (DMCA)).
 
 <!--
 ## 13.1 Codec Installation with 1-Click
 
-Temporarily not available for technical reasons.<br /><br /><br />
+Temporarily not available for technical reasons.
 
+Click on the button below to install multmedia codecs with 1-click install.
 
-Click on the button below to install multmedia codecs with 1-click install.<br /><br />
+<center><a href="http://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center>
 
-
-<center><a href="http://opensuse-community.org/codecs-kde.ymp"><img src="images/oneclick/codecs.png" alt="ymp" class="pic" /></a></center><br />
 -->
 
 
 <!--
-<center><a href="data:text/x-suse-ymu,http://opensuse-guide.org/ymp/codecs.ymp"><img src="images/oneclick/codecs.png" alt="codecs ymp" class="pic" /></a></center><br />
+<center><a href="data:text/x-suse-ymu,http://opensuse-guide.org/ymp/codecs.ymp"><img src="images/oneclick/codecs.png" alt="codecs ymp" class="pic" /></a></center>
+
 -->
 
 <!--
-Note, if you get a warning dialog like this don't panic! Simply select the proper option, to either allow changing the vendor for some packages from <i>openSUSE</i> to <i>Packman</i>, or possibly to downgrade a package (usually the same package version, only with a lower build number) then click <i>OK -- Try Again</i>.<br /><br />
+Note, if you get a warning dialog like this don't panic! Simply select the proper option, to either allow changing the vendor for some packages from <i>openSUSE</i> to <i>Packman</i>, or possibly to downgrade a package (usually the same package version, only with a lower build number) then click <i>OK -- Try Again</i>.
+
 -->
 
 <!--
-<center><a href="images/screenshots/conflict.png" rel="thumbnail"><img src="images/screenshots/conflictb.png" alt="conflict" class="pic" /></a></center><br />
+<center><a href="images/screenshots/conflict.png" rel="thumbnail"><img src="images/screenshots/conflictb.png" alt="conflict" class="pic" /></a></center>
+
 -->
 
 ## 13.1 Codec Installation with YaST Software Management
 
-1) First add/enable the repositories with YaST Software Repositories:<br />
+1) First add/enable the repositories with YaST Software Repositories:
 
 <ul>
 <li><b>Packman Repository</b></li>
@@ -55,9 +56,9 @@ Note, if you get a warning dialog like this don't panic! Simply select the prope
 </tr>
 </tbody>
 </table>
-</div><br />
+</div>
 
-2) Then install the following packages with YaST Software Management:<br />
+2) Then install the following packages with YaST Software Management:
 
 <ul>
 <li><b>k3b-codecs</b></li>
@@ -70,23 +71,17 @@ Note, if you get a warning dialog like this don't panic! Simply select the prope
 <li><b>libdvdcss2</b> (skip if you don't need DVD playback)</li>
 </ul>
 
-3) Finally remove/uninstall the following packages with YaST Software Management:<br />
+3) Finally remove/uninstall the following packages with YaST Software Management:
 
 <ul>
 <li><b>phonon-backend-gstreamer</b></li>
 <li><b>phonon4qt5-backend-gstreamer</li>
-</ul><br />
-
-
-
-
-
-
+</ul>
 
 <!--
-You can install the packages manually instead if you prefer.<br /><br />
+You can install the packages manually instead if you prefer.
 
-First add/enable the repositories with YaST Software Repositories:<br />
+First add/enable the repositories with YaST Software Repositories:
 
 <ul>
 <li><b>Packman Repository</b></li>
@@ -103,9 +98,9 @@ First add/enable the repositories with YaST Software Repositories:<br />
 </tr>
 </tbody>
 </table>
-</div><br />
+</div>
 
-Then install the following packages with YaST Software Management:<br />
+Then install the following packages with YaST Software Management:
 
 <ul>
 <li><b>k3b-codecs</b></li>
@@ -122,7 +117,7 @@ Then install the following packages with YaST Software Management:<br />
 
 ## 13.2 Codec Installation in the Terminal
 
-To install codecs using the terminal instead, do these steps:<br /><br />
+To install codecs using the terminal instead, do these steps:
 
 <div class="tip">
 <table>
@@ -133,34 +128,36 @@ To install codecs using the terminal instead, do these steps:<br /><br />
 </tr>
 </tbody>
 </table>
-</div><br />
+</div>
 
 1) Add the needed repositories (skip the dvd repo if you don't need DVD playback):
+
 <div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.1/ packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.1/ dvd</div><br />
+<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.1/ dvd</div>
 
 2) Then install the necessary packages (skip libdvdcss2 if you don't need DVD playback):
-<div class="clroot">zypper install k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs flash-player libdvdcss2</div><br />
+
+<div class="clroot">zypper install k3b-codecs ffmpeg lame phonon-backend-vlc phonon4qt5-backend-vlc vlc-codecs flash-player libdvdcss2</div>
 
 3) Now remove these packages:
-<div class="clroot">zypper remove phonon-backend-gstreamer phonon4qt5-backend-gstreamer</div><br />
+
+<div class="clroot">zypper remove phonon-backend-gstreamer phonon4qt5-backend-gstreamer</div>
 
 <!--
 Add the needed repositories (skip the dvd repo if you don't need DVD playback):
 <div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.1/Essentials/ packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.1/ dvd</div><br />
-
+<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.1/ dvd</div>
 
 Then install the necessary packages (skip libdvdcss2 if you don't need DVD playback):
 <div class="clroot">zypper install k3b-codecs ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libdvdcss2</div>
 
-You will be asked if you want to allow vendor change for some packages - allow it.<br /><br />
+You will be asked if you want to allow vendor change for some packages - allow it.
 
 Finally ensure that you have a consistent set of packages from the Packman Repository:
 <div class="clroot">zypper dup --from http://packman.inode.at/suse/openSUSE_Leap_42.1/Essentials/</div>
 
-You will be asked if you want to allow vendor change for some packages - allow it.<br /><br />
+You will be asked if you want to allow vendor change for some packages - allow it.
 
 If you still experience problems try removing the GStreamer cache and reboot your system:
-<div class="cl">rm -rf ~/.cache/gstreamer-1.0/</div><br />
+<div class="cl">rm -rf ~/.cache/gstreamer-1.0/</div>
 -->
