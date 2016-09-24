@@ -14,8 +14,9 @@ permalink: /license/
 
 <hr align="center" width="99%" />
 
-<div class="os3">GNU Free Documentation License<br />
-Version 1.3, 3 November 2008</div>
+### GNU Free Documentation License
+
+Version 1.3, 3 November 2008
 
 <div class="normal">Copyright © 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc. <a href="http://fsf.org/" target="_blank">http://fsf.org</a><br />
 Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.<br /><br />

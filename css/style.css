@@ -127,7 +127,7 @@ a.indholdtekst:hover {
 	margin-bottom: 0px;
 }
 
-.os1, h1 {
+h1 {
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -143,44 +143,7 @@ a.indholdtekst:hover {
 	margin-bottom: 0px;*/
 }
 
-a.os1:link {
-	color: black;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 22pt;
-	text-decoration: none;
-	margin-bottom: 0px;
-}
-
-a.os1:visited {
-	color: black;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 22pt;
-	text-decoration: none;
-	margin-bottom: 0px;
-}
-
-a.os1:active {
-	color: black;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 22pt;
-	text-decoration: none;
-	margin-bottom: 0px;
-}
-
-a.os1:hover {
-    color: black;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 22pt;
-	text-decoration: none;
-	margin-bottom: 0px;
-    }
-
-
-.os2, h2 {
+h2 {
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -193,7 +156,7 @@ a.os1:hover {
 }
 
 
-.os3, h3 {
+h3 {
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;

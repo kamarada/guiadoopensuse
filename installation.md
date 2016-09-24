@@ -4,26 +4,29 @@ title: 4. Installation - Howto Install openSUSE on Your Computer
 permalink: /installation/
 ---
 
-<div class="os1">4. Installation</div>
+# 4. Installation
+
 This is just a brief description of openSUSE installation. For more thorough help see the official documentation.<br /><br />
 
-<div class="os2">4.1 Before Installation</div>
+## 4.1 Before Installation
+
 Before starting there are a few things you should be aware of.<br /><br />
 
-<div class="os3">4.1.1 System Minimum Requirements</div>
+### 4.1.1 System Minimum Requirements
+
 <ul>
     <li><b>CPU:</b> AMD64 or Intel64 processor</li>
     <li><b>RAM:</b> 1 GB physical RAM (2 GB recommended)</li>
     <li><b>Disk Space:</b> 5,0 GB for a normal installation (more recommended)</li>
     <li><b>Sound and Graphics Card:</b> Most modern cards are supported</li>
     </ul>
-
     
-<div class="os3">4.1.2a Burning the ISOs to a DVD</div>
+### 4.1.2a Burning the ISOs to a DVD
+
 When you burn the downloaded ISO files to a DVD it's important to remember to burn them as ISOs/images with your CD/DVD writer software, or the media won't be bootable.<br /><br /> 
 
+### 4.1.2b Creating a USB stick
 
-<div class="os3">4.1.2b Creating a USB stick</div>
 The ISO can also be put on an USB stick, see instructions for this on these pages depending on which operating systems you have available:<br />
 
 <ul>
@@ -32,28 +35,28 @@ The ISO can also be put on an USB stick, see instructions for this on these page
 <li> Mac OSX: <a href="https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x" target="_blank">https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x</a></li>
 </ul>
 
+### 4.1.3 BIOS Setup
 
-<div class="os3">4.1.3 BIOS Setup</div>
 If your computer won't boot from the DVD or USB media, check that the computer BIOS is configured to boot from CD/DVD or USB.<br /><br />
 
+### 4.1.4 Dual Boot (openSUSE and MS Windows on the same computer)
 
-<div class="os3">4.1.4 Dual Boot (openSUSE and MS Windows on the same computer)</div>
 Having openSUSE and MS Windows installed on the same computer is usually fairly simple if MS Windows was installed first. During installation openSUSE will detect MS Windows and the bootloader will display a menu on each startup letting you choose whether to boot openSUSE or MS Windows.<br /><br />
 
 openSUSE needs to be installed on a separate partition/disk. It's recommended to free up space beforehand using a partitioning tool that you're familiar with. But you can also let the openSUSE installer resize your MS Windows partitions - it's strongly recommended to defragment the MS Windows partition before doing so.<br /><br />
 
+### 4.1.5 Connect Network Cable and Turn on Peripherals
 
-<div class="os3">4.1.5 Connect Network Cable and Turn on Peripherals</div>
 If you connect your network cable and turn on your printer and other peripherals before commencing the installation, there's a good chance of them being autodetected and configured.<br /><br />
 
+## 4.2 The Installation Process
 
-<div class="os2">4.2 The Installation Process</div>
 When you're ready, insert the DVD or USB stick and (re)start the computer.<br /><br /> 
 
 This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previous chapter there's also a live medium available that is not as well-tested, that installation is not described here, but it's quite similar.<br /><br />
 
+### Welcome
 
-<div class="os3">Welcome</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/welcome.png" rel="thumbnail"><img src="images/installation/dvd/welcomeb.png" alt="welcome" class="pic" /></a></td>
@@ -61,8 +64,8 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	</tr>
 </table><br />
 
+### Start Installation
 
-<div class="os3">Start Installation</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/grub.png" rel="thumbnail"><img src="images/installation/dvd/grubb.png" alt="grub" class="pic" /></a></td>
@@ -71,8 +74,8 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	</tr>
 </table><br />
 
+### Language, Keyboard and Licence
 
-<div class="os3">Language, Keyboard and Licence</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-welcome.png" rel="thumbnail"><img src="images/installation/dvd/inst-welcomeb.png" alt="welcome" class="pic" /></a></td>
@@ -81,8 +84,8 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	</tr>
 </table><br />
 
+### Installation Options
 
-<div class="os3">Installation Options</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-mode.png" rel="thumbnail"><img src="images/installation/dvd/inst-modeb.png" alt="inst-mode" class="pic" /></a></td>
@@ -90,8 +93,8 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	</tr>
 </table><br />
 
+### Partitioning
 
-<div class="os3">Partitioning</div>
 <table>
 	<tr>
 	  <td width="205" valign="top"><a href="images/installation/dvd/inst-disk.png" rel="thumbnail"><img src="images/installation/dvd/inst-diskb.png" alt="inst-disk" class="pic" /></a></td>
@@ -105,9 +108,8 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	</tr>
 </table><br />
 
+### Clock and Time Zone
 
-
-<div class="os3">Clock and Time Zone</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-time.png" rel="thumbnail"><img src="images/installation/dvd/inst-timeb.png" alt="inst-time" class="pic" /></a></td>
@@ -115,9 +117,9 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	</tr>
 </table><br />
 
+### Desktop Selection
 
-<div class="os3">Desktop Selection</div>
-	<table>
+<table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
 		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. KDE is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide.<br /><br />
@@ -126,11 +128,8 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	</tr>
 </table><br />
 
+### Create New User
 
-
-
-
-<div class="os3">Create New User</div>
 <table>
 	<tr>
 	<td width="205" valign="top"><a href="images/installation/dvd/inst-user.png" rel="thumbnail"><img src="images/installation/dvd/inst-userb.png" alt="inst-user" class="pic" /></a></td>
@@ -140,8 +139,8 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	</tr>
 </table><br />
 
+### Installation Settings
 
-<div class="os3">Installation Settings</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-overview.png" rel="thumbnail"><img src="images/installation/dvd/inst-overviewb.png" alt="inst-overview" class="pic" /></a></td>
@@ -149,8 +148,8 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	</tr>
 </table><br />
 
+### Actual Installation
 
-<div class="os3">Actual Installation</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-inst.png" rel="thumbnail"><img src="images/installation/dvd/inst-instb.png" alt="inst-inst" class="pic" /></a></td>
@@ -163,9 +162,9 @@ Have a lot of fun with openSUSE!
 	</tr>
 </table><br />
 
-
 <!--
-<div class="os3">Automatic Configuration</div>
+### Automatic Configuration
+
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-autoconfig.png" rel="thumbnail"><img src="images/installation/dvd/inst-autoconfigb.png" alt="inst-inst" class="pic" /></a></td>
@@ -178,16 +177,16 @@ Have a lot of fun with openSUSE!
 </table><br /><br />
 -->
 
-
-
 <!--
 
-<div class="os2">4.3 Live DVD/USB Installation</div>
+## 4.3 Live DVD/USB Installation
+
 When you're ready to install, insert the DVD/USB and (re)boot the computer.<br /><br />
 
 The Live DVD/USB provides two different installation modes, you can install directly from the boot menu, or you can boot the system and install from the desktop while the system is running, by clicking on the install icon on the desktop. There is only a visual difference between the two modes of installation. It's recommended to try booting the live system  before installing to see if your hardware components are supported.<br /><br />
 
-<div class="os3">Language and License</div>
+### Language and License
+
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/live/live-welcome.png" rel="thumbnail"><img src="images/installation/live/live-welcomeb.png" alt="live-welcome" class="pic" /></a></td>
@@ -196,8 +195,8 @@ The Live DVD/USB provides two different installation modes, you can install dire
 	</tr>
 	</table><br />
 
+### Clock and Time Zone
 
-<div class="os3">Clock and Time Zone</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/live/live-time.png" rel="thumbnail"><img src="images/installation/live/live-timeb.png" alt="live-time" class="pic" /></a></td>
@@ -205,8 +204,8 @@ The Live DVD/USB provides two different installation modes, you can install dire
 	</tr>
 </table><br />
 
+### Partitioning
 
-<div class="os3">Partitioning</div>
 	<table>
 	<tr>
 	<td width="205" valign="top"><a href="images/installation/live/live-partition.png" rel="thumbnail"><img src="images/installation/live/live-partitionb.png" alt="live-partition" class="pic" /></a></td>
@@ -218,8 +217,8 @@ The Live DVD/USB provides two different installation modes, you can install dire
 	</tr>
 </table><br />
 
+### Create New User
 
-<div class="os3">Create New User</div>
 <table>
 	<tr>
 	    <td width="205" valign="top"><a href="images/installation/live/live-user.png" rel="thumbnail"><img src="images/installation/live/live-userb.png" alt="live-user" class="pic" /></a></td>
@@ -229,8 +228,8 @@ The Live DVD/USB provides two different installation modes, you can install dire
 	</tr>
 </table><br />
 
+### Installation Settings
 
-<div class="os3">Installation Settings</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/live/live-settings.png" rel="thumbnail"><img src="images/installation/live/live-settingsb.png" alt="live-settings" class="pic" /></a></td>
@@ -238,8 +237,8 @@ The Live DVD/USB provides two different installation modes, you can install dire
 	</tr>
 </table><br />
 
+### Actual Installation
 
-<div class="os3">Actual Installation</div>
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/live/live-installation.png" rel="thumbnail"><img src="images/installation/live/live-installationb.png" alt="live-installation" class="pic" /></a></td>
@@ -247,8 +246,8 @@ The Live DVD/USB provides two different installation modes, you can install dire
 	</tr>
 </table><br />
 
+### Automatic Configuration
 
-<div class="os3">Automatic Configuration</div>
 <table>
 	<tr>
 	    <td width="205" valign="top"><a href="images/installation/live/live-done.png" rel="thumbnail"><img src="images/installation/live/live-doneb.png" alt="live-done" class="pic" /></a></td>
@@ -262,4 +261,3 @@ The Live DVD/USB provides two different installation modes, you can install dire
 	</tr>
 </table><br />
 -->
-

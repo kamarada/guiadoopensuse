@@ -4,14 +4,15 @@ title: 13. Multimedia Codecs - Install Support For MP3, DVD, WMA, WMV, MOV etc.
 permalink: /codecs/
 ---
 
-<div class="os1">13. Multimedia Codecs</div>
+# 13. Multimedia Codecs
+
 This chapter describes three different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with Dragon (video) and Amarok (audio). You can use manual installation with graphical software or use the command line - whichever method you prefer.<br /><br />
 
 By default only free, open, non-patent encumbered formats such as Ogg Theora, Ogg Vorbis and Flac are supported for legal reasons (US software patents and Digital Millennium Copyright Act (DMCA)).<br /><br />
 
 
 <!--
-<div class="os2">13.1 Codec Installation with 1-Click</div>
+## 13.1 Codec Installation with 1-Click
 
 Temporarily not available for technical reasons.<br /><br /><br />
 
@@ -35,8 +36,7 @@ Note, if you get a warning dialog like this don't panic! Simply select the prope
 <center><a href="images/screenshots/conflict.png" rel="thumbnail"><img src="images/screenshots/conflictb.png" alt="conflict" class="pic" /></a></center><br />
 -->
 
-
-<div class="os2">13.1 Codec Installation with YaST Software Management</div>
+## 13.1 Codec Installation with YaST Software Management
 
 1) First add/enable the repositories with YaST Software Repositories:<br />
 
@@ -120,7 +120,8 @@ Then install the following packages with YaST Software Management:<br />
 </ul>
 -->
 
-<div class="os2">13.2 Codec Installation in the Terminal</div>
+## 13.2 Codec Installation in the Terminal
+
 To install codecs using the terminal instead, do these steps:<br /><br />
 
 <div class="tip">

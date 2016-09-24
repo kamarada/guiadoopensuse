@@ -4,10 +4,12 @@ title: 3. Getting openSUSE - Howto Download or Buy openSUSE
 permalink: /acquisition/
 ---
 
-<div class="os1">3. Getting openSUSE</div>
+# 3. Getting openSUSE
+
 Here are some of the ways of acquiring openSUSE.<br /><br />
 
-<div class="os2">3.1 Download It</div>
+## 3.1 Download It
+
 You can download openSUSE free of charge. Just go to:<br />
 <a href="http://software.opensuse.org/" target="_blank">http://software.opensuse.org/</a><br /><br />
 
@@ -16,7 +18,8 @@ The full DVD (4.7 GB) provides the most smooth and complete experience, because 
 There's also a live DVD/USB available. It is useful for trying openSUSE live (i.e. running only from DVD/USB stick and RAM) on your hardware before installing anything. However the live DVD/USB image isn't thoroughly tested and doesn't include all base install packages and localization, thus these packages need to be installed later, which will happen automatically on the first run of YaST Software Management.<br /><br />
 
 
-<div class="os2">3.2 Buy Cheap Unofficial Media</div>
+## 3.2 Buy Cheap Unofficial Media
+
 There are many webshops that offer to sell unofficial media (DVD, USB-stick) with openSUSE very cheap. This is of course absolutely legal, as we're dealing with free software.<br /><br />
 
 This saves you the trouble of downloading and burning the media yourself, and the subsequent risk of errors. See for example:<br />
@@ -30,7 +33,8 @@ This saves you the trouble of downloading and burning the media yourself, and th
 <center><div class="billedtekst">The Linuxpusher.com unofficial openSUSE DVD</div></center><br />
 -->
 
-<div class="os2">3.3 Buy a Box Set</div>
+## 3.3 Buy a Box Set
+
 There are companies selling openSUSE in a (German language) box with support, and additional goodies included, see:<br />
 <a href="http://en.opensuse.org/Buy_openSUSE" target="_blank">http://en.opensuse.org/Buy_openSUSE</a><br /><br />
 
@@ -40,7 +44,8 @@ There are companies selling openSUSE in a (German language) box with support, an
 
 
 
-<div class="os2">3.4 The Source Code</div>
+## 3.4 The Source Code
+
 You can find the source code for all the free packages in openSUSE here, in the form of source RPM files:<br />
 <a href="http://download.opensuse.org/source/distribution/leap/42.1/repo/oss/suse/src/" target="_blank">http://download.opensuse.org/source/distribution/leap/42.1/repo/oss/suse/src/</a>
 

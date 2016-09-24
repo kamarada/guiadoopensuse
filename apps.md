@@ -4,7 +4,8 @@ title: 6. Apps for Common Tasks - Applications to Perform the Most Common Tasks
 permalink: /apps/
 ---
 
-<div class="os1">6. Apps for Common Tasks</div>
+# 6. Apps for Common Tasks
+
 Here's a list of applications used to perform common tasks, they're all installed by default and are all high quality, but naturally you can replace them with alternatives if you wish.<br /><br />
 
 <div class="tip">
@@ -22,7 +23,8 @@ You can find more replacements for your familiar applications here:<br />
 <a href="http://en.opensuse.org/Application_equivalents" target="_blank">http://en.opensuse.org/Application_equivalents</a><br /><br />
 
 
-<div class="os2">6.1 Surf the Web with Firefox</div>
+## 6.1 Surf the Web with Firefox
+
 Mozilla Firefox is the default web browser. It's one of the world's leading web browsers.<br /><br />
 
 
@@ -30,7 +32,8 @@ Mozilla Firefox is the default web browser. It's one of the world's leading web 
 
 Alternatives to consider: Rekonq, Opera, Chromium, Konqueror<br /><br />
 
-<div class="os2">6.2 Office Productivity with LibreOffice</div>
+## 6.2 Office Productivity with LibreOffice
+
 LibreOffice is a complete office suite with word processing, spreadsheets, presentation, drawing and more. It's very compatible with Microsoft Office.<br /><br />
 
 
@@ -38,7 +41,8 @@ LibreOffice is a complete office suite with word processing, spreadsheets, prese
 
 Alternatives to consider: Calligra, Abiword, Gnumeric<br /><br />
 
-<div class="os2">6.3 Listen to Music with Amarok</div>
+## 6.3 Listen to Music with Amarok
+
 Amarok is a feature rich music player that handles your music, podcasts, portable music player or iPod etc. Read about codec installation in a later chapter.<br /><br />
 
 
@@ -46,7 +50,8 @@ Amarok is a feature rich music player that handles your music, podcasts, portabl
 
 Alternatives to consider: Clementine, JuK, Qmmp<br /><br />
 
-<div class="os2">6.4 Watch Video with Dragon Player</div>
+## 6.4 Watch Video with Dragon Player
+
 Dragon Player plays videos and DVDs. Read about codec installation in a later chapter.<br /><br />
 
 
@@ -55,7 +60,8 @@ Dragon Player plays videos and DVDs. Read about codec installation in a later ch
 Alternatives to consider: VLC, SMPlayer, mpv, UMPlayer<br /><br />
 
 
-<div class="os2">6.5 Image Editing with GIMP</div>
+## 6.5 Image Editing with GIMP
+
 GIMP (GNU Image Manipulation Program) is a very powerful image editing application.<br /><br />
 
 
@@ -75,7 +81,8 @@ GIMP (GNU Image Manipulation Program) is a very powerful image editing applicati
 
 Alternatives to consider: Gwenview (only very basic editing)<br /><br />
 
-<div class="os2">6.6 E-mail, Calendar, News feeds and more with Kontact</div>
+## 6.6 E-mail, Calendar, News feeds and more with Kontact
+
 Kontact is a fullblown PIM (personal information management) suite, combining e-mail, calendar, news feeds, addressbook and more in one place. Each of the Kontact components (KMail, KOrganizer, Akregator etc.) can also be used as standalone applications.<br /><br />
 
 <center><a href="images/screenshots/kontact.png" rel="thumbnail"><img src="images/screenshots/kontactb.png" alt="kontact" class="pic" /></a></center><br />
@@ -87,7 +94,8 @@ Alternatives to consider: Mozilla Thunderbird<br /><br />
 
 
 <!--
-<div class="os2">6.6 Instant Messaging with Kopete</div>
+## 6.6 Instant Messaging with Kopete
+
 Kopete is a multi-protocol instant messenger, it supports Windows Messenger, Jabber/Google Talk, ICQ, Yahoo, Facebook and other chat protocols all within one application.<br /><br />
 
 <center><a href="images/screenshots/kopete.png" rel="thumbnail"><img src="images/screenshots/kopeteb.png" alt="kopete" class="pic" /></a></center><br />
@@ -97,7 +105,8 @@ Alternatives to consider: KMess, Amsn, Pidgin<br /><br />
 
 
 <!--
-<div class="os2">6.8 CD and DVD Burning with K3B</div>
+## 6.8 CD and DVD Burning with K3B
+
 K3b is a great application for various tasks related to CDs and DVDs.<br /><br />
 
 
