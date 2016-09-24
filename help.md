@@ -120,13 +120,3 @@ If you really want to get deep knowledge of GNU/Linux on a serious level, consid
 <a href="http://tldp.org/" target="_blank">http://tldp.org/</a><br />
 <a href="http://en.flossmanuals.net" target="_blank">http://en.flossmanuals.net</a><br />
 <a href="http://www.freetechbooks.com/" target="_blank">http://www.freetechbooks.com/</a><br /><br />
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="wlan.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="games.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>

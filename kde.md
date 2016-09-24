@@ -119,13 +119,3 @@ You can disable or enable other/more effects in Systemsettings.<br /><br />
 <center><a href="images/screenshots/effects.png" rel="thumbnail"><img src="images/screenshots/effectsb.png" alt="effects" class="pic" /></a></center><br />
 
 The keyboard shortcut to temporarily toggle desktop effects on/off is <i>Alt+Shift+F12</i>.<br /><br />
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="installation.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="apps.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>

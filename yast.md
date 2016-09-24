@@ -60,14 +60,3 @@ Simply run <i>yast</i> as root in a terminal.<br />
 
 
 Navigate using arrow keys, Enter and Alt+[highlighted letters] (e.g. Alt+Q to quit).<br /><br />
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="command.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="installpackage.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>

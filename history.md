@@ -184,15 +184,3 @@ However there are also many, many people working on free software in their spare
 Many people still perceive GNU/Linux as a small hobbyist operating system - and the marketshare on standard desktop PCs is quite small of course. Nevertheless a marketshare of about one percent, still adds up to millions and millions of people worldwide. No truly reliable measure of the marketshare or total number of users is possible, for something which is usually freely redistributable.<br /><br />
 
 However GNU/Linux is very widespread in other areas. A very large share of web servers and other servers run GNU/Linux. Facebook, Google and Yahoo build their entire infrastructures on GNU/Linux. GNU/Linux has been used everywhere from Antarctica to NASA using it in outer space. GNU/Linux is the preferred operating system for most of the world's <a href="http://www.top500.org/stats" target="_blank">super computers</a>. And GNU/Linux is used <a href="http://linuxdevices.com/" target="_blank">embedded in devices</a> where people often don't even know it's there, such as mobile phones, TVs, e-book-readers, PDAs, routers, hard disk recorders, NAS devices, and more.<br /><br />
-
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="tweaks.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="contribute.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>

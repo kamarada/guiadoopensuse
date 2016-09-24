@@ -111,12 +111,3 @@ Many of the KDE applications (see later chapters), are also available for MS Win
 - [http://mac.kde.org](http://mac.kde.org)
 
 On Mac OSX you can additionally install KDE applications and lots and lots of other free software via the [MacPorts Project](http://www.macports.org/) or [Fink Project](http://www.finkproject.org/).
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="index.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="acquisition.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>

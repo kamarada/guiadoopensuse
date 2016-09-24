@@ -135,15 +135,3 @@ Development of free software also needs money and you can help by donating money
 <a href="http://jointhegame.kde.org/" target="_blank">http://jointhegame.kde.org/</a><br />
 <a href="http://www.fsf.org/associate/" target="_blank">http://www.fsf.org/associate/</a><br />
 <a href="http://fellowship.fsfe.org/" target="_blank">http://fellowship.fsfe.org/</a><br /><br />
-
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="history.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="license.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>

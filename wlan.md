@@ -47,16 +47,3 @@ If your chipset manufacturer is not mentioned above, search the web for <i>opens
 There's a software repository with drivers for e.g. Ralink and Realtek wireless chips. You can add it with this command:
 <div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/driver:/wireless/openSUSE_12.3 wireless</div><br />
 -->
-
-
-
-
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="3d.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="help.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>

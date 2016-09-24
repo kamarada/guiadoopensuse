@@ -103,12 +103,3 @@ K3b is a great application for various tasks related to CDs and DVDs.<br /><br /
 
 <center><a href="images/screenshots/k3b.png" rel="thumbnail"><img src="images/screenshots/k3bb.png" alt="k3b" class="pic" /></a></center><br />
 -->
-
-<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-	<tbody>
-	<tr>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="kde.php"><img class="pic" style="width: 32px; height: 32px;" alt="prev" src="images/pics/prev.png" /></a></div></td>
-		<td style="width: 50%;"><div style="text-align: center;"><a href="security.php"><img class="pic" style="width: 32px; height: 32px;" alt="next" src="images/pics/next.png" /></a></div></td>
-	</tr>
-</tbody>
-</table>
