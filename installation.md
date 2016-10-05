@@ -14,12 +14,10 @@ Before starting there are a few things you should be aware of.
 
 ### 4.1.1 System Minimum Requirements
 
-<ul>
-    <li><b>CPU:</b> AMD64 or Intel64 processor</li>
-    <li><b>RAM:</b> 1 GB physical RAM (2 GB recommended)</li>
-    <li><b>Disk Space:</b> 5,0 GB for a normal installation (more recommended)</li>
-    <li><b>Sound and Graphics Card:</b> Most modern cards are supported</li>
-    </ul>
+- **CPU:** AMD64 or Intel64 processor
+- **RAM:** 1 GB physical RAM (2 GB recommended)
+- **Disk Space:** 5,0 GB for a normal installation (more recommended)
+- **Sound and Graphics Card:** Most modern cards are supported
     
 ### 4.1.2a Burning the ISOs to a DVD
 
@@ -29,11 +27,9 @@ When you burn the downloaded ISO files to a DVD it's important to remember to bu
 
 The ISO can also be put on an USB stick, see instructions for this on these pages depending on which operating systems you have available:
 
-<ul>
-<li> openSUSE or other Linux: <a href="http://en.opensuse.org/SDB:Live_USB_stick" target="_blank">http://en.opensuse.org/SDB:Live_USB_stick</a></li>
-<li> Microsoft Windows: <a href="https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows" target="_blank">https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows</a></li>
-<li> Mac OSX: <a href="https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x" target="_blank">https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x</a></li>
-</ul>
+- openSUSE or other Linux: [http://en.opensuse.org/SDB:Live_USB_stick](http://en.opensuse.org/SDB:Live_USB_stick)
+- Microsoft Windows: [https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows](https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows)
+- Mac OSX: [https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x](https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x)
 
 ### 4.1.3 BIOS Setup
 

@@ -14,39 +14,21 @@ One of the reasons GNU/Linux is very secure is that you normally don't work with
 
 You'll be asked for the root password when installing packages or performing other administrative tasks outside of your /home/ folder. Unless you unchecked the checkbox during installation the root user has the same password as your normal user.
 
-<div class="obs">
-<table>
-<tbody>
-<tr>
-<td><img src="{{ site.baseurl | append: '/images/pics/obs.png' | replace: '//', '/' }}" alt="obs" /></td>
-<td>Only work as root when it's required.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include obs.html obs="Only work as root when it's required." %}
 
 ### 7.1.1 Super User File Manager
 
 To work graphically with system files that require root permissions you can launch the Dolphin file manager in super user mode.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/super-dolph.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/super-dolphb.png' | replace: '//', '/' }}" alt="super user dolphin" class="pic" /></a></center>
+{% include screenshot.html image="super-user-dolphin" %}
 
 ### 7.1.2 Working as Root User in the Terminal
 
 The following command is used to switch to the root user in a terminal:
 
-<div class="cl">su -</div>
+<div class="cl">su -</div><p></p>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
-<td>Nothing will appear on the screen while you type your password. This is intended.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Nothing will appear on the screen while you type your password. This is intended." %}
 
 To stop working as root, enter the following command:
 
@@ -62,7 +44,7 @@ You can read more about using the terminal in the next chapter.
 
 When new updates are available you'll be notified by the update applet running in the system tray area.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/pk-updater.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/pk-updaterb.png' | replace: '//', '/' }}" alt="pk-updater" class="pic" /></a></center>
+{% include screenshot.html image="pk-updater" %}
 
 ### 7.2.1 Installing Updates in the Terminal
 

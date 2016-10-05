@@ -10,24 +10,15 @@ Almost anything can be done graphically on a modern GNU/Linux distribution like 
 
 There are thousands of commands you can run, each with a number of different options. So this chapter is just a small teaser describing the most common commands.
 
-You'll find <i>Konsole</i> under System in the launch menu.
+You'll find *Konsole* under System in the launch menu.
 
-<center><video src="video/konsole.ogv" controls>  
-
-<center><a href="{{ site.baseurl | append: '/images/screenshots/konsole.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/konsoleb.png' | replace: '//', '/' }}" alt="konsole" class="pic" /></a></center>
-
-<b>Your web browser does not support the HTML5 video element and/or Ogg Theora format.
-
-Try Firefox, Konqueror or Opera.</b>
-
-<a href="video/konsole.ogv">Download video for local viewing (4.3 MB)</a>
-</video></center>  
+{% include video.html video="konsole" screenshot="konsole" size="4.3 MB" %}
 
 Using the command line is quite easy. Simply enter a command and possibly one or more options and one or more arguments and then press Enter. Example:
 
 <div class="cl">ls -l /home/[username]/ </div>
 
-The <i>command</i> <b>ls</b> displays a list of files, the <i>option</i> <b>-l</b> means that the list will be displayed in a long listing format, and the <i>argument</i> <b>/home/[username]/</b> sets the directory of which the contents are listed.
+The *command* **ls** displays a list of files, the *option* **-l** means that the list will be displayed in a long listing format, and the *argument* **/home/[username]/** sets the directory of which the contents are listed.
 
 ## 8.1 Useful Shortcuts
 
@@ -47,16 +38,7 @@ This shortcut stops any operation you may have started.
 
 This is just a very small selection of commands to give you an idea of how things work.
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
-<td>Commands written in <u>red</u> need to be ran as root.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Commands written in _red_ need to be ran as root." %}
 
 ### 8.2.1 File Management
 
@@ -86,7 +68,7 @@ Moving or renaming a file
 
 ### 8.2.2 System Monitoring
 
-Running processes and consumpition of system resources. Press <b>'Q'</b> to exit.
+Running processes and consumpition of system resources. Press **'Q'** to exit.
 
 <div class="cl">top </div>
 
@@ -118,9 +100,9 @@ Almost all commands have an accompanying manual page describing how to use the c
 
 <div class="cl">man cp</div>
 
-To leave the man page again press <b>'Q'</b>
+To leave the man page again press **'Q'**
 
-If a command does not have a man page, try <i>--help</i> instead, example:
+If a command does not have a man page, try *--help* instead, example:
 
 <div class="cl">cp --help</div>
 
@@ -138,17 +120,9 @@ To stop working as root and return to working as your normal user, run <i>exit</
 
 To run a single command as root use:
 
-<div class="cl">su -c "[command]"</div><br />
-<div class="obs">
-<table>
-<tbody>
-<tr>
-<td><img src="{{ site.baseurl | append: '/images/pics/obs.png' | replace: '//', '/' }}" alt="obs" /></td>
-<td>Do not work as root unless it's required.</td>
-</tr>
-</tbody>
-</table>
-</div>
+<div class="cl">su -c "[command]"</div><p></p>
+
+{% include obs.html obs="Do not work as root unless it's required." %}
 
 ### 8.2.6 System Tasks
 
@@ -213,27 +187,18 @@ List USB devices:
 
 Editing configuration files or other text files can be done like this using the vim editor.
 
-Open a file with <i>vim /path/to/file</i>. Example:
+Open a file with *vim /path/to/file*>. Example:
 
-<div class="clroot">vim /etc/sysconfig/yast2</div>
+<div class="clroot">vim /etc/sysconfig/yast2</div><p></p>
 
-<div class="obs">
-<table>
-<tbody>
-<tr>
-<td><img src="{{ site.baseurl | append: '/images/pics/obs.png' | replace: '//', '/' }}" alt="obs" /></td>
-<td>Root permissions are used in the example because <i>yast2</i> is a system configuration file - this is not generally required to edit files with vim.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include obs.html obs="Root permissions are used in the example because *yast2* is a system configuration file - this is not generally required to edit files with vim." %}
 
-Press <b>i</b> to enter insert mode (you will see "-- INSERT --" at the bottom). Now you can edit the text in the file. When you're done editing press <b>Esc</b> to leave insert mode and return to command mode. Now type <b>:x</b> which is the command for exit and save. To quit without saving any changes use <b>:q!</b>.
+Press **i** to enter insert mode (you will see "-- INSERT --" at the bottom). Now you can edit the text in the file. When you're done editing press **Esc** to leave insert mode and return to command mode. Now type **:x** which is the command for exit and save. To quit without saving any changes use **:q!**.
 
 ## 8.4 Further reading
 
 If you want to learn more about using the terminal there are many resources available on the internet, here are a couple of links.
 
-<a href="http://linuxcommand.org/" target="_blank">http://linuxcommand.org/</a>
+[http://linuxcommand.org/](http://linuxcommand.org/)
 
-<a href="http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html" target="_blank">http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html</a>
+[http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html](http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html)

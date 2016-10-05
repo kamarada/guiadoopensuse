@@ -13,25 +13,25 @@ The KDE Plasma workspace is one of the first things you'll see when you boot ope
 The desktop is not very different from other desktop environments you may be familiar with - you have a panel on the bottom, a launch menu which is opened in the lower left corner.
 
 However, a few things differ significantly from most other desktop environments:
-<ul>
-<li>KDE uses <i>single click</i> to open and launch things by default</li>
-<li>The content of the <i>~/Desktop/</i> folder is not scattered all over the desktop itself, but is instead organized inside a widget called Folder View</li>
-<li>By default the applications you have running when you shutdown will be started again in the next session</li>
-</ul>
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/desktop.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/desktopb.png' | replace: '//', '/' }}" alt="desktop" class="pic" /></a></center>
+- KDE uses *single click* to open and launch things by default
+- The content of the * ~/Desktop/* folder is not scattered all over the desktop itself, but is instead organized inside a widget called Folder View
+- By default the applications you have running when you shutdown will be started again in the next session
+
+{% include screenshot.html image="desktop" %}
 
 ### 5.1.1 The Launch Menu
 
 The launch menu is opened by clicking the icon in the bottom left corner of the screen or pressing Alt+F1. On the bottom there's a search box and at the top left are your favourite applications. You can add and remove applications from favourites by right clicking them.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/launchmenu.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/launchmenub.png' | replace: '//', '/' }}" alt="launchmenuç" class="pic" /></a></center>
+{% include screenshot.html image="launchmenu" %}
 
 You can edit menu entries or add new ones like this:
 
 <div class="sti">Right click the menu icon =&gt; Menu Editor</div>
 
 To add a shortcut for an application on the desktop or in the panel you can do this (requires widgets to be unlocked):
+
 <div class="sti">Find the application in the menu => Right click the entry => Click "Add to panel" or "Add to desktop"</div>
 
 ### 5.1.2 Widgets
@@ -46,9 +46,9 @@ It's very useful to keep the widgets locked when you are not configuring your de
 
 To add widgets:
 
-<div class="sti">Right click the desktop => Add widgets</div>
+<div class="sti">Right click the desktop => Add widgets</div><p></p>
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/widgets.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/widgetsb.png' | replace: '//', '/' }}" alt="widgets" class="pic" /></a></center>
+{% include screenshot.html image="widgets" %}
 
 To add widgets to the panel, drag them from widget browser to the panel.
 
@@ -60,7 +60,7 @@ To avoid your desktop getting cluttered with windows you can use virtual desktop
 
 <center><img src="{{ site.baseurl | append: '/images/screenshots/pager.png' | replace: '//', '/' }}" alt="pager" class="pic" /></center>
 
-You can also use the desktop grid effect to get a big overview of your virtual desktops, try pressing <i>Ctrl+F8</i> (requires desktop effects support, see the paragraph on this topic below).
+You can also use the desktop grid effect to get a big overview of your virtual desktops, try pressing *Ctrl+F8* (requires desktop effects support, see the paragraph on this topic below).
 
 <!--
 ### 5.1.4 Activities
@@ -78,39 +78,30 @@ The Activity Manager lets you create activities and switch between them. Additio
 
 The default file manager is Dolphin.You can find it as one of the favourites in the launch menu or in the "System" category. It should be very intuitive. USB sticks and other removable media will automatically appear in the left pane of Dolphin.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/dolphin.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/dolphinb.png' | replace: '//', '/' }}" alt="dolphin" class="pic" /></a></center>
+{% include screenshot.html image="dolphin" %}
 
 ## 5.3 KDE Systemsettings
 
 The global KDE settings are gathered conveniently in one place. Here you can configure almost anything related to the KDE workspace including mouse behaviour, default applications, file associations etc. You can also find Systemsettings as one of the favourites in the launch menu.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/systemsettings.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/systemsettingsb.png' | replace: '//', '/' }}" alt="systemsettings" class="pic" /></a></center>
+{% include screenshot.html image="systemsettings" %}<p></p>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
-<td>Don't confuse the KDE control center used for personal configuration of the KDE Workspace and KDE applications with the YaST control center used for administrator settings on a deeper level of the system (See later chapter about YaST).</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="Don't confuse the KDE control center used for personal configuration of the KDE Workspace and KDE applications with the YaST control center used for administrator settings on a deeper level of the system (See later chapter about YaST)." %}
 
 ## 5.4 System Activity / Task List
 
-Naturally KDE also has a tool to watch running processes and usage of system ressources. Simply press <i>Ctrl+Esc</i> to bring up the system activity window.
+Naturally KDE also has a tool to watch running processes and usage of system ressources. Simply press *Ctrl+Esc* to bring up the system activity window.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/systemactivity.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/systemactivityb.png' | replace: '//', '/' }}" alt="systemactivity" class="pic" /></a></center>
+{% include screenshot.html image="systemactivity" %}
 
-For an advanced and customizable system monitor, including network graphs etc. run the program <i>ksysguard</i>
+For an advanced and customizable system monitor, including network graphs etc. run the program *ksysguard*
 
 ## 5.5 Desktop Effects
 
-The KDE window manager has built-in support for 3D desktop effects. A basic, unobtrusive selection of effects will be enabled out of the box if you have the proper hardware and driver support in place. Try pressing <i>Ctrl+F8</i> or <i>Ctrl+F9</i> for example.
+The KDE window manager has built-in support for 3D desktop effects. A basic, unobtrusive selection of effects will be enabled out of the box if you have the proper hardware and driver support in place. Try pressing *Ctrl+F8* or *Ctrl+F9* for example.
 
 You can disable or enable other/more effects in Systemsettings.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/effects.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/effectsb.png' | replace: '//', '/' }}" alt="effects" class="pic" /></a></center>
+{% include screenshot.html image="effects" %}
 
-The keyboard shortcut to temporarily toggle desktop effects on/off is <i>Alt+Shift+F12</i>.
+The keyboard shortcut to temporarily toggle desktop effects on/off is *Alt+Shift+F12*.

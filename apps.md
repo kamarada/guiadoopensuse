@@ -8,26 +8,17 @@ permalink: /apps/
 
 Here's a list of applications used to perform common tasks, they're all installed by default and are all high quality, but naturally you can replace them with alternatives if you wish.
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
-<td>All the alternatives mentioned below will be available for easy installation with the <a href="installpackage.php">package manager</a>, if the recommended <a href="repositories.php">software repositories</a> are added (see later chapters).</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="All the alternatives mentioned below will be available for easy installation with the [package manager](installpackage.php), if the recommended [software repositories](repositories.php) are added (see later chapters)." %}
 
 You can find more replacements for your familiar applications here:
 
-<a href="http://en.opensuse.org/Application_equivalents" target="_blank">http://en.opensuse.org/Application_equivalents</a>
+[http://en.opensuse.org/Application_equivalents](http://en.opensuse.org/Application_equivalents)
 
 ## 6.1 Surf the Web with Firefox
 
 Mozilla Firefox is the default web browser. It's one of the world's leading web browsers.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/firefox.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/firefoxb.png' | replace: '//', '/' }}" alt="firefox" class="pic" /></a></center>
+{% include screenshot.html image="firefox" %}
 
 Alternatives to consider: Rekonq, Opera, Chromium, Konqueror
 
@@ -35,7 +26,7 @@ Alternatives to consider: Rekonq, Opera, Chromium, Konqueror
 
 LibreOffice is a complete office suite with word processing, spreadsheets, presentation, drawing and more. It's very compatible with Microsoft Office.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/lowriter.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/lowriterb.png' | replace: '//', '/' }}" alt="libreoffice" class="pic" /></a></center>
+{% include screenshot.html image="libreoffice" %}
 
 Alternatives to consider: Calligra, Abiword, Gnumeric
 
@@ -43,7 +34,7 @@ Alternatives to consider: Calligra, Abiword, Gnumeric
 
 Amarok is a feature rich music player that handles your music, podcasts, portable music player or iPod etc. Read about codec installation in a later chapter.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/amarok.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/amarokb.png' | replace: '//', '/' }}" alt="amarok" class="pic" /></a></center>
+{% include screenshot.html image="amarok" %}
 
 Alternatives to consider: Clementine, JuK, Qmmp
 
@@ -51,7 +42,7 @@ Alternatives to consider: Clementine, JuK, Qmmp
 
 Dragon Player plays videos and DVDs. Read about codec installation in a later chapter.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/dragon.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/dragonb.png' | replace: '//', '/' }}" alt="vlc" class="pic" /></a></center>
+{% include screenshot.html image="dragon" %}
 
 Alternatives to consider: VLC, SMPlayer, mpv, UMPlayer
 
@@ -59,18 +50,9 @@ Alternatives to consider: VLC, SMPlayer, mpv, UMPlayer
 
 GIMP (GNU Image Manipulation Program) is a very powerful image editing application.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/gimp.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/gimpb.png' | replace: '//', '/' }}" alt="gimp" class="pic" /></a></center>
+{% include screenshot.html image="gimp" %}<p></p>
 
-<div class="tip">
-<table>
-<tbody>
-<tr>
-<td><img src="{{ site.baseurl | append: '/images/pics/tip.png' | replace: '//', '/' }}" alt="tip" /></td>
-<td>GIMP can work as a single window, simply click 'Windows' in the menu and check the option 'Single-Window Mode'.</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include tip.html tip="GIMP can work as a single window, simply click 'Windows' in the menu and check the option 'Single-Window Mode'." %}
 
 Alternatives to consider: Gwenview (only very basic editing)
 
@@ -78,7 +60,7 @@ Alternatives to consider: Gwenview (only very basic editing)
 
 Kontact is a fullblown PIM (personal information management) suite, combining e-mail, calendar, news feeds, addressbook and more in one place. Each of the Kontact components (KMail, KOrganizer, Akregator etc.) can also be used as standalone applications.
 
-<center><a href="{{ site.baseurl | append: '/images/screenshots/kontact.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/kontactb.png' | replace: '//', '/' }}" alt="kontact" class="pic" /></a></center>
+{% include screenshot.html image="kontact" %}
 
 Alternatives to consider: Mozilla Thunderbird
 
