@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1. Introduction - Beginner's Guide to openSUSE Leap 42.1 / SUSE Linux
+title: 1. Introduction - Beginner's Guide to openSUSE Leap 15.0 / SUSE Linux
 ---
 
 # 1. Introduction
@@ -15,7 +15,7 @@ Have a lot of fun!
 
 ## 1.1 About openSUSE Leap
 
-openSUSE Leap is a PC operating system based on GNU and Linux. It's a free/open source and gratis alternative to e.g. Microsoft Windows with many advantages. openSUSE Leap is suitable for laptops, desktops, netbooks, servers and multimedia center PCs at home or in small offices.
+openSUSE Leap is a PC operating system based on GNU and Linux. It's a free/open source and gratis alternative to e.g. Microsoft Windows with many advantages. openSUSE Leap is suitable for laptops, desktops, netbooks, servers and multimedia center PCs at home or in small offices. You can also run openSUSE on your [ARM](https://en.opensuse.org/Portal:ARM) or [PPC](https://en.opensuse.org/Portal:PowerPC) computer, but that is not covered by this guide.
 
 openSUSE Leap is among the leading GNU/Linux distributions and is also one of the oldest existing ones. openSUSE Leap uses a core system from SUSE Linux Enterprise but with up-to-date hardware support, desktop environments and graphical applications. Every year a major service pack is released and every 3-4 years there is a major new release where also the core system will be upgraded.
 
@@ -23,7 +23,8 @@ For experienced and adventurous GNU/Linux users who want to take risks with thei
 
 openSUSE Leap is developed openly and transparently by community volunteers working together with SUSE employees.
 
-## 1.2 This Guide in Other Languages (Derivative Works)
+## 1.2 Translations or Modified Versions
 
-- [Arabic by Sadig Osman](http://dafter.co.nf/wp/)
-- [Spanish by victorhck](https://victorhck.gitlab.io/guia_openSUSE/)
+The sources of this guide are available for everyone on [GitHub](https://github.com/cb400f/opensuse-guide.org/) under the GNU Free Documentation License. This makes it easy to create your own modified or translated version. Current known active derivative versions are:
+
+- [Spanish version by victorhck](https://victorhck.gitlab.io/guia_openSUSE/)
