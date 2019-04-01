@@ -3,7 +3,7 @@
 {% for section in site.data.menu %}
 <div class="content-title">{{ section.title }}</div>
     {% for section_page in section.pages %}
-        {% assign page_url = section_page.link | append: '/' | prepend: '/' | prepend: site.baseurl | replace: '//', '/' %}
+        {% assign page_url = section_page.link | prepend: '/' | prepend: site.baseurl | replace: '//', '/' %}
         <a href="{{ page_url }}" class="content-text">{{ section_page.title }}</a><br />
     {% endfor %}
 {% endfor %}

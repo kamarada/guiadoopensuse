@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 14. Browser Plugins - Install Plugins For Your Web Browser Such As Flash and Java
-permalink: /browserplugins/
+permalink: browserplugins
 ---
 
 # 14. Browser Plugins

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4. Installation - Howto Install openSUSE on Your Computer
-permalink: /installation/
+permalink: installation
 ---
 
 # 4. Installation
@@ -53,7 +53,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/grub.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/grubb.png' | replace: '//', '/' }}" alt="grub" class="pic" /></a></td>
+		{% include installation.html image="grub" %}
 		<td valign="top">You're presented with a menu.<br /><br />
 
 		Here you can select your desired language and a few other options, afterwards begin installation.</td>
@@ -64,7 +64,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-welcome.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-welcomeb.png' | replace: '//', '/' }}" alt="welcome" class="pic" /></a></td>
+		{% include installation.html image="inst-welcome" %}
 		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.<br /><br />
 
 		Check that language and keyboard layout are as desired.</td>
@@ -75,7 +75,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-	  <td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-disk.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-diskb.png' | replace: '//', '/' }}" alt="inst-disk" class="pic" /></a></td>
+		{% include installation.html image="inst-disk" %}
 	  <td valign="top">By default openSUSE will propose to create three new partitions / (root) for system files, /home/ for personal files of users and swap which is used as a supplement for RAM, similar to the page file in MS Windows.<br /><br />
 
 	  Don't worry about all the subvolumes created, these are just technicalities of the Btrfs filesystem, and not "real" partitions, that normal users should need to worry about.<br /><br />
@@ -90,7 +90,7 @@ When you're ready, insert the DVD or USB stick and (re)start the computer.
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-time.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-timeb.png' | replace: '//', '/' }}" alt="inst-time" class="pic" /></a></td>
+		{% include installation.html image="inst-time" %}
 		<td valign="top">Set the timezone here.<br /><br />
 
 If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if you dual boot with MS Windows set it to local time.</td>
@@ -101,7 +101,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-desktop.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-desktopb.png' | replace: '//', '/' }}" alt="inst-desktop" class="pic" /></a></td>
+		{% include installation.html image="inst-desktop" %}
 		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. The KDE Plasma Workspace is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME desktop or a text based server installation.<br /><br />
 
 		Under "Custom" you can manually select different patterns, including lightweight desktop environments Xfce and LXDE.</td>
@@ -112,7 +112,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-	<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-user.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-userb.png' | replace: '//', '/' }}" alt="inst-user" class="pic" /></a></td>
+	{% include installation.html image="inst-user" %}
 	<td valign="top">Now it's time to create your user. Note that by default the root user (administrator) password will be the same as the password for the normal user.<br /><br />
 
 	If you want the added security of a separate root password, consider unchecking that checkbox. You may also want to consider disabling autologin to prevent people from easily accessing your system and data.</td>
@@ -123,7 +123,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-overview.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-overviewb.png' | replace: '//', '/' }}" alt="inst-overview" class="pic" /></a></td>
+		{% include installation.html image="inst-overview" %}
 		<td valign="top">Double check that everything is as desired - this is the point of no return!</td>
 	</tr>
 </table>
@@ -132,7 +132,7 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 
 <table>
 	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-inst.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-instb.png' | replace: '//', '/' }}" alt="inst-inst" class="pic" /></a></td>
+		{% include installation.html image="inst-inst" %}
 		<td valign="top">Now the actual installation is performed. When it's done the system will reboot and be ready to use.<br /><br />
 
 Have a lot of fun with openSUSE!

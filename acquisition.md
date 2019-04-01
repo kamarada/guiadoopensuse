@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3. Getting openSUSE - Howto Download or Buy openSUSE
-permalink: /acquisition/
+permalink: acquisition
 ---
 
 # 3. Getting openSUSE
@@ -32,7 +32,7 @@ There are companies selling openSUSE in a (German language) box with support, an
 
 [http://en.opensuse.org/Buy_openSUSE](http://en.opensuse.org/Buy_openSUSE)
 
-<center><img src="{{ site.baseurl | append: '/images/pics/box.png' | replace: '//', '/' }}" alt="box" /></center>
+{% include pic.html image="box.png" %}
 
 ## 3.4 The Source Code
 

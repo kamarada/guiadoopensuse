@@ -1,14 +1,14 @@
 ---
 layout: default
 title: 6. Apps for Common Tasks - Applications to Perform the Most Common Tasks
-permalink: /apps/
+permalink: apps
 ---
 
 # 6. Apps for Common Tasks
 
 Here's a list of applications used to perform common tasks, they're all installed by default and are all high quality, but naturally you can replace them with alternatives if you wish.
 
-{% include tip.html tip="All the alternatives mentioned below will be available for easy installation with the [package manager](installpackage.php), if the recommended [software repositories](repositories.php) are added (see later chapters)." %}
+{% include tip.html tip="All the alternatives mentioned below will be available for easy installation with the [package manager](installpackage), if the recommended [software repositories](repositories) are added (see later chapters)." %}
 
 You can find more replacements for your familiar applications here:
 
