@@ -28,11 +28,11 @@ Add repositories with care.
 - The risk level of a repository can change over time
 - Too many repositories makes the package manager slower
 {% endcapture %}
-{% include obs.html obs=repositories_obs %}
+{% include note.html obs=repositories_obs %}
 
 The easiest and safest way to add repositories is using the list of online community repositories in YaST. This provides you with a selection of popular and quite safe repositories to choose from:
 
-<div class="sti">YaST => Software => Software Repositories => Click on "Add" => Select "Community Repositories" and click "Next"</div><p></p>
+<div class="path">YaST => Software => Software Repositories => Click on "Add" => Select "Community Repositories" and click "Next"</div><p></p>
 
 {% include video.html video="repos114" screenshot="community-repos" size="1.2 MB" %}
 
@@ -77,23 +77,23 @@ Updating installed packages from one repository to versions from a different rep
 
 If you wish, you can manage your repositories via a terminal too.
 
-Add a repository with auto-refresh enabled *zypper addrepo -f [URL] [Alias]*. Example:
+Add a repository with auto-refresh enabled `zypper addrepo -f [URL] [Alias]`. Example:
 
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.1/ packman</div>
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.0/ packman</div>
 
-Disable a repository *zypper modifyrepo -d [URL|Alias]*. Example:
+Disable a repository `zypper modifyrepo -d [URL|Alias]`. Example:
 
 <div class="clroot">zypper modifyrepo -d Packman</div>
 
-Remove a repository *zypper removerepo [URL|Alias]*. Example:
+Remove a repository `zypper removerepo [URL|Alias]`. Example:
 
-<div class="clroot">zypper removerepo http://packman.inode.at/suse/openSUSE_Leap_42.1/</div>
+<div class="clroot">zypper removerepo http://packman.inode.at/suse/openSUSE_Leap_15.0/</div>
 
 List configured repositories, showing  details (priorities, URL, etc.):
 
 <div class="cl">zypper repos -d</div>
 
-See *man zypper* for more.
+See `man zypper` for more.
 
 <div class="cl">man zypper</div>
 

@@ -43,24 +43,22 @@ The openSUSE project has its own social network where community members can comm
 Of course the openSUSE community is also present on all the major social media:
 
 <a href="https://twitter.com/openSUSE" target="_blank">https://twitter.com/openSUSE</a>
- 
+
 <a href="http://www.facebook.com/pages/openSUSE/45393742283" target="_blank">http://www.facebook.com/pages/openSUSE/45393742283</a>
 
 <a href="https://plus.google.com/110312141834246266844/" target="_blank">https://plus.google.com/110312141834246266844/</a>
 
 <a href="http://www.linkedin.com/groups?home=&amp;gid=61388&amp;trk=anet_ug_hm" target="_blank">http://www.linkedin.com/groups?home=&amp;gid=61388&amp;trk=anet_ug_hm</a>
 
-### E.1.5 Yearly Conference
+### E.1.5 Conferences and events
 
-The openSUSE community meets twice a year for annual openSUSE conferences in Europa and North America respectively. Which is a great opportunity to meet other community members.
+The openSUSE community meets regularly on different continents. This is a great opportunity to meet other community members.
 
-<a href="http://conference.opensuse.org" target="_blank">http://conference.opensuse.org</a>
-
-<a href="http://summit.opensuse.org/" target="_blank">http://summit.opensuse.org/</a>
+<a href="https://events.opensuse.org/" target="_blank">https://events.opensuse.org/</a>
 
 ## E.2 Participating in openSUSE
 
-This is just a brief summary of some of the areas where you can contribute while helping to shape the distribution and having a lot of fun.
+This is just a brief summary of some of the areas where you can contribute while helping to shape the distribution and having a lot of fun.<br /><br />
 
 ### E.2.1 User Support
 
@@ -91,9 +89,13 @@ http://en.opensuse.org/openSUSE:Documentation_team</a>
 
 ### E.2.4 Translation
 
-Translate the openSUSE distribution and/or wiki to your native language.
+Translate the openSUSE distribution and/or wiki to your native language. You can find a web based interface (Weblate) to translate openSUSE specific software here:
 
-<a href="http://i18n.opensuse.org" target="_blank">http://i18n.opensuse.org</a>
+<a href="http://l10n.opensuse.org" target="_blank">http://l10n.opensuse.org</a>
+
+You can see an overview of the existing translation teams here:
+
+<a href="https://en.opensuse.org/OpenSUSE_Localization_Teams" target="_blank">https://en.opensuse.org/OpenSUSE_Localization_Teams</a>
 
 ### E.2.5 Artwork
 
@@ -137,6 +139,8 @@ The availability of as many as possible, high quality binary packages is crucial
 
 <a href="http://en.opensuse.org/openSUSE:How_to_contribute_to_Factory" target="_blank">http://en.opensuse.org/openSUSE:How_to_contribute_to_Factory</a>
 
+<a href="https://en.opensuse.org/openSUSE:How_to_contribute_to_Leap" target="_blank">https://en.opensuse.org/openSUSE:How_to_contribute_to_Leap</a>
+
 <a href="http://en.opensuse.org/openSUSE:Junior_jobs" target="_blank">http://en.opensuse.org/openSUSE:Junior_jobs</a>
 
 You can also contribute to the Packman project - which provides a very important 3rd party repository with particularly multimedia - with packaging and other contributions:
@@ -146,8 +150,6 @@ You can also contribute to the Packman project - which provides a very important
 ### E.2.8 Code
 
 If you're a programmer you can contribute code to fix bugs or add features e.g. in YaST or other components developed by the openSUSE project itself - and of course if you contribute code to upstream projects, openSUSE will benefit from this too - eventually. You can find the source code for various openSUSE components here in publically accessible version control systems:
-
-<a href="http://gitorious.org/opensuse" target="_blank">http://gitorious.org/opensuse</a>
 
 <a href="https://github.com/openSUSE" target="_blank">https://github.com/openSUSE</a>
 
@@ -159,13 +161,7 @@ openSUSE needs fast and reliable mirrors to host ISOs and repositories in all pa
 
 <a href="http://en.opensuse.org/openSUSE:Mirror_infrastructure" target="_blank">http://en.opensuse.org/openSUSE:Mirror_infrastructure</a>
 
-### E.2.10 Respins
-
-Create customized ISO respins and openSUSE derivatives.
-
-<a href="http://susestudio.com" target="_blank">http://susestudio.com</a>
-
-### E.2.11 Funds
+### E.2.10 Funds
 
 Development of free software also needs money and you can help by donating money to your favourite projects or joining some organizations, like e.g.:
 

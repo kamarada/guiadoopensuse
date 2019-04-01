@@ -6,21 +6,19 @@ permalink: /browserplugins/
 
 # 14. Browser Plugins
 
-Many websites require various browser plugins to be installed to function as expected. Here are some plugins that you may want to install.
+Many websites require various browser plugins to be installed to function as expected. Here are some plugins that you may want to install. Only install these plugins if you need them, as they can impact performance and security while browsing the internet.
 
 {% include tip.html tip="If the concepts of *package manager* and *repositories* are foreign to you, revisit the chapters [Installing Software](../installpackage/) and [Software Repositories](../repositories/)." %}
 
 ## 14.1 Adobe Flash
 
-Install the package **flash-plugin**, if you need Flash support for some online videos, games and other things (*Adobe Flash Plugin Repository* is required).
+Install the package **freshplayerplugin**, if you need Flash support for some online videos, games and other things (*Packman Repository* is required).
 
 Installing Flash in the terminal:
 
-<div class="clroot">zypper addrepo -f http://linuxdownload.adobe.com/linux/x86_64/ adobe-flash-plugin</div>
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.0/ packman</div>
 
-<div class="clroot">zypper install flash-plugin</div>
-
-You will get a warning about a missing GPG-key.
+<div class="clroot">zypper install freshplayerplugin</div>
 
 ## 14.2 Java
 
@@ -48,7 +46,7 @@ As you'd expect Microsoft do *not* provide an official plugin for GNU/Linux, but
 
 Netflix will play in the latest Google Chrome Browser, without any need for Microsoft Silverlight.
 
-## 14.5 Google Voice and Video Chat
+## 14.5 Google Hangouts
 
 Google provide voice and video chat with Google services on GNU/Linux with a browser plugin. Download the RPM files for openSUSE here:
 

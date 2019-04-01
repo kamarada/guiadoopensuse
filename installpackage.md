@@ -36,15 +36,15 @@ In these cases you'll need to go to the developer/vendor website and download an
 
 With a bit of luck the developer/vendor website will have an RPM file for openSUSE. To install a single, downloaded RPM file:
 
-<div class="sti">Open the Dolphin file manager =&gt; Navigate to the RPM file =&gt; Click on it and follow the instructions</div><p></p>
+<div class="path">Open the Dolphin file manager =&gt; Navigate to the RPM file =&gt; Right Click it => Open With... => Install/Remove Software</div><p></p>
 
-{% include obs.html obs="Only install RPM files that are built specifically for (your version of) openSUSE." %}
+{% include note.html obs="Only install RPM files that are built specifically for (your version of) openSUSE." %}
 
 ### 10.2.2 Tarball
 
 If the website doesn't have an RPM for openSUSE, it will most likely have a so-called _tarball_. Tarballs (*.tar.gz, *.tar.bz2) are simply compressed archives similar to ZIP and RAR files. To uncompress a tarball:
 
-<div class="sti">Open the Dolphin file manager =&gt; Navigate to the tarball =&gt; Right click =&gt; Extract Archive</div>
+<div class="path">Open the Dolphin file manager =&gt; Navigate to the tarball =&gt; Right click =&gt; Extract Archive</div>
 
 The tarball might contain binaries that just need to be ran, or it might contain source code which needs to be compiled to run on your system - this can be very complicated, and requires you to first install various developer tools. There's no one standard way to install tarball content, but instructions should always be included in the tarball in files called INSTALL, README or similar - or you should be able to find installation instructions on the website where you downloaded the tarball.
 

@@ -18,7 +18,7 @@ Some games are included in the official openSUSE repositories, but the Games rep
 
 Or add the games repository using the command line:
 
-<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_42.1/ games</div>
+<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_15.0/ games</div>
 
 ### B.1.2 Steam Gaming Platform and Store
 
@@ -37,8 +37,6 @@ Linux Game Publishing buy titles and port them to GNU/Linux, see:
 [http://www.linuxgamepublishing.com](http://www.linuxgamepublishing.com)
 
 Lots and lots more of free and non-free games exist - some small and simple, others quite big, and many very good. Check out some of these sites:
-
-[http://happypenguin.org/](http://happypenguin.org/)
 
 [http://www.tuxgames.com/](http://www.tuxgames.com/)
 
@@ -70,7 +68,7 @@ Wine is a command line application, the syntax is:
 
 A second option is CrossOver Games which is an effort based on Wine. See:
 
-[http://www.codeweavers.com/products/cxgames/](http://www.codeweavers.com/products/cxgames/)
+[https://www.codeweavers.com/products/cxgames/](https://www.codeweavers.com/products/cxgames/)
 
 ## B.3 Emulators
 

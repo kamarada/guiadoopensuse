@@ -26,7 +26,7 @@ Now that you know which chipset is on your card, you can start figuring out what
 
 The Linux kernel comes with the [brcm80211 driver](http://linuxwireless.org/en/users/Drivers/brcm80211) by default. This driver supports **bcm4313, bcm43224, bcm43224, bcm43225, bcm4329, bcm4330, bcm4334, bcm43241, bcm43235 (>= rev 3), bcm43236 (>= rev 3), bcm43238 (>= rev 3), bcm43143, bcm43242**.
 
-If you experience problems with the above driver, and you have one of the following chipsets: **bcm4312, bcm4313, bcm4321, bcm4322, bcm43224, bcm43225, bcm43227, bcm43228**, you may want to try installing the proprietary [broadcom-wl driver](http://www.broadcom.com/support/802.11/linux_sta.php) (package: *broadcom-wl*) available in the Packman software repository.
+If you experience problems with the above driver, and you have one of the following chipsets: **bcm4312, bcm4313, bcm4321, bcm4322, bcm43224, bcm43225, bcm43227, bcm43228**, you may want to try installing the proprietary [broadcom-wl driver](https://www.broadcom.com/support/802.11) (package: *broadcom-wl*) available in the Packman software repository.
 
 ## 16.3 Older Broadcom Chipset
 

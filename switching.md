@@ -51,9 +51,9 @@ If you start using applications available for GNU/Linux in your familiar environ
 
 <table width="98%">
 	<tbody><tr>
-		<td class="lillebold">Free software</td>
-		<td class="lillebold"></td>
-		<td class="lillebold">Non-free software</td>
+		<td class="small-bold">Free software</td>
+		<td class="small-bold"></td>
+		<td class="small-bold">Non-free software</td>
 	</tr>
 
 	<tr>
@@ -75,23 +75,22 @@ If you start using applications available for GNU/Linux in your familiar environ
 		<a href="http://www.scribus.net/" target="_blank">Scribus</a> (Desktop Publishing)<br>
 		<a href="http://gnucash.org/" target="_blank">GnuCash</a> (Personal/small business accounting)<br>
 		</td>
-	
 	<td valign="top">
-		<a href="http://www.abisource.com/" target="_blank">Abiword</a> (Simple Word Processor)<br>
-		<a href="http://sourceforge.net/projects/free-cad/" target="_blank">FreeCAD</a> (3D CAD)<br>
-		<a href="http://librecad.org/" target="_blank">LibreCAD</a> (2D CAD)<br>
-		<a href="http://www.blender.org" target="_blank">Blender</a> (3D Animation)<br>
-		<a href="http://calibre-ebook.com/" target="_blank">Calibre</a> (E-book manager)<br>
-		<a href="http://www.videolan.org/" target="_blank">VLC</a> (Media Player)<br>
-		<a href="http://smplayer.sourceforge.net/" target="_blank">SMPlayer</a> (Video Player)<br>
-		<a href="http://www.umplayer.com/" target="_blank">UMPlayer</a> (Video Player)<br>
-		<a href="http://www.clementine-player.org/" target="_blank">Clementine</a> (Audio Player)<br>
-		<a href="http://audacity.sourceforge.net/" target="_blank">Audacity</a> (Audio Editing)<br>
-		<a href="http://lmms.sourceforge.net/" target="_blank">LMMS</a> (Music Creation)<br>
-		<a href="http://kid3.sourceforge.net" target="_blank">Kid3</a> (Music Tagger)<br>
-		<a href="http://edu.kde.org/marble/download.php" target="_blank">Marble</a> (Desktop Globe)<br>
-		<a href="http://gramps-project.org/" target="_blank">Gramps</a> (Genealogical Research/Family Tree)<br>
-		<a href="http://www.stellarium.org/" target="_blank">Stellarium</a> (Planetarium)<br>		
+    <a href="http://www.abisource.com/" target="_blank">Abiword</a> (Simple Word Processor)<br />
+    <a href="http://sourceforge.net/projects/free-cad/" target="_blank">FreeCAD</a> (3D CAD)<br />
+    <a href="http://librecad.org/" target="_blank">LibreCAD</a> (2D CAD)<br />
+    <a href="http://www.blender.org" target="_blank">Blender</a> (3D Animation)<br />
+    <a href="http://calibre-ebook.com/" target="_blank">Calibre</a> (E-book manager)<br />
+    <a href="http://www.videolan.org/" target="_blank">VLC</a> (Media Player)<br />
+    <a href="http://smplayer.sourceforge.net/" target="_blank">SMPlayer</a> (Video Player)<br />
+    <a href="http://www.clementine-player.org/" target="_blank">Clementine</a> (Audio Player)<br />
+    <a href="http://audacity.sourceforge.net/" target="_blank">Audacity</a> (Audio Editing)<br />
+    <a href="http://lmms.sourceforge.net/" target="_blank">LMMS</a> (Music Creation)<br />
+    <a href="http://kid3.sourceforge.net" target="_blank">Kid3</a> (Music Tagger)<br />
+    <a href="http://edu.kde.org/marble/download.php" target="_blank">Marble</a> (Desktop Globe)<br />
+    <a href="http://gramps-project.org/" target="_blank">Gramps</a> (Genealogical Research/Family Tree)<br />
+    <a href="https://edu.kde.org/kstars/#download" target="_blank">KStars</a> (Planetarium)<br />
+    <a href="http://www.stellarium.org/" target="_blank">Stellarium</a> (Planetarium)<br />
 	</td>
 	<td valign="top">
 		<a href="http://opera.com/" target="_blank">Opera</a> (Web Browser)<br>

@@ -20,7 +20,7 @@ Mozilla Firefox is the default web browser. It's one of the world's leading web 
 
 {% include screenshot.html image="firefox" %}
 
-Alternatives to consider: Rekonq, Opera, Chromium, Konqueror
+Alternatives to consider: Opera, Chromium, Falkon, Konqueror
 
 ## 6.2 Office Productivity with LibreOffice
 
@@ -30,23 +30,17 @@ LibreOffice is a complete office suite with word processing, spreadsheets, prese
 
 Alternatives to consider: Calligra, Abiword, Gnumeric
 
-## 6.3 Listen to Music with Amarok
+## 6.3 Play multimedia with VLC or Dragon
 
-Amarok is a feature rich music player that handles your music, podcasts, portable music player or iPod etc. Read about codec installation in a later chapter.
+The default installation includes VLC which plays music and video as well as the Dragon video player.
 
-{% include screenshot.html image="amarok" %}
+{% include screenshot.html image="vlc" %}
 
-Alternatives to consider: Clementine, JuK, Qmmp
+Alternatives to consider for music: Amarok, Elisa, Clementine, JuK, Qmmp
 
-## 6.4 Watch Video with Dragon Player
+Alternatives to consider for video: SMPlayer, mpv, Kaffeine
 
-Dragon Player plays videos and DVDs. Read about codec installation in a later chapter.
-
-{% include screenshot.html image="dragon" %}
-
-Alternatives to consider: VLC, SMPlayer, mpv, UMPlayer
-
-## 6.5 Image Editing with GIMP
+## 6.4 Image Editing with GIMP
 
 GIMP (GNU Image Manipulation Program) is a very powerful image editing application.
 
@@ -54,33 +48,12 @@ GIMP (GNU Image Manipulation Program) is a very powerful image editing applicati
 
 {% include tip.html tip="GIMP can work as a single window, simply click 'Windows' in the menu and check the option 'Single-Window Mode'." %}
 
-Alternatives to consider: Gwenview (only very basic editing)
+Alternatives to consider: Gwenview (only very basic editing), Krita (primarily a paint application)
 
-## 6.6 E-mail, Calendar, News feeds and more with Kontact
+## 6.5 E-mail, Calendar, News feeds and more with Kontact
 
 Kontact is a fullblown PIM (personal information management) suite, combining e-mail, calendar, news feeds, addressbook and more in one place. Each of the Kontact components (KMail, KOrganizer, Akregator etc.) can also be used as standalone applications.
 
 {% include screenshot.html image="kontact" %}
 
-Alternatives to consider: Mozilla Thunderbird
-
-<!--
-## 6.6 Instant Messaging with Kopete
-
-Kopete is a multi-protocol instant messenger, it supports Windows Messenger, Jabber/Google Talk, ICQ, Yahoo, Facebook and other chat protocols all within one application.
-
-<center><a href="{{ site.baseurl | append: '/images/screenshots/kopete.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/kopeteb.png' | replace: '//', '/' }}" alt="kopete" class="pic" /></a></center>
-
-Alternatives to consider: KMess, Amsn, Pidgin
-
--->
-
-
-<!--
-## 6.8 CD and DVD Burning with K3B
-
-K3b is a great application for various tasks related to CDs and DVDs.
-
-<center><a href="{{ site.baseurl | append: '/images/screenshots/k3b.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/screenshots/k3bb.png' | replace: '//', '/' }}" alt="k3b" class="pic" /></a></center>
-
--->
+Alternatives to consider: Mozilla Thunderbird, Trojita (IMAP only), Claws-mail

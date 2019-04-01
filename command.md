@@ -6,7 +6,7 @@ permalink: /command/
 
 # 8. Terminal
 
-Almost anything can be done graphically on a modern GNU/Linux distribution like openSUSE, but to really become a self-reliant user and to truly take advantage of the power of your GNU/Linux operating system, you should at least know a few terminal basics - it's not difficult at all!
+Almost any task can be performed graphically on a modern GNU/Linux distribution such as openSUSE, but to really become a self-reliant user and to truly take advantage of the power of your GNU/Linux operating system, you should at least know a few terminal basics - it's not difficult at all!
 
 There are thousands of commands you can run, each with a number of different options. So this chapter is just a small teaser describing the most common commands.
 
@@ -122,7 +122,7 @@ To run a single command as root use:
 
 <div class="cl">su -c "[command]"</div><p></p>
 
-{% include obs.html obs="Do not work as root unless it's required." %}
+{% include note.html obs="Do not work as root unless it's required." %}
 
 ### 8.2.6 System Tasks
 
@@ -137,7 +137,7 @@ Rebooting.
 Start, stop, restart or get status of system services (start|stop|restart|status). Examples:
 
 <div class="clroot">systemctl restart network</div>
-<div class="clroot">systemctl stop SuSEfirewall2_init</div>
+<div class="clroot">systemctl stop firewalld</div>
 <div class="clroot">systemctl start apache2</div>
 <div class="clroot">systemctl status smb</div>
 
@@ -185,15 +185,17 @@ List USB devices:
 
 ## 8.3 Editing Text Files
 
-Editing configuration files or other text files can be done like this using the vim editor.
+Editing configuration files or other text files can be done like this using the vim editor, which is installed by default.
 
 Open a file with *vim /path/to/file*>. Example:
 
 <div class="clroot">vim /etc/sysconfig/yast2</div><p></p>
 
-{% include obs.html obs="Root permissions are used in the example because *yast2* is a system configuration file - this is not generally required to edit files with vim." %}
+{% include note.html obs="Root permissions are used in the example because *yast2* is a system configuration file - this is not generally required to edit files with vim." %}
 
 Press **i** to enter insert mode (you will see "-- INSERT --" at the bottom). Now you can edit the text in the file. When you're done editing press **Esc** to leave insert mode and return to command mode. Now type **:x** which is the command for exit and save. To quit without saving any changes use **:q!**.
+
+Vim is quite advanced, you might consider installing a simpler text based editor, e.g. try *nano*.
 
 ## 8.4 Further reading
 

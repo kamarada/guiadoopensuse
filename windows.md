@@ -16,10 +16,6 @@ LibreOffice can also read and write the Microsoft Office formats (*.doc, *.xls,*
 
 {% include tip.html tip="If you come across Microsoft documents that LibreOffice doesn't render well, consider trying if you have better luck with the Calligra suite." %}
 
-### 12.1.1 Fonts
-
-The free Liberation Fonts provide metrically identical fonts for the most commonly used Microsoft fonts, and are installed by default. Install the package **fetchmsttfonts** if you need the most common Microsoft fonts.
-
 ## 12.2 Windows Network
 
 For sharing resources on a local network with MS Windows machines the Samba service is used.
@@ -28,15 +24,11 @@ For sharing resources on a local network with MS Windows machines the Samba serv
 
 No configuration is needed to access files shared by others. Simply:
 
-<div class="sti">Launch the Dolphin file manager => Click the location bar or press Ctrl+L for an editable location bar => Enter 'smb://[ip-address]'</div><p></p>
+<div class="path">Launch the Dolphin file manager => Click the location bar or press Ctrl+L for an editable location bar => Enter 'smb://[ip-address]'</div><p></p>
 
 {% include screenshot.html image="smb-dolphin" %}
 
-If you don't know the IP-address of the share, you can *browse* the local network by simply entering *smb:/* in the Dolphin location bar. However, this will only work if you configure the firewall first.
-
-<div class="sti">Go to YaST =&gt; Security and Users  =&gt; Firewall =&gt; Allowed Services =&gt; Select "Samba Client" and "Netbios Server" in the "Service to allow" combobox and add them</div><br />
-
-{% include screenshot.html image="firewall-samba" %}
+If you don't know the IP-address of the share you want to access, you can *browse* the local network by simply entering *smb:/* in the Dolphin location bar. However, this will only work if you configure or (temporarily) disable the firewall first. More instructions coming soon...
 
 ### 12.2.2 Sharing Your Files
 
@@ -44,7 +36,7 @@ To share *your* files with MS Windows users, Mac OSX users or other GNU/Linux us
 
 1) Open the YaST Samba Server module.
 
-<div class="sti">YaST =&gt; Network Services  =&gt; Samba Server</div><p></p>
+<div class="path">YaST =&gt; Network Services  =&gt; Samba Server</div><p></p>
 
 {% include screenshot.html image="samba-server" %}
 
@@ -52,13 +44,13 @@ To share *your* files with MS Windows users, Mac OSX users or other GNU/Linux us
 
 3) Go to the *Shares* tab, check the options *Allow Users to Share Their Directories* and *Allow Guest Access*. In the *Identity* tab you can configure your workgroup and share name.
 
-4) Add shares by clicking the "Add" button and specifying the directories you want to share.*
+4) Add shares by clicking the "Add" button and specifying the directories you want to share.
 
 ## 12.3 Running MS Windows Applications
 
 High quality, native GNU/Linux applications exist for almost any purpose, but it's possible that you're dependent on a MS Windows-only application for some job. These are your options in such a case.
 
-{% include obs.html obs="You should only run non-native applications as a last resort. Apps work better in their native environment." %}
+{% include note.html obs="You should only run non-native applications as a last resort. Apps work better in their native environment." %}
 
 ### 12.3.1 Wine
 
@@ -78,7 +70,7 @@ The Wine project keeps a database for sharing experiences of running application
 
 CrossOver is not gratis. It's specialised in running a select few of the major MS Windows applications - mostly office related.
 
-[http://www.codeweavers.com/products/cxlinux/](http://www.codeweavers.com/products/cxlinux/)
+[https://www.codeweavers.com/products/cxlinux/](https://www.codeweavers.com/products/cxlinux/)
 
 ### 12.3.3 Dual Boot
 

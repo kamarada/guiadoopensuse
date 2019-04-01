@@ -9,9 +9,9 @@
   - title: 4. Installation
     link: installation
 
-- title: Day to Day Use
+- title: The Fundamentals
   pages:
-  - title: 5. KDE Workspace
+  - title: 5. KDE Plasma Workspace
     link: kde
   - title: 6. Apps for Common Tasks
     link: apps
@@ -25,11 +25,11 @@
     link: installpackage
   - title: 11. Software Repositories
     link: repositories
-  - title: 12. MS Windows Interop
-    link: windows
 
 - title: Setup
   pages:
+  - title: 12. MS Windows Interop
+    link: windows
   - title: 13. Multimedia Codecs
     link: codecs
   - title: 14. Browser Plugins

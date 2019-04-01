@@ -52,7 +52,7 @@ You can get support on mailing lists, see:
 
 Reading the manuals is always a good idea. You can find the official openSUSE manuals in PDF, EPUB and HTML format here:
 
-[http://activedoc.opensuse.org/](http://activedoc.opensuse.org/)
+[http://doc.opensuse.org/](http://doc.opensuse.org/)
 
 Many applications come with a handbook, often you can access it by pressing *F1*. Usually packages also include documentation which is normally installed to the location */usr/share/doc/*.
 
@@ -69,7 +69,7 @@ There's a unified search for the openSUSE wiki, forums, mailinglists etc. on:
 When asking for support online it can be very useful to share text (e.g. commandline output) or screenshots showing your problem. The openSUSE pastebin makes this easy:
 
 [http://susepaste.org/](http://susepaste.org/) (text)
- 
+
 [http://img.susepaste.org/](http://img.susepaste.org/) (images)
 
 ## A.7 Linux User Groups
@@ -96,7 +96,7 @@ GNU/Linux supports most hardware, but not all. Components that are very new on t
 - [http://www.linux1394.org/hcl.php](http://www.linux1394.org/hcl.php)  (FireWire)
 - [http://mxhaard.free.fr/spca5xx.html](http://mxhaard.free.fr/spca5xx.html) (Webcams)
 - [http://www.ideasonboard.org/uvc/#devices](http://www.ideasonboard.org/uvc/#devices) (Webcams)
-- [http//h-node.org/](http//h-node.org/) (General hardware working with free software)
+- [https://h-node.org/](https://h-node.org/) (General hardware working with free software)
 
 ## A.9 General and in-depth knowledge
 

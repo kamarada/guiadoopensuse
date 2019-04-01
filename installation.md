@@ -18,7 +18,7 @@ Before starting there are a few things you should be aware of.
 - **RAM:** 1 GB physical RAM (2 GB recommended)
 - **Disk Space:** 5,0 GB for a normal installation (more recommended)
 - **Sound and Graphics Card:** Most modern cards are supported
-    
+
 ### 4.1.2a Burning the ISOs to a DVD
 
 When you burn the downloaded ISO files to a DVD it's important to remember to burn them as ISOs/images with your CD/DVD writer software, or the media won't be bootable.
@@ -49,23 +49,12 @@ If you connect your network cable and turn on your printer and other peripherals
 
 When you're ready, insert the DVD or USB stick and (re)start the computer.
 
-This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previous chapter there's also a live medium available that is not as well-tested, that installation is not described here, but it's quite similar.
-
-### Welcome
-
-<table>
-	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/welcome.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/welcomeb.png' | replace: '//', '/' }}" alt="welcome" class="pic" /></a></td>
-		<td valign="top">The first thing you'll see is this welcome screen.</td>
-	</tr>
-</table>
-
 ### Start Installation
 
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/grub.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/grubb.png' | replace: '//', '/' }}" alt="grub" class="pic" /></a></td>
-		<td valign="top">Then you're presented with a menu.<br /><br />
+		<td valign="top">You're presented with a menu.<br /><br />
 
 		Here you can select your desired language and a few other options, afterwards begin installation.</td>
 	</tr>
@@ -77,17 +66,8 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 	<tr>
 		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-welcome.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-welcomeb.png' | replace: '//', '/' }}" alt="welcome" class="pic" /></a></td>
 		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.<br /><br />
- 
+
 		Check that language and keyboard layout are as desired.</td>
-	</tr>
-</table>
-
-### Installation Options
-
-<table>
-	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-mode.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-modeb.png' | replace: '//', '/' }}" alt="inst-mode" class="pic" /></a></td>
-		<td valign="top">Here you choose to add online repositories or include add-on products, usually will just click "Next". Online repositories can be added in the installed system later.</td>
 	</tr>
 </table>
 
@@ -100,7 +80,7 @@ This describes the installation of the 4.7 GB DVD ISO, as mentioned in the previ
 
 	  Don't worry about all the subvolumes created, these are just technicalities of the Btrfs filesystem, and not "real" partitions, that normal users should need to worry about.<br /><br />
 
-	  If you're performing a dual boot installation, pay extra attention, to make sure everything is as desired.<br /><br />
+	  Always check that the partitioning proposal is what you want, and if you're performing a dual boot installation, pay extra attention, to make sure everything is as desired.<br /><br />
 
 	  Note that Linux labels disks/partitions using the following scheme - <i>sda1</i> is first partition on the first disk, <i>sdb3</i> is the third partition on the second disk, and so forth. Partitions that will be formatted are written in red text.</td>
 	</tr>
@@ -117,14 +97,14 @@ If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if
 	</tr>
 </table>
 
-### Desktop Selection
+### User Interface
 
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-desktop.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-desktopb.png' | replace: '//', '/' }}" alt="inst-desktop" class="pic" /></a></td>
-		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. KDE is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide.<br /><br />
+		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. The KDE Plasma Workspace is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME desktop or a text based server installation.<br /><br />
 
-		Under "Other" you can select LXDE, Xfce, minimal graphical environment (IceWM) and even a text based system which is useful for servers.</td>
+		Under "Custom" you can manually select different patterns, including lightweight desktop environments Xfce and LXDE.</td>
 	</tr>
 </table>
 
@@ -160,108 +140,3 @@ Have a lot of fun with openSUSE!
 		</td>
 	</tr>
 </table>
-
-
-<!--
-### Automatic Configuration
-
-<table>
-	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/dvd/inst-autoconfig.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/dvd/inst-autoconfigb.png' | replace: '//', '/' }}" alt="inst-inst" class="pic" /></a></td>
-		<td valign="top">After installation is performed, the system will restart and perform autoconfiguration.
-
-		And finally your brand new openSUSE system will start. Congratulations, and have a lot of fun with openSUSE!
-
-		</td>
-	</tr>
-</table>
-
--->
-
-<!--
-
-## 4.3 Live DVD/USB Installation
-
-When you're ready to install, insert the DVD/USB and (re)boot the computer.
-
-The Live DVD/USB provides two different installation modes, you can install directly from the boot menu, or you can boot the system and install from the desktop while the system is running, by clicking on the install icon on the desktop. There is only a visual difference between the two modes of installation. It's recommended to try booting the live system  before installing to see if your hardware components are supported.
-
-### Language and License
-
-<table>
-	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-welcome.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-welcomeb.png' | replace: '//', '/' }}" alt="live-welcome" class="pic" /></a></td>
-		<td valign="top">The licence agreement is only to inform you of your rights. It doesn't require your acceptance, since it doesn't limit your use.
- 
-		Check that language and keyboard layout are as desired.</td>
-	</tr>
-	</table>
-
-### Clock and Time Zone
-
-<table>
-	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-time.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-timeb.png' | replace: '//', '/' }}" alt="live-time" class="pic" /></a></td>
-		<td valign="top">Set the timezone here.
-
-If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if you dual boot with MS Windows set it to local time.</td>
-	</tr>
-</table>
-
-### Partitioning
-
-	<table>
-	<tr>
-	<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-partition.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-partitionb.png' | replace: '//', '/' }}" alt="live-partition" class="pic" /></a></td>
-	<td valign="top">By default openSUSE will propose to create three new partitions / (root) for system files, /home/ for personal files of users and swap which is used as a supplement for RAM, similar to the page file in MS Windows.
-
-	  If you're performing a dual boot installation, be extra careful here.
-
-	  Note that Linux labels disks/partitions using the following scheme - <i>sda1</i> is first partition on the first disk, <i>sdb3</i> is the third partition on the second disk, and so forth. Partitions that will be formatted are written in red text.</td>
-	</tr>
-</table>
-
-### Create New User
-
-<table>
-	<tr>
-	    <td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-user.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-userb.png' | replace: '//', '/' }}" alt="live-user" class="pic" /></a></td>
-	    <td valign="top">Now it's time to create your user. Note that by default the root user (administrator) password will be the same as the password for the normal user.
-
-	If you want the added security of a separate root password, consider unchecking that checkbox. You may also want to consider disabling autologin to prevent people from easily accessing your system and data.</td>
-	</tr>
-</table>
-
-### Installation Settings
-
-<table>
-	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-settings.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-settingsb.png' | replace: '//', '/' }}" alt="live-settings" class="pic" /></a></td>
-		<td valign="top">Double check that everything is as desired - this is the point of no return!</td>
-	</tr>
-</table>
-
-### Actual Installation
-
-<table>
-	<tr>
-		<td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-installation.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-installationb.png' | replace: '//', '/' }}" alt="live-installation" class="pic" /></a></td>
-		<td valign="top">Now the actual installation is performed.</td>
-	</tr>
-</table>
-
-### Automatic Configuration
-
-<table>
-	<tr>
-	    <td width="205" valign="top"><a href="{{ site.baseurl | append: '/images/installation/live/live-done.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/installation/live/live-doneb.png' | replace: '//', '/' }}" alt="live-done" class="pic" /></a></td>
-	    <td valign="top">When all packages are installed, the system needs to reboot from the harddrive.
-
-		You can either remove the DVD/USB during the reboot process or leave it in and select <i>Boot from harddisk</i> at the boot menu.
-
-	    After the reboot, the system will perform automatic configuration.
-
-	    Afterwards your brand new openSUSE system will start. Congratulations, and have a lot of fun with openSUSE!</td>
-	</tr>
-</table>
--->
