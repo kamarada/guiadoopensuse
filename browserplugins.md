@@ -8,7 +8,7 @@ permalink: browserplugins
 
 Many websites require various browser plugins to be installed to function as expected. Here are some plugins that you may want to install. Only install these plugins if you need them, as they can impact performance and security while browsing the internet.
 
-{% include tip.html tip="If the concepts of *package manager* and *repositories* are foreign to you, revisit the chapters [Installing Software](../installpackage/) and [Software Repositories](../repositories/)." %}
+{% include tip.html tip="If the concepts of *package manager* and *repositories* are foreign to you, revisit the chapters [Installing Software](installpackage) and [Software Repositories](repositories)." %}
 
 ## 14.1 Adobe Flash
 

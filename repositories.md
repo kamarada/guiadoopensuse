@@ -28,7 +28,7 @@ Add repositories with care.
 - The risk level of a repository can change over time
 - Too many repositories makes the package manager slower
 {% endcapture %}
-{% include note.html obs=repositories_obs %}
+{% include note.html note=repositories_obs %}
 
 The easiest and safest way to add repositories is using the list of online community repositories in YaST. This provides you with a selection of popular and quite safe repositories to choose from:
 
@@ -50,7 +50,6 @@ You should always have the four *official* repositories (which are configured ou
 Additionally I recommend adding the following *unofficial* repositories from the Community Repositories list, for having a good balance of software supply and stability for most users.
 
 - **Packman Repository**
-<!--- **openSUSE BuildService - KDE:Extra**-->
 
 {% capture repositories_tip %}
 Still missing a package?
@@ -71,7 +70,7 @@ Remember to add unofficial repositories with care!
 
 Updating installed packages from one repository to versions from a different repository with a different *vendor*, is a little bit complicated. Read about it here:
 
-<a href="http://en.opensuse.org/SDB:Vendor_change_update" target="_blank">http://en.opensuse.org/SDB:Vendor_change_update</a>
+[http://en.opensuse.org/SDB:Vendor_change_update](http://en.opensuse.org/SDB:Vendor_change_update)
 
 ## 11.2 Repository Management in the Terminal
 

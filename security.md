@@ -14,7 +14,7 @@ One of the reasons GNU/Linux is very secure is that you normally don't work with
 
 You'll be asked for the root password when installing packages or performing other administrative tasks outside of your /home/ folder. Unless you unchecked the checkbox during installation the root user has the same password as your normal user.
 
-{% include note.html obs="Only work as root when it's required." %}
+{% include note.html note="Only work as root when it's required." %}
 
 ### 7.1.1 Super User File Manager
 

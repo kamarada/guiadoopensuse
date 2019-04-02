@@ -38,7 +38,7 @@ This shortcut stops any operation you may have started.
 
 This is just a very small selection of commands to give you an idea of how things work.
 
-{% include tip.html tip="Commands written in _red_ need to be ran as root." %}
+{% include tip.html tip="Commands written in **red** need to be ran as root." %}
 
 ### 8.2.1 File Management
 
@@ -122,7 +122,7 @@ To run a single command as root use:
 
 <div class="cl">su -c "[command]"</div><p></p>
 
-{% include note.html obs="Do not work as root unless it's required." %}
+{% include note.html note="Do not work as root unless it's required." %}
 
 ### 8.2.6 System Tasks
 
@@ -187,11 +187,11 @@ List USB devices:
 
 Editing configuration files or other text files can be done like this using the vim editor, which is installed by default.
 
-Open a file with *vim /path/to/file*>. Example:
+Open a file with *vim /path/to/file*. Example:
 
 <div class="clroot">vim /etc/sysconfig/yast2</div><p></p>
 
-{% include note.html obs="Root permissions are used in the example because *yast2* is a system configuration file - this is not generally required to edit files with vim." %}
+{% include note.html note="Root permissions are used in the example because *yast2* is a system configuration file - this is not generally required to edit files with vim." %}
 
 Press **i** to enter insert mode (you will see "-- INSERT --" at the bottom). Now you can edit the text in the file. When you're done editing press **Esc** to leave insert mode and return to command mode. Now type **:x** which is the command for exit and save. To quit without saving any changes use **:q!**.
 

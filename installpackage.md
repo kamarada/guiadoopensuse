@@ -24,7 +24,7 @@ When browsing openSUSE related websites, you're likely to come across buttons su
 
 <center><img class="pic" alt="oneclick" src="{{ site.baseurl | append: '/images/pics/oneclick.png' | replace: '//', '/' }}" /></center>
 
-1-click installation (also referred to as "Direct Install") simply automates the process of adding one or more software repositories to the package manager and installing one or more RPM packages. Therefore 1-click installation _should be used with the same care_ as manually adding unofficial repositories (see the next chapter for more on software repositories).<br/>
+1-click installation (also referred to as "Direct Install") simply automates the process of adding one or more software repositories to the package manager and installing one or more RPM packages. Therefore 1-click installation _should be used with the same care_ as manually adding unofficial repositories (see the next chapter for more on software repositories).
 
 ## 10.2 Other Installation Methods
 
@@ -38,11 +38,11 @@ With a bit of luck the developer/vendor website will have an RPM file for openSU
 
 <div class="path">Open the Dolphin file manager =&gt; Navigate to the RPM file =&gt; Right Click it => Open With... => Install/Remove Software</div><p></p>
 
-{% include note.html obs="Only install RPM files that are built specifically for (your version of) openSUSE." %}
+{% include note.html note="Only install RPM files that are built specifically for (your version of) openSUSE." %}
 
 ### 10.2.2 Tarball
 
-If the website doesn't have an RPM for openSUSE, it will most likely have a so-called _tarball_. Tarballs (*.tar.gz, *.tar.bz2) are simply compressed archives similar to ZIP and RAR files. To uncompress a tarball:
+If the website doesn't have an RPM for openSUSE, it will most likely have a so-called _tarball_. Tarballs (\*.tar.gz, \*.tar.bz2) are simply compressed archives similar to ZIP and RAR files. To uncompress a tarball:
 
 <div class="path">Open the Dolphin file manager =&gt; Navigate to the tarball =&gt; Right click =&gt; Extract Archive</div>
 

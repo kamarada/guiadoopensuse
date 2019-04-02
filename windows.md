@@ -10,9 +10,9 @@ The PC world is dominated by Microsoft, and they're not exactly known for making
 
 ## 12.1 Office Documents
 
-LibreOffice defaults to the Open Document Format (*.odt, *.ods, *.odp, etc.) which is an open standard. This format is partially supported by Microsoft Office >= 2007 Service Pack 2. Or you can suggest to your MS Windows and Mac OSX using contacts to install LibreOffice, as it's freely available for those platforms too.
+LibreOffice defaults to the Open Document Format (\*.odt, \*.ods, \*.odp, etc.) which is an open standard. This format is partially supported by Microsoft Office >= 2007 Service Pack 2. Or you can suggest to your MS Windows and Mac OSX using contacts to install LibreOffice, as it's freely available for those platforms too.
 
-LibreOffice can also read and write the Microsoft Office formats (*.doc, *.xls,*.ppt, *.docx, *.xlsx, *.pptx etc.) quite well - as well as a wide range of other formats.
+LibreOffice can also read and write the Microsoft Office formats (\*.doc, \*.xls, \*.ppt, \*.docx, \*.xlsx, \*.pptx etc.) quite well - as well as a wide range of other formats.
 
 {% include tip.html tip="If you come across Microsoft documents that LibreOffice doesn't render well, consider trying if you have better luck with the Calligra suite." %}
 
@@ -50,13 +50,11 @@ To share *your* files with MS Windows users, Mac OSX users or other GNU/Linux us
 
 High quality, native GNU/Linux applications exist for almost any purpose, but it's possible that you're dependent on a MS Windows-only application for some job. These are your options in such a case.
 
-{% include note.html obs="You should only run non-native applications as a last resort. Apps work better in their native environment." %}
+{% include note.html note="You should only run non-native applications as a last resort. Apps work better in their native environment." %}
 
 ### 12.3.1 Wine
 
-Wine (Wine Is Not an Emulator) is an application that enables you to run many MS Windows applications, you can install wine with YaST or zypper.
-
-Wine is a command line application, the syntax is:
+Wine (Wine Is Not an Emulator) is an application that enables you to run many MS Windows applications, you can install wine with YaST or zypper. Wine is a command line application, the syntax is:
 
 <div class="cl">wine /path/to/setup.exe</div><p></p>
 

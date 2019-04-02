@@ -20,7 +20,7 @@ By default only free, open, non-patent encumbered formats such as Ogg Theora, Og
 
 2) Afterwards make sure all your multimedia packages are coming from the Packman Repository:
 
-Start YaST Software Management => Click on View => Click on Repositories => Select the Packman Repository => Click "Switch system packages" => Click "Accept"
+<div class="path">Start YaST Software Management => Click on View => Click on Repositories => Select the Packman Repository => Click "Switch system packages" => Click "Accept"</div><p></p>
 
 {% include screenshot.html image="packman-vendorchange" %}
 

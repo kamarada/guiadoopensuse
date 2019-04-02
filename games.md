@@ -14,7 +14,7 @@ Not all major, mainstream games run natively on GNU/Linux, but there are still p
 
 ### B.1.1 openSUSE Build Service Games Repository
 
-Some games are included in the official openSUSE repositories, but the Games repository on the openSUSE Build Service includes a lot more games. You can easily add this repository via the list of Community Repositories as described in the chapter about [Software Repositories](../repositories/)
+Some games are included in the official openSUSE repositories, but the Games repository on the openSUSE Build Service includes a lot more games. You can easily add this repository via the list of Community Repositories as described in the chapter about [Software Repositories](repositories)
 
 Or add the games repository using the command line:
 
