@@ -24,7 +24,7 @@ url: "http://kamarada.github.io"
 # Base URL
 # Serve the website from the given base URL (does not include hostname)
 # Default: "" (website is at the root of the domain)
-baseurl: "/guiaopensuse"
+baseurl: "/guiadoopensuse"
 
 # For more info on the serve command options, please refer to
 # http://jekyllrb.com/docs/configuration/
