@@ -1,32 +1,39 @@
 ---
 layout: default
-title: 1. Introduction - Beginner's Guide to openSUSE Leap 15.0 / SUSE Linux
-permalink: introduction
+title: 1. Introdução - Guia do openSUSE Leap 15.0 para Iniciantes
+permalink: introducao
 redirect_from: /index.html
 ---
 
-# 1. Introduction
+# 1. Introdução
 
-The purpose of this guide is to provide new users with everything they need to know to get started using openSUSE Leap as a home user/small office desktop operating system - quickly and easily.
+O objetivo deste guia é prover aos novos usuários tudo que eles precisam saber para começar a usar o openSUSE Leap como sistema operacional em seus *desktops* em casa ou no trabalho - de forma rápida e fácil.
 
-Reading this guide should save you *a lot* of time in the long run. The appendix at the end is targetted at particularly enthusiastic readers.
+Ler esse guia deve poupar *muito* seu tempo no longo prazo. Os apêndices ao final são direcionados a leitores particularmente entusiastas.
 
-Note that this guide is not officially related to the [openSUSE project](http://www.opensuse.org) nor [SUSE LINUX Products GmbH](http://www.suse.com) nor Micro Focus International.
+Observe que este guia não está oficialmente relacionado com o [Projeto openSUSE](http://www.opensuse.org) nem com a [SUSE LINUX Products GmbH](http://www.suse.com) ou a Micro Focus International.
 
-Have a lot of fun!
+Divirta-se bastante! (*Have a lot of fun!*)
 
-## 1.1 About openSUSE Leap
+## 1.1 Sobre o openSUSE Leap
 
-openSUSE Leap is a PC operating system based on GNU and Linux. It's a free/open source and gratis alternative to e.g. Microsoft Windows with many advantages. openSUSE Leap is suitable for laptops, desktops, netbooks, servers and multimedia center PCs at home or in small offices. You can also run openSUSE on your [ARM](https://en.opensuse.org/Portal:ARM) or [PPC](https://en.opensuse.org/Portal:PowerPC) computer, but that is not covered by this guide.
+O openSUSE Leap é um sistema operacional para PC baseado no GNU e no Linux. É uma alternativa livre/aberta e grátis para, por exemplo, o Microsoft Windows, com muitas vantagens. O openSUSE Leap é destinado a *desktops*, *notebooks*, *netbooks*, servidores e *multimedia center PCs* em casa ou em pequenos escritórios. Você também pode usar o openSUSE em seu dispositivo [ARM](https://en.opensuse.org/Portal:ARM) ou [PPC](https://en.opensuse.org/Portal:PowerPC), mas isso não é abordado neste guia.
 
-openSUSE Leap is among the leading GNU/Linux distributions and is also one of the oldest existing ones. openSUSE Leap uses a core system from SUSE Linux Enterprise but with up-to-date hardware support, desktop environments and graphical applications. Every year a major service pack is released and every 3-4 years there is a major new release where also the core system will be upgraded.
+O openSUSE Leap está entre as distribuições GNU/Linux mais usadas e é também uma das mais antigas existentes. O openSUSE Leap herda o núcleo do SUSE Linux Enterprise e adiciona suporte a *hardware*, ambientes de trabalho e aplicativos gráficos atualizados. Todo ano um *service pack* é lançado e a cada 3 ou 4 anos há uma atualização maior na qual também o núcleo do sistema é atualizado.
 
-For experienced and adventurous GNU/Linux users who want to take risks with their operating system and live on the bleeding edge, there is also a rolling release version of openSUSE available called [openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed).
+Para usuários de GNU/Linux experientes e aventureiros que querem tomar algum risco com seu sistema operacional e viver no limite do que há de mais novo, também há uma versão *rolling release* (com atualizações frequentes) do openSUSE chamada [openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed).
 
-openSUSE Leap is developed openly and transparently by community volunteers working together with SUSE employees.
+O openSUSE Leap é desenvolvido de forma aberta e transparente por uma comunidade de voluntários que trabalham em conjunto com os funcionários da SUSE.
 
-## 1.2 Translations or Modified Versions
+## 1.2 Traduções ou versões modificadas
 
-The sources of this guide are available for everyone on [GitHub](https://github.com/cb400f/opensuse-guide.org/) under the GNU Free Documentation License. This makes it easy to create your own modified or translated version. Current known active derivative versions are:
+O código-fonte deste guia está disponível a quem possa interessar no GitHub sob os termos da [GNU Free Documentation License](license):
 
-- [Spanish version by victorhck](https://victorhck.gitlab.io/guia_openSUSE/)
+- [Código-fonte do guia original em inglês por Martin Schlander](https://github.com/cb400f/opensuse-guide.org/)
+- [Código-fonte da tradução para o Português Brasileiro pelo Projeto Linux Kamarada](https://github.com/kamarada/guiadoopensuse/)
+
+Isso facilita criar versões modificadas ou traduções.
+
+Além desta tradução, as outras versões derivadas conhecidas até o momento são:
+
+- [Tradução para o Espanhol por victorhck](https://victorhck.gitlab.io/guia_openSUSE/)
