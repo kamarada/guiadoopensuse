@@ -1,9 +1,9 @@
-- title: Getting Started
+- title: Começando
   pages:
   - title: 1. Introdução
     link: introducao
-  - title: 2. Switching to GNU/Linux
-    link: switching
+  - title: 2. Migrando para o GNU/Linux
+    link: migrando
   - title: 3. Getting openSUSE
     link: acquisition
   - title: 4. Installation

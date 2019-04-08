@@ -7,7 +7,7 @@ redirect_from: /index.html
 
 # 1. Introdução
 
-O objetivo deste guia é prover aos novos usuários tudo que eles precisam saber para começar a usar o openSUSE Leap como sistema operacional em seus *desktops* em casa ou no trabalho - de forma rápida e fácil.
+O objetivo deste guia é prover aos novos usuários tudo que eles precisam saber para começar a usar o openSUSE Leap como sistema operacional em seus *desktops* em casa ou no trabalho — de forma rápida e fácil.
 
 Ler esse guia deve poupar *muito* seu tempo no longo prazo. Os apêndices ao final são direcionados a leitores particularmente entusiastas.
 
