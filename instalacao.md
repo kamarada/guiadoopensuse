@@ -15,8 +15,8 @@ Antes de começar, você deve se atentar a algumas coisas.
 ### 4.1.1 Requisitos mínimos do sistema
 
 - **CPU:** processador AMD64 ou Intel64
-- **Memória RAM:** 1GB (o recomendado são 2GB)
-- **Espaço em disco:** 5GB para uma instalação comum (o recomendado é ter mais espaço)
+- **Memória RAM:** pelo menos 1GB (o recomendado são 2GB)
+- **Espaço em disco:** pelo menos 5GB para uma instalação comum (o recomendado é ter mais espaço)
 - **Placas de vídeo e de som:** a maioria das placas atuais são suportadas
 
 ### 4.1.2a Gravando a imagem ISO em um DVD
@@ -60,7 +60,7 @@ Quando estiver pronto, insira o DVD ou *pendrive* e reinicie (ou ligue) o comput
 	</tr>
 </table>
 
-### Idioma, Teclado e Contrato de Licença
+### Idioma, teclado e contrato de licença
 
 <table>
 	<tr>
@@ -78,7 +78,7 @@ Quando estiver pronto, insira o DVD ou *pendrive* e reinicie (ou ligue) o comput
 		{% include installation.html image="inst-disk" %}
 	  <td valign="top">Por padrão, o openSUSE vai sugerir a criação de três novas partições: (1) <code>/</code> (raiz), para os arquivos do sistema; (2) <code>/home</code> para os arquivos pessoais do(s) usuário(s); e (3) <code>swap</code> que é um espaço do disco rígido utilizado em complemento à memória RAM, semelhante ao arquivo de paginação do Windows.<br /><br />
 
-	  Não se preocupe com os subvolumes criados, são detalhes técnicos do sistema de arquivos Btrfs, e não partições "reais", com que usuários normais deveriam se preocupar.<br /><br />
+	  Não se preocupe com os subvolumes criados, são apenas detalhes técnicos do sistema de arquivos Btrfs, e não partições "reais", com que usuários normais deveriam se preocupar.<br /><br />
 
 	  Sempre verifique se o particionamento sugerido é o que você quer, e se você está fazendo uma instalação <em>dual boot</em>, redobre a atenção, para se certificar de que tudo está conforme o desejado.<br /><br />
 
@@ -86,7 +86,7 @@ Quando estiver pronto, insira o DVD ou *pendrive* e reinicie (ou ligue) o comput
 	</tr>
 </table>
 
-### Relógio e Fuso Horário
+### Relógio e fuso horário
 
 <table>
 	<tr>
@@ -97,14 +97,14 @@ Se você usa apenas GNU/Linux é recomendado definir o relógio do <em>hardware<
 	</tr>
 </table>
 
-### User Interface
+### Interface de usuário
 
 <table>
 	<tr>
 		{% include installation.html image="inst-desktop" %}
-		<td valign="top">Various different graphical user interfaces (desktop environments) exist for GNU/Linux. The KDE Plasma Workspace is preselected and is preferred by about 70% of openSUSE users and is also the focus of this guide. But you can also choose the GNOME desktop or a text based server installation.<br /><br />
+		<td valign="top">Várias diferentes interfaces gráficas (ambientes de trabalho) existem para o GNU/Linux. A área de trabalho com KDE Plasma é pré-selecionada, é a preferida por cerca de 70% dos usuários do openSUSE e é também o foco deste guia. Mas você também pode escolher a área de trabalho com GNOME ou uma instalação de servidor, com interface textual.<br /><br />
 
-		Under "Custom" you can manually select different patterns, including lightweight desktop environments Xfce and LXDE.</td>
+		Em "Personalizado" você pode selecionar manualmente diferentes padrões, incluindo áreas de trabalho leves como Xfce e LXDE.</td>
 	</tr>
 </table>
 
@@ -119,24 +119,23 @@ Se você usa apenas GNU/Linux é recomendado definir o relógio do <em>hardware<
 	</tr>
 </table>
 
-### Configurações de Instalação Ativas
+### Configurações da instalação
 
 <table>
 	<tr>
 		{% include installation.html image="inst-overview" %}
-		<td valign="top">Se certifique de que tudo está conforme o desejado — uma vez passada essa tela, não há volta!</td>
+		<td valign="top">Se certifique de que tudo está conforme o desejado — uma vez passada essa tela, não haverá volta!</td>
 	</tr>
 </table>
 
-### Actual Installation
+### Instalação propriamente dita
 
 <table>
 	<tr>
 		{% include installation.html image="inst-inst" %}
-		<td valign="top">Now the actual installation is performed. When it's done the system will reboot and be ready to use.<br /><br />
+		<td valign="top">Agora é feita a instalação propriamente dita: o sistema operacional é copiado para o disco e configurado. Quando terminar, o computador será reiniciado e o sistema estará pronto para uso.<br /><br />
 
-Have a lot of fun with openSUSE!
-
+Divirta-se bastante com o openSUSE!
 		</td>
 	</tr>
 </table>
