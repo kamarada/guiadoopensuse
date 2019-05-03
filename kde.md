@@ -1,99 +1,98 @@
 ---
 layout: default
-title: 5. KDE Workspace - Use and Configure KDE on Desktop or Netbook
+title: 5. Ambiente de trabalho KDE Plasma - Use e Configure o KDE no Desktop ou Netbook
 permalink: kde
 ---
 
-# 5. KDE Plasma Workspace
+# 5. Ambiente de trabalho KDE Plasma
 
-The KDE Plasma workspace is one of the first things you'll see when you boot openSUSE Leap for the first time. The desktop workspace consists of the desktop itself, menus, panels, file management and window management.
+O ambiente de trabalho KDE Plasma é uma das primeiras coisas que você verá quando você iniciar o openSUSE Leap pela primeira vez. O ambiente de trabalho consiste da área de trabalho, menus, painéis, gerenciamento de arquivos e gerenciamento de janelas.
 
-The KDE Plasma Workspace is very highly configurable. If there is something you don't like, you can almost certainly configure it to your liking. It is also extremely feature rich, mentioned below are just the most basic features.
+O ambiente de trabalho KDE Plasma é bastante configurável. Se há alguma coisa que não te agrada, é quase certo que você pode configurá-la de acordo com suas preferências. É também bastante rico em funcionalidades. Abaixo são mencionadas apenas as funcionalidades mais básicas.
 
-## 5.1 The Desktop
+## 5.1 A área de trabalho
 
-The desktop is not very different from other desktop environments you may be familiar with - you have a panel on the bottom, a launch menu which is opened in the lower left corner.
+A área de trabalho não é muito diferente de outras áreas de trabalho que provavelmente você está familiarizado — você tem um painel embaixo e um menu de lançamento é aberto ao clicar no botão no canto inferior esquerdo.
 
-However, a few things differ significantly from most other desktop environments:
+No entanto, algumas coisas diferem significativamente da maioria das outras áreas de trabalho:
 
-- KDE uses *single click* to open and launch things by default
-- By default the applications you have running when you shutdown will be started again in the next session
+- o KDE usa o *clique único* para abrir arquivos e iniciar programas por padrão; e
+- por padrão, quando você desliga o computador, os aplicativos que você está usando serão iniciados novamente quando você ligar o computador.
 
 {% include screenshot.html image="desktop" %}
 
-### 5.1.1 The Launch Menu
+### 5.1.1 O lançador de aplicativos
 
-The launch menu is opened by clicking the icon in the bottom left corner of the screen or pressing the Super key or Alt+F1. On the bottom there's a search box and at the top left are your favourite applications. You can add and remove applications from favourites by right clicking them.
+O lançador de aplicativos é aberto clicando no ícone no canto inferior esquerdo da tela ou pressionando a tecla **Super** ou **Alt + F1**. Abaixo no menu há uma caixa de pesquisa e no topo esquerdo estão seus aplicativos favoritos. Você pode adicionar ou remover aplicativos dos favoritos clicando o botão direito do *mouse* neles.
 
 {% include screenshot.html image="launchmenu" %}
 
-You can edit menu entries or add new ones like this:
+Você pode editar itens do menu ou adicionar novos itens assim:
 
-<div class="path">Right click the menu icon =&gt; Edit Applications...</div>
+<div class="path">Clique com o botão direito do <em>mouse</em> no ícone do lançador =&gt; Clique em "Editar aplicativos"</div>
 
-To add a shortcut for an application on the desktop or in the panel you can do this (requires widgets to be unlocked):
+Para adicionar um atalho para um aplicativo na área de trabalho ou no painel você pode fazer assim (requer que os *widgets* estejam desbloqueados):
 
-<div class="path">Find the application in the menu => Right click the entry => Click "Add to panel" or "Add to desktop"</div>
+<div class="path">Localize o aplicativo no lançador => Clique com o botão direito do <em>mouse</em> => Clique em "Adicionar à área de trabalho" ou "Adicionar ao painel"</div>
 
-### 5.1.2 Virtual Desktops
+### 5.1.2 Áreas de trabalho virtuais
 
-To avoid your desktop getting cluttered with windows you can use virtual desktops to organize your applications and be more productive. In the panel you'll find a small grid, this is the desktop pager, use it to switch between your virtual desktops.
+Para evitar que sua área de trabalho fique bagunçada com várias janelas, você pode usar áreas de trabalho virtuais para organizar seus aplicativos e ser mais produtivo. No painel você encontra uma pequena grade, esse é o paginador de áreas de trabalho, use-o para alternar entre suas áreas de trabalho virtuais.
 
 <center><img src="{{ site.baseurl | append: '/images/screenshots/pager.png' | replace: '//', '/' }}" alt="pager" class="pic" /></center>
 
-You can also use the desktop grid effect to get a big overview of your virtual desktops, try pressing *Ctrl+F8* (requires desktop effects support, see the paragraph on this topic below).
+Você também pode usar o efeito grade da área de trabalho para ter uma visão geral em tela cheia das suas áreas de trabalho virtuais, experimente pressionar **Ctrl + F8** (requer suporte a efeitos da área de trabalho, leia mais sobre isso adiante).
 
-## 5.2 File Management
+## 5.2 Gerenciamento de arquivos
 
-The default file manager is Dolphin.You can find it as one of the favourites in the launch menu or in the "System" category. It should be very intuitive. USB sticks and other removable media will automatically appear in the left pane of Dolphin.
+O gerenciador de arquivos padrão é o Dolphin. Você pode encontrá-lo como um dos favoritos no lançador de aplicativos ou na categoria "Sistema". Usá-lo deve ser intuitivo. <em>Pendrives</em> e outras mídias removíveis aparecerão automaticamente no painel esquerdo do Dolphin.
 
-<div class="path">Launch Menu => System => Dolphin</div>
+<div class="path">Lançador de aplicativos => Aplicativos => Sistema => Gerenciador de arquivos (Dolphin)</div>
 
-You can also find Dolphin as one of the favourites in the launch menu.
+Você também pode encontrar o Dolphin como um dos favoritos no lançador de aplicativos.
 
 {% include screenshot.html image="dolphin" %}
 
-## 5.3 Configure Desktop (KDE Systemsettings)
+## 5.3 Configurações da área de trabalho
 
-The global KDE settings are gathered conveniently in one place. Here you can configure almost anything related to the KDE Plasma workspace including mouse behaviour, default applications, file associations etc.
+As configurações globais do KDE estão convenientemente reunidas em um único lugar. Aqui você pode configurar praticamente qualquer coisa relacionada ao ambiente de trabalho KDE Plasma, incluindo comportamento do *mouse*, aplicativos padrão, associações de arquivos, etc.
 
-<div class="path">Launch Menu => Settings => Configure Desktop</div>
+<div class="path">Lançador de aplicativos => Aplicativos => Configurações => Configurações do sistema</div>
 
-You can also find Configure Desktop (systemsettings) as one of the favourites in the launch menu.
+Você também pode encontrar o aplicativo Configurações do sistema como um dos favoritos no lançador de aplicativos.
 
 {% include screenshot.html image="systemsettings" %}<p></p>
 
-{% include tip.html tip="Don't confuse the KDE control center used for personal configuration of the KDE Workspace and KDE applications with the YaST control center used for administrator settings on a deeper level of the system (See later chapter about YaST)." %}
+{% include tip.html tip="Não confunda o aplicativo Configurações do sistema do KDE, usado para configurações pessoais do ambiente de trabalho KDE e dos aplicativos do KDE, com o Centro de controle do YaST, usado para configurações de administrador em um nível mais profundo do sistema (ver capítulo sobre o YaST mais adiante)." %}
 
-## 5.4 System Activity / Task List
+## 5.4 Monitor do sistema / Tabela de processos
 
-Naturally KDE also has a tool to watch running processes and usage of system ressources. Simply press *Ctrl+Esc* to bring up the system activity window.
+Naturalmente o KDE também tem uma ferramenta para monitorar processos em execução e utilização de recursos do sistema. Simplesmente pressione **Ctrl + Esc** para mostrar a janela Atividade do sistema.
 
 {% include screenshot.html image="systemactivity" %}
 
-For an advanced and customizable system monitor, including network graphs etc. run the program *ksysguard*
+Para um monitor de sistema avançado e personalizável, incluindo gráficos de rede, entre outros recursos, use o programa KSysGuard.
 
 ## 5.5 Widgets
 
-The KDE Plasma Desktop is centered around widgets and containments. The desktop and the panel are containments in which widgets can be placed. The menu, the system tray etc. are simply widgets. Lots and lots of other widgets are available.
+A área de trabalho KDE Plasma é centrada em *widgets* e contêineres. A área de trabalho e o painel são contêineres nos quais *widgets* podem ser adicionados. O lançador de aplicativos, a área de notificação, etc. são simplesmente *widgets*. Muitos outros *widgets* estão disponíveis.
 
-To add widgets:
+Para adicionar widgets:
 
-<div class="path">Right click the desktop => Add widgets => Drag widgets to the
- desktop or panel</div>
+<div class="path">Clique com o botão direito do <em>mouse</em> na área de trabalho => Adicionar widgets => Arraste <em>widgets</em> para a área de trabalho ou para um painel</div>
 
-To configure, move, resize widgets etc., click to open the toolbox in the top right corner of the desktop. This requires widgets to be unlocked.
+Para configurar, mover, redimensionar *widgets*, etc. clique no canto superior direito da área de trabalho para abrir a caixa de ferramentas. Isso requer que os *widgets* estejam desbloqueados.
 
-<div class="path">Right click the desktop => Either "Lock Widgets" or "Unlock Widgets".</div><br/>
+<div class="path">Clique com o botão direito do <em>mouse</em> na área de trabalho => Clique em "Bloquear widgets" ou "Desbloquear widgets".</div><br/>
 
 {% include screenshot.html image="widgets" %}
 
-## 5.6 Desktop Effects
+## 5.6 Efeitos da área de trabalho
 
-The KDE window manager has built-in support for 3D desktop effects. A basic, unobtrusive selection of effects will be enabled out of the box if you have the proper hardware and driver support in place. Try pressing *Ctrl+F8* or *Ctrl+F9* for example.
+O gerenciador de janelas do KDE tem suporte embutido para efeitos 3D da área de trabalho. Uma seleção básica e discreta de efeitos será habilitada por padrão se você tiver o *hardware* apropriado e os devidos *drivers* instalados. Experimente pressionar **Ctrl + F8** ou **Ctrl + F9**, por exemplo.
 
-You can disable or enable other/more effects in Systemsettings.
+Você pode desabilitar ou habilitar outros/mais efeitos nas Configurações do sistema.
 
 {% include screenshot.html image="effects" %}
 
-The keyboard shortcut to temporarily toggle desktop effects on/off is *Alt+Shift+F12*.
+O atalho de teclado para temporariamente habilitar ou desabilitar os efeitos da área de trabalho é **Alt + Shift + F12**.

@@ -9,9 +9,9 @@
   - title: 4. Instalação
     link: instalacao
 
-- title: The Fundamentals
+- title: O Básico
   pages:
-  - title: 5. KDE Plasma Workspace
+  - title: 5. Ambiente de trabalho KDE Plasma
     link: kde
   - title: 6. Apps for Common Tasks
     link: apps
