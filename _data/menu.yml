@@ -13,8 +13,8 @@
   pages:
   - title: 5. Ambiente de trabalho KDE Plasma
     link: kde
-  - title: 6. Apps for Common Tasks
-    link: apps
+  - title: 6. Aplicativos para tarefas comuns
+    link: aplicativos
   - title: 7. Security and Root
     link: security
   - title: 8. Terminal

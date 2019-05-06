@@ -1,59 +1,59 @@
 ---
 layout: default
-title: 6. Apps for Common Tasks - Applications to Perform the Most Common Tasks
-permalink: apps
+title: 6. Aplicativos para tarefas comuns - Aplicativos para fazer as tarefas mais comuns
+permalink: aplicativos
 ---
 
-# 6. Apps for Common Tasks
+# 6. Aplicativos para tarefas comuns
 
-Here's a list of applications used to perform common tasks, they're all installed by default and are all high quality, but naturally you can replace them with alternatives if you wish.
+Aqui vai uma lista de aplicativos usados para fazer tarefas comuns, todos eles são instalados por padrão e são de alta qualidade, mas naturalmente você pode substituí-los por alternativos, se desejar.
 
-{% include tip.html tip="All the alternatives mentioned below will be available for easy installation with the [package manager](installpackage), if the recommended [software repositories](repositories) are added (see later chapters)." %}
+{% include tip.html tip="Todas as alternativas mencionadas a seguir podem ser facilmente instaladas usando o [gerenciador de pacotes](installpackage), se os [repositórios de *software*](repositories) recomendados estão habilitados (ver capítulos adiante)." %}
 
-You can find more replacements for your familiar applications here:
+Você pode encontrar mais alternativas aos seus aplicativos conhecidos aqui:
 
 [http://en.opensuse.org/Application_equivalents](http://en.opensuse.org/Application_equivalents)
 
-## 6.1 Surf the Web with Firefox
+## 6.1 Navegue na Internet com o Firefox
 
-Mozilla Firefox is the default web browser. It's one of the world's leading web browsers.
+Mozilla Firefox é o navegador *web* padrão. É um dos navegadores *web* mais usados do mundo.
 
 {% include screenshot.html image="firefox" %}
 
-Alternatives to consider: Opera, Chromium, Falkon, Konqueror
+Alternativas a considerar: Opera, Chromium, Falkon, Konqueror
 
-## 6.2 Office Productivity with LibreOffice
+## 6.2 Produtividade no escritório com o LibreOffice
 
-LibreOffice is a complete office suite with word processing, spreadsheets, presentation, drawing and more. It's very compatible with Microsoft Office.
+LibreOffice é uma suíte de escritório completa com processador de textos, planilhas eletrônicas, apresentações multimídias, editoração eletrônica e mais. É bem compatível com o Microsoft Office.
 
 {% include screenshot.html image="libreoffice" %}
 
-Alternatives to consider: Calligra, Abiword, Gnumeric
+Alternativas a considerar: Calligra, Abiword, Gnumeric
 
-## 6.3 Play multimedia with VLC or Dragon
+## 6.3 Reproduza multimídia com VLC ou Dragon
 
-The default installation includes VLC which plays music and video as well as the Dragon video player.
+A instalação padrão inclui o VLC, capaz de reproduzir músicas e vídeos, assim como o reprodutor de vídeo Dragon.
 
 {% include screenshot.html image="vlc" %}
 
-Alternatives to consider for music: Amarok, Elisa, Clementine, JuK, Qmmp
+Alternativas a considerar para músicas: Amarok, Elisa, Clementine, JuK, Qmmp
 
-Alternatives to consider for video: SMPlayer, mpv, Kaffeine
+Alternativas a considerar para vídeos: SMPlayer, mpv, Kaffeine
 
-## 6.4 Image Editing with GIMP
+## 6.4 Edição de imagens com o GIMP
 
-GIMP (GNU Image Manipulation Program) is a very powerful image editing application.
+O GIMP (GNU Image Manipulation Program) é um aplicativo editor de imagens muito poderoso.
 
 {% include screenshot.html image="gimp" %}<p></p>
 
-{% include tip.html tip="GIMP can work as a single window, simply click 'Windows' in the menu and check the option 'Single-Window Mode'." %}
+{% include tip.html tip='O GIMP pode ser exibido em uma janela única, se assim você preferir: simplesmente clique no menu "Janelas" e selecione a opção "Modo de janela única".' %}
 
-Alternatives to consider: Gwenview (only very basic editing), Krita (primarily a paint application)
+Alternativas a considerar: Gwenview (apenas edições bem básicas), Krita (principalmente um aplicativo de desenho)
 
-## 6.5 E-mail, Calendar, News feeds and more with Kontact
+## 6.5 E-mail, calendário, notícias e mais com o Kontact
 
-Kontact is a fullblown PIM (personal information management) suite, combining e-mail, calendar, news feeds, addressbook and more in one place. Each of the Kontact components (KMail, KOrganizer, Akregator etc.) can also be used as standalone applications.
+O Kontact é uma suíte PIM (*personal information management* — gerenciamento de informações pessoais) bem desenvolvida, combinando *e-mail*, calendário, notícias, contatos e mais em um único lugar. Os componentes do Kontact também podem ser usados como aplicativos independentes (KMail, KOrganizer, Akregator, etc.).
 
 {% include screenshot.html image="kontact" %}
 
-Alternatives to consider: Mozilla Thunderbird, Trojita (IMAP only), Claws-mail
+Alternativas a considerar: Mozilla Thunderbird, Trojita (apenas IMAP), Claws Mail
