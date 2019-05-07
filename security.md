@@ -1,65 +1,65 @@
 ---
 layout: default
-title: 7. Security and Root - Basic Security and Working as the Root User
-permalink: security
+title: 7. Segurança e root - segurança básica e trabalhando como o usuário root
+permalink: seguranca
 ---
 
-# 7. Security and Root
+# 7. Segurança e root
 
-openSUSE and GNU/Linux in general is a very secure operating system, but when using any computer on the internet one should always be careful.
+O openSUSE (e o GNU/Linux em geral) é um sistema operacional bastante seguro. Mas ao usar qualquer computador conectado à Internet, você deve sempre ser cuidadoso.
 
-## 7.1 The Root User
+## 7.1 O usuário root
 
-One of the reasons GNU/Linux is very secure is that you normally don't work with administrator permissions - only the root user has full administrative permissions.
+Um dos motivos pelos quais o GNU/Linux é tão seguro é que normalmente você não usa o sistema com permissões de administrador — apenas o usuário *root* tem permissões de administrador completas.
 
-You'll be asked for the root password when installing packages or performing other administrative tasks outside of your /home/ folder. Unless you unchecked the checkbox during installation the root user has the same password as your normal user.
+A senha do usuário *root* será perguntada a você sempre que for instalar pacotes ou executar outras tarefas administrativas fora da sua pasta pessoal (/home/seunomedeusuario/). A menos que você tenha desmarcado aquela opção durante a instalação, a senha do usuário *root* é igual à senha do seu usuário comum.
 
-{% include note.html note="Only work as root when it's required." %}
+{% include note.html note="Apenas trabalhe como *root* quando for absolutamente necessário." %}
 
-### 7.1.1 Super User File Manager
+### 7.1.1 Gerenciador de arquivos modo root
 
-To work graphically with system files that require root permissions you can launch the Dolphin file manager in super user mode.
+Para trabalhar graficamente com arquivos do sistema que requerem permissões de administrador, você pode iniciar o gerenciador de arquivos Dolphin em modo *root*.
 
 {% include screenshot.html image="super-user-dolphin" %}
 
-### 7.1.2 Working as Root User in the Terminal
+### 7.1.2 Trabalhando como usuário root no terminal
 
-The following command is used to switch to the root user in a terminal:
+O comando a seguir é usado para alternar para o usuário *root* em um terminal:
 
 <div class="cl">su -</div><p></p>
 
-{% include tip.html tip="Nothing will appear on the screen while you type your password. This is intended." %}
+{% include tip.html tip="Nada aparecerá na tela enquanto você digita a senha. Isso é intencional." %}
 
-To stop working as root, enter the following command:
+Para parar de trabalhar como *root*, execute o seguinte comando:
 
 <div class="clroot">exit</div>
 
-To run a single command as root you can use:
+Para executar apenas um único comando como *root*, você pode usar:
 
 <div class="cl">su -c "[command]"</div>
 
-You can read more about using the terminal in the next chapter.
+Você pode ler mais sobre como usar o terminal no próximo capítulo.
 
-## 7.2 Security Updates
+## 7.2 Atualizações de segurança
 
-When new updates are available you'll be notified by the update applet running in the system tray area.
+Quando houver novas atualizações disponíveis, você será notificado pelo miniaplicativo de atualização, que fica na área de notificação:
 
 {% include screenshot.html image="pk-updater" %}
 
-### 7.2.1 Installing Updates in the Terminal
+### 7.2.1 Instalando atualizações pelo terminal
 
-To install official security and bugfix patches only, run:
+Para instalar apenas atualizações oficiais de segurança e correções de falhas, execute:
 
 <div class="clroot">zypper patch</div>
 
-To install official patches as well as updates from 3rd party repositories, run:
+Para instalar atualizações oficiais e também atualizações de repositórios de terceiros, execute:
 
 <div class="clroot">zypper update</div>
 
 ## 7.3 Firewall
 
-openSUSE comes with a firewall included in the default installation ('firewalld'). By default it allows all outgoing traffic and blocks any incoming traffic, hence you'll only need to change the configuration, if you want to run some network servers. The firewall is configurable in YaST, read about YaST in a later chapter.
+A instalação padrão do openSUSE inclui um *firewall* ('firewalld'). Por padrão, ele permite todas as conexões de saída e bloqueia qualquer conexão de entrada. Portanto, você só precisará mudar a configuração se desejar executar servidores. O *firewall* pode ser configurado pelo YaST, leia sobre o YaST em um capítulo mais adiante.
 
-## 7.4 Virus and Spyware
+## 7.4 Vírus e spyware
 
-There's no need to run a virus scanner or to scan for spyware. Malware spreading via the internet and infecting normal home user desktop systems are practically non-existant for GNU/Linux. Just make sure you yourself don't install and run software or scripts from untrusted sources, and you'll be safe.
+Não há necessidade de rodar um antivírus ou varrer o sistema em busca de *spyware*. *Malwares* que se espalham pela Internet e afetam usuários normais de computadores domésticos praticamente não existem para GNU/Linux. Apenas se certifique de não instalar e executar *softwares* ou *scripts* de desconhecidos e estará seguro.

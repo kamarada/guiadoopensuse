@@ -15,8 +15,8 @@
     link: kde
   - title: 6. Aplicativos para tarefas comuns
     link: aplicativos
-  - title: 7. Security and Root
-    link: security
+  - title: 7. Segurança e root
+    link: seguranca
   - title: 8. Terminal
     link: command
   - title: 9. Admin. Settings (YaST)
