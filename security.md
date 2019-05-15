@@ -36,7 +36,7 @@ Para parar de trabalhar como *root*, execute o seguinte comando:
 
 Para executar apenas um único comando como *root*, você pode usar:
 
-<div class="cl">su -c "[command]"</div>
+<div class="cl">su -c "[comando]"</div>
 
 Você pode ler mais sobre como usar o terminal no próximo capítulo.
 
