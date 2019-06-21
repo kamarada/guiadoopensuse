@@ -1,49 +1,48 @@
 ---
 layout: default
-title: 9. Administrator Settings (YaST) - Introduction to the YaST Setup Tool
+title: 9. Configurações de Administrador (YaST) - Introdução ao Centro de controle do YaST
 permalink: yast
 ---
 
-# 9. Administrator Settings (YaST)
+# 9. Configurações de Administrador (YaST)
 
-YaST (Yet another Setup Tool) is the central tool for system administration. You find YaST in the launch menu in the System category.
+YaST (do inglês *Yet another Setup Tool*, "apenas mais uma ferramenta de configuração") é a ferramenta central para administrar o sistema. Você encontra o YaST no lançador de aplicativos, na categoria "Sistema".
 
 {% include screenshot.html image="yast-controlcenter" %}
 
-**Default YaST modules**
+**Módulos padrão do YaST**
 
-In YaST you can perform almost any system task, with powerful graphical modules, e.g.:
+No YaST você pode fazer praticamente qualquer tarefa de sistema com poderosos módulos gráficos, por exemplo:
 
-- Install and remove software (see next chapter)
-- Set up your printer
-- Configure the firewall
-- Enable and disable system services
-- Configure network sharing (samba)
-- Format and partition your drives
-- Enable NTP daemon
-- And much, much more...
+- Instalar e remover *softwares* (veja o próximo capítulo)
+- Configurar sua impressora
+- Configurar o *firewall*
+- Habilitar e desabilitar serviços do sistema
+- Configurar compartilhamentos de rede (Samba)
+- Particionar e formatar suas unidades de disco
+- Habilitar o daemon NTP
+- E muito, muito mais...
 
+**Módulos adicionais do YaST**
 
-**Additional YaST modules**
+Há vários outros módulos do YaST disponíveis além dos incluídos na instalação padrão (leia sobre como instalar pacotes no próximo capítulo). Alguns módulos notáveis não instalados por padrão são:
 
-A lot more YaST modules are available than the ones included in the default installation (read about installing packages in the next chapter). Some notable modules not installed by default are:
+- Servidor *web* Apache (pacote: yast2-http-server)
+- Daemon SSH (pacote: yast2-sshd)
+- Servidor FTP (pacote: yast2-ftp-server)
+- Servidor NFS (pacote: yast2-nfs-server)
+- E muitos mais...
 
-- Apache web server (package: yast2-http-server)
-- SSH daemon (package: yast2-sshd)
-- FTP server (package: yast2-ftp-server)
-- NFS server (package: yast2-nfs-server)
-- And many more...
+{% include tip.html tip="Se não deseja, você não precisa usar o YaST. As mesmas ações administrativas que você faz com o YaST e mais podem ser feitas usando ferramenas de linha de comando e editando manualmente arquivos de configuração." %}
 
-{% include tip.html tip="You don't have to use YaST if you don't want to. You can achieve the same things and more using command line tools and manually editing configuration files." %}
+## 9.1 YaST no terminal
 
-## 9.1 YaST in the Terminal
+Os módulos do YaST também podem ser usados no terminal (modo ncurses) - isso é muito útil em servidores sem ambiente gráfico, em acessos remotos via SSH ou caso você esteja enfrentando algum problema para usar seu ambiente gráfico.
 
-The YaST modules can also be used in a terminal (ncurses mode) - this is very useful for servers with no graphical environment running, for remote access via SSH, or in case your graphical environment fails.
-
-Simply run *yast* as root in a terminal.
+Simplesmente execute *yast* como *root* no terminal.
 
 <div class="clroot">yast</div><p></p>
 
 {% include screenshot.html image="yast-ncurses" %}
 
-Navigate using arrow keys, Enter and Alt+[highlighted letters] (e.g. Alt+Q to quit).
+Navegue pelas opções usando as teclas de setas, a tecla Enter e as combinações de teclas Alt + [letra destacada] (por exemplo, Alt + S para sair).
