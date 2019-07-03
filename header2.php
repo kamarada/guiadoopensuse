@@ -1,9 +1,9 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-<link href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="{{ "/thumbnailviewer.css" | prepend: site.baseurl }}" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="thumbnailviewer.css" type="text/css" />
 
-<script src="{{ "/thumbnailviewer.js" | prepend: site.baseurl }}" type="text/javascript">
+<script src="thumbnailviewer.js" type="text/javascript">
 
 /***********************************************
 * Image Thumbnail Viewer Script- © Dynamic Drive (www.dynamicdrive.com)
@@ -23,20 +23,18 @@
 
 <!-- title start -->
 
-
-
 <div id="frame" class="normal">
 
 <table width="100%">
 <tr>
 
 <td align="left" valign="top" style="padding-top: 5px" width="33%">
-<div class="content-text">Derivatives:&nbsp;<a href="https://victorhck.gitlab.io/guia_openSUSE/" class="content-text" target="_blank">Spanish</a></div>
+<div class="content-text">Derivatives:&nbsp;<a href="https://alionetasso.github.io/opensuse-guide-fr/introduction" class="content-text" target="_blank">French</a>&nbsp;|&nbsp;<a href="https://opensuse-guide.linwin.su/15.1/" class="content-text" target="_blank">Russian</a>&nbsp;|&nbsp;<a href="https://victorhck.gitlab.io/guia_openSUSE/" class="content-text" target="_blank">Spanish</a></div>
 </td>
 
 
 <td align="center" valign="top" style="padding-top: 5px" width="33%">
-<a href="https://github.com/cb400f/opensuse-guide.org/commits/master" class="content-text" target="_blank">Updated: 25 May, 2018</a>
+<a href="https://github.com/cb400f/opensuse-guide.org/commits/master" class="content-text" target="_blank">Updated: 30 June, 2019</a>
 </td>
 
 
