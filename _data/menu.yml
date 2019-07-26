@@ -21,8 +21,8 @@
     link: terminal
   - title: 9. Configurações de Admin. (YaST)
     link: yast
-  - title: 10. Installing Software
-    link: installpackage
+  - title: 10. Instalando softwares
+    link: instalando-softwares
   - title: 11. Software Repositories
     link: repositories
 
