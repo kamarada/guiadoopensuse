@@ -42,4 +42,4 @@ Para mais informações, consulte:
 
 Você pode encontrar o código-fonte para todos os pacotes de *softwares* livres do openSUSE aqui, no formato de pacotes RPM de código-fonte (*Source RPMs* ou SRPMs):
 
-[http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/suse/src/](http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/suse/src/)
+[http://download.opensuse.org/source/distribution/leap/15.1/repo/oss/src/](http://download.opensuse.org/source/distribution/leap/15.1/repo/oss/src/)

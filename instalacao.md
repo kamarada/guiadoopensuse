@@ -71,14 +71,21 @@ Quando estiver pronto, insira o DVD ou *pendrive* e reinicie (ou ligue) o comput
 	</tr>
 </table>
 
+### Interface de usuário
+
+<table>
+	<tr>
+		{% include installation.html image="inst-desktop" %}
+		<td valign="top">Várias diferentes interfaces gráficas (ambientes de trabalho) existem para o GNU/Linux. A área de trabalho com KDE Plasma é pré-selecionada, é a preferida por cerca de 70% dos usuários do openSUSE e é também o foco deste guia. Mas você também pode escolher a área de trabalho com GNOME ou uma instalação de servidor, com interface textual.</td>
+	</tr>
+</table>
+
 ### Particionamento
 
 <table>
 	<tr>
 		{% include installation.html image="inst-disk" %}
 	  <td valign="top">Por padrão, o openSUSE vai sugerir a criação de três novas partições: (1) <code>/</code> (raiz), para os arquivos do sistema; (2) <code>/home</code> para os arquivos pessoais do(s) usuário(s); e (3) <code>swap</code> que é um espaço do disco rígido utilizado em complemento à memória RAM, semelhante ao arquivo de paginação do Windows.<br /><br />
-
-	  Não se preocupe com os subvolumes criados, são apenas detalhes técnicos do sistema de arquivos Btrfs, e não partições "reais", com que usuários normais deveriam se preocupar.<br /><br />
 
 	  Sempre verifique se o particionamento sugerido é o que você quer, e se você está fazendo uma instalação <em>dual boot</em>, redobre a atenção, para se certificar de que tudo está conforme o desejado.<br /><br />
 
@@ -94,17 +101,6 @@ Quando estiver pronto, insira o DVD ou *pendrive* e reinicie (ou ligue) o comput
 		<td valign="top">Defina o fuso horário aqui.<br /><br />
 
 Se você usa apenas GNU/Linux é recomendado definir o relógio do <em>hardware</em> como UTC. Se você faz <em>dual boot</em> com Windows, desmarque essa opção (relógio do <em>hardware</em> armazenará hora local).</td>
-	</tr>
-</table>
-
-### Interface de usuário
-
-<table>
-	<tr>
-		{% include installation.html image="inst-desktop" %}
-		<td valign="top">Várias diferentes interfaces gráficas (ambientes de trabalho) existem para o GNU/Linux. A área de trabalho com KDE Plasma é pré-selecionada, é a preferida por cerca de 70% dos usuários do openSUSE e é também o foco deste guia. Mas você também pode escolher a área de trabalho com GNOME ou uma instalação de servidor, com interface textual.<br /><br />
-
-		Em "Personalizado" você pode selecionar manualmente diferentes padrões, incluindo áreas de trabalho leves como Xfce e LXDE.</td>
 	</tr>
 </table>
 

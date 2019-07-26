@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1. Introdução - Guia do openSUSE Leap 15.0 para Iniciantes
+title: 1. Introdução - Guia do openSUSE Leap 15.1 para Iniciantes
 permalink: introducao
 redirect_from: /index.html
 ---
@@ -37,3 +37,5 @@ Isso facilita criar versões modificadas ou traduções.
 Além desta tradução, as outras versões derivadas conhecidas até o momento são:
 
 - [Tradução para o Espanhol por victorhck](https://victorhck.gitlab.io/guia_openSUSE/)
+- [Tradução para o Russo por Sergey Mironov](https://opensuse-guide.linwin.su/15.1/)
+- [Tradução para o Francês por Sébastien "sogal" Poher](https://alionetasso.github.io/opensuse-guide-fr/introduction)

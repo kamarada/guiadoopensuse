@@ -23,7 +23,7 @@ No entanto, algumas coisas diferem significativamente da maioria das outras áre
 
 ### 5.1.1 O lançador de aplicativos
 
-O lançador de aplicativos é aberto clicando no ícone no canto inferior esquerdo da tela ou pressionando a tecla **Super** ou **Alt + F1**. Abaixo no menu há uma caixa de pesquisa e no topo esquerdo estão seus aplicativos favoritos. Você pode adicionar ou remover aplicativos dos favoritos clicando o botão direito do *mouse* neles.
+O lançador de aplicativos é aberto clicando no ícone no canto inferior esquerdo da tela ou pressionando a tecla **Super** ou **Alt + F1**. Se você começar a digitar, uma caixa de pesquisa aparecerá no topo. Você pode adicionar ou remover aplicativos aos/dos favoritos clicando com o botão direito do *mouse* neles.
 
 {% include screenshot.html image="launchmenu" %}
 

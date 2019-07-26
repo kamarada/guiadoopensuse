@@ -30,15 +30,15 @@ LibreOffice é uma suíte de escritório completa com processador de textos, pla
 
 Alternativas a considerar: Calligra, Abiword, Gnumeric
 
-## 6.3 Reproduza multimídia com VLC ou Dragon
+## 6.3 Reproduza multimídia com VLC
 
-A instalação padrão inclui o VLC, capaz de reproduzir músicas e vídeos, assim como o reprodutor de vídeo Dragon.
+A instalação padrão inclui o Reprodutor de Mídias VLC, capaz de reproduzir músicas e vídeos.
 
 {% include screenshot.html image="vlc" %}
 
 Alternativas a considerar para músicas: Amarok, Elisa, Clementine, JuK, Qmmp
 
-Alternativas a considerar para vídeos: SMPlayer, mpv, Kaffeine
+Alternativas a considerar para vídeos: SMPlayer, mpv, Kaffeine, Dragon
 
 ## 6.4 Edição de imagens com o GIMP
 

@@ -4,6 +4,7 @@ html {
     overflow-y: scroll;
 }
 
+
 #frame {
     width:62%;
     margin-right:19%;
@@ -19,8 +20,8 @@ html {
     background:#FFFFFF
 }
 
-#topLeft
-{
+
+#topLeft {
     position: fixed;
     top: 10px;
     left: 1%;
@@ -30,7 +31,6 @@ html {
     border-style: solid;
     border-width: thin;
     border-color: #989898;
-    /*border-color: #7D7D7D;*/
     background: #F0EFEF
 }
 
