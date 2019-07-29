@@ -23,8 +23,8 @@
     link: yast
   - title: 10. Instalando softwares
     link: instalando-softwares
-  - title: 11. Software Repositories
-    link: repositories
+  - title: 11. Repositórios de software
+    link: repositorios
 
 - title: Setup
   pages:

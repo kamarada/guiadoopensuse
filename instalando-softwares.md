@@ -64,7 +64,7 @@ Para desinstalar um pacote, execute *zypper remove [nome do pacote]*. Exemplo:
 
 <div class="clroot">zypper remove PackageKit</div>
 
-Veja *man zypper* para mais informações:
+Consulte *man zypper* para mais informações:
 
 <div class="cl">man zypper</div>
 
