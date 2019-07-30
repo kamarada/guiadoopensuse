@@ -26,9 +26,9 @@
   - title: 11. Repositórios de software
     link: repositorios
 
-- title: Setup
+- title: Configuração
   pages:
-  - title: 12. MS Windows Interop
+  - title: 12. Integração com o Windows
     link: windows
   - title: 13. Multimedia Codecs
     link: codecs
