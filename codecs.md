@@ -1,44 +1,44 @@
 ---
 layout: default
-title: 13. Multimedia Codecs - Install Support for restricted codecs including MP3, DVD, WMA, WMV, MOV etc.
+title: 13. Codecs multimídia - Instale suporte para codecs restritos como MP3, DVD, WMA, WMV, MOV, etc.
 permalink: codecs
 ---
 
-# 13. Multimedia Codecs
+# 13. Codecs multimídia
 
-This chapter describes two different methods for installing the packages needed to playback most multimedia formats - including MP3, DVDs etc., with the default media player VLC as well as playing online videos in Firefox. You can use manual 1-click installation or use the command line - whichever method you prefer.
+Este capítulo descreve dois métodos diferentes para instalar os pacotes necessários para reproduzir a maioria dos formatos multimídia — incluindo MP3, DVDs, etc. — com o reprodutor multimídia padrão VLC, assim como reproduzir vídeos *online* no Firefox. Você pode usar a instalação com 1 clique ou o terminal — o método que preferir.
 
-By default only free, open, non-patent encumbered formats such as Ogg Theora, Ogg Vorbis and Flac are supported for legal reasons (US software patents and Digital Millennium Copyright Act (DMCA)).
+Por padrão, apenas formatos livres, abertos, não protegidos por patentes — como Ogg Theora, Ogg Vorbis e Flac — são suportados pelo openSUSE, devido a questões legais, como patentes de *software* registradas nos Estados Unidos e Digital Millennium Copyright Act (DMCA).
 
-## 13.1 Codec Installation with 1-Click
+## 13.1 Instalação dos codecs com 1 clique
 
-1) Click on the button below to add the necessary repositories and install the required packages with 1-click install.
+1) Clique no botão abaixo para adicionar os repositórios necessários e instalar os pacotes requeridos usando a instalação com 1 clique:
 
 {% include ymp.html icon="codecs" link="http://opensuse-community.org/codecs-kde.ymp" %}
 
-{% include tip.html tip="If a conflict dialog appears, select to install the packages *with* Vendor Change." %}
+{% include tip.html tip="Se uma caixa de diálogo de conflito aparecer, escolha instalar os pacotes *com* alteração de fornecedor." %}
 
-2) Afterwards make sure all your multimedia packages are coming from the Packman Repository:
+2) Depois disso, certifique-se de que todos os seus pacotes multimídia estão vindo do repositório Packman:
 
-<div class="path">Start YaST Software Management => Click on View => Click on Repositories => Select the Packman Repository => Click "Switch system packages" => Click "Accept"</div><p></p>
+<div class="path">Inicie o Gerenciamento de software do YaST => Clique em Ver => Clique em Repositórios => Selecione o repositório Packman => Clique em Comutar pacotes do sistema para as versões neste repositório => Clique em Aceitar</div><p></p>
 
 {% include screenshot.html image="packman-vendorchange" %}
 
-## 13.2 Codec Installation in the Terminal
+## 13.2 Instalação dos codecs pelo terminal
 
-To install codecs using the terminal instead, do these steps:
+Se você prefere instalar os *codecs* usando o terminal, execute estes passos:
 
-{% include tip.html tip="Use Copy/Paste to avoid typos. To paste in Konsole right click mouse => Paste - or use **Ctrl+Shift+V**." %}
+{% include tip.html tip="Use Copiar/Colar para evitar erros de digitação. Para colar no Konsole, clique com o botão direito do *mouse* => Colar — ou pressione **Ctrl + Shift + V**." %}
 
-1) Add the needed repositories:
+1) Adicione os repositórios necessários:
 
 <div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.1/ packman</div>
 <div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.1/ dvd</div>
 
-2) Then install the necessary packages:
+2) Instale os pacotes necessários:
 
 <div class="clroot">zypper install --allow-vendor-change ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice56 libavdevice58 libdvdcss2 vlc-codecs</div>
 
-3) Make sure all your multimedia packages are coming from the Packman Repository:
+3) Certifique-se de que todos os seus pacotes multimídia estão vindo do repositório Packman:
 
 <div class="clroot">zypper dup --allow-vendor-change --from http://packman.inode.at/suse/openSUSE_Leap_15.1/</div>
