@@ -36,8 +36,8 @@
     link: plugins-para-navegadores
   - title: 15. Drivers gráficos
     link: drivers-graficos
-  - title: 16. Wifi
-    link: wlan
+  - title: 16. Drivers para redes sem fio
+    link: drivers-wifi
 
 - title: Appendix
   pages:
