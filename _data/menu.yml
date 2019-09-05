@@ -39,10 +39,10 @@
   - title: 16. Drivers para redes sem fio
     link: drivers-wifi
 
-- title: Appendix
+- title: Apêndice
   pages:
-  - title: "A: Help and Docs"
-    link: help
+  - title: "A: Ajuda e documentação"
+    link: ajuda
   - title: "B: Games"
     link: games
   - title: "C. Under the Hood"
